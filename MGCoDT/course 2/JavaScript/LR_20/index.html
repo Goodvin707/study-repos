@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 20</title>
+    </head>
+    <body>
+        <!-- Задание 1:  Дан элемент. Сделайте так, чтобы по клику на него он красился в красный цвет, но только если в момент клика нажата клавиша Alt. -->
+        <button id="elem">1000-7</button>
+        <script>
+            let elem = document.querySelector("#elem");
+            elem.addEventListener("click", function (event) {
+                if (event.altKey) {
+                    elem.style.backgroundColor = "red";
+                }
+            });
+        </script>
+    </body>
+</html>

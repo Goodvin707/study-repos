@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 22</title>
+    </head>
+    <!-- Задание 2: Реализовать функцию, которая будет отсчитывать время до полуночи. Так же дополнить функцию таким образом, чтобы можно было вводить дату, до которой производить отсчет, дата не может быть меньше текущей. -->
+    <body onload="go()">
+        <script>
+            function go() {
+                window.timerId = window.setInterval(timer, 1000);
+            }
+            function timer() {
+                var seconds = document.getElementById("seconds");
+                var minutes = document.getElementById("minutes");
+                var hours = document.getElementById("hours");
+                var now = new Date();
+                var midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0);
+                var diff = Math.floor((midnight - now) / 1000);
+                var hoursRemain = Math.floor(diff / (60 * 60));
+                var minutesRemain = Math.floor((diff - hoursRemain * 60 * 60) / 60);
+                var secondsRemain = Math.floor(diff % 60);
+                hours.innerHTML = hoursRemain;
+                minutes.innerHTML = addZero(minutesRemain);
+                seconds.innerHTML = addZero(secondsRemain);
+            }
+            function addZero(num) {
+                if (num <= 9) return "0" + num;
+                else return num;
+            }
+        </script>
+        <div id="wrapper">
+            <p>До полуночи осталось:</p>
+            <table border="1" cellpadding="0" cellspacing="0">
+                <tr>
+                    <th>Часы</th>
+                    <th>Минуты</th>
+                    <th>Секунды</th>
+                </tr>
+                <tr>
+                    <td id="hours"></td>
+                    <td id="minutes"></td>
+                    <td id="seconds"></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

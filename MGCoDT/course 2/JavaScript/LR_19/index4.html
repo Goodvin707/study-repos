@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 19</title>
+    </head>
+    <body>
+        <!-- Задание 12: Сделайте функцию, каждый вызов который будет генерировать случайные числа от 1 до 100, но так, чтобы они не повторялись, пока не будут перебраны все числа из этого промежутка. Решите задачу через замыкания - в замыкании должен хранится массив чисел, которые уже были сгенерированы функцией. -->
+        <button>1000-7</button>
+        <p></p>
+        <script>
+            var f1 = function () {
+                var already_used = [];
+                return function () {
+                    var new_num = Math.floor(Math.random() * 100 + 1);
+                    for (var i = 0; i < already_used.length; i++) {
+                        if (already_used[i] == new_num) {
+                            return;
+                        }
+                    }
+                    parag.innerHTML += new_num + ", ";
+                    already_used.push(new_num);
+                };
+            };
+
+            var but = document.querySelector("button").addEventListener("click", f1());
+            var parag = document.querySelector("p");
+        </script>
+    </body>
+</html>

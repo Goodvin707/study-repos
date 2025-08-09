@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 23</title>
+    </head>
+    <body></body>
+    <!-- Задание 2: С помощью конструктора создать объект, описывающий студента вашей группы, в конструкторе должно быть минимум 7 свойств и методов. Написать функцию, которая будет преобразовывать объект в итератор, чтобы он мог перебираться с помощью цикла for..of. -->
+    <script>
+        class Student extends Object {
+            constructor(object) {
+                super();
+                Object.assign(this, object);
+            }
+            [Symbol.iterator]() {
+                const entries = Object.entries(this);
+                let index = -1;
+                return {
+                    next() {
+                        index++;
+                        return {
+                            value: entries[index],
+                            done: index >= entries.length,
+                        };
+                    },
+                };
+            }
+            fullInfo(iterableObject) {
+                for (let element of iterableObject) {
+                    document.write(element + "<br>");
+                }
+            }
+            fio(iterableObject) {
+                let i = 0;
+                for (let element of iterableObject) {
+                    document.write(element + "<br>");
+                    i++;
+                    if (i == 3) {
+                        break;
+                    }
+                }
+            }
+            getAge(iterableObject) {
+                let i = 0;
+                for (let element of iterableObject) {
+                    i++;
+                    if (i == 4) {
+                        document.write("Возраст: " + element + "<br>");
+                        break;
+                    }
+                }
+            }
+            getGender(iterableObject) {
+                let i = 0;
+                for (let element of iterableObject) {
+                    i++;
+                    if (i == 5) {
+                        document.write("Пол: " + element + "<br>");
+                        break;
+                    }
+                }
+            }
+            getAverMark(iterableObject) {
+                let i = 0;
+                for (let element of iterableObject) {
+                    i++;
+                    if (i == 6) {
+                        document.write("Средний балл: " + element + "<br>");
+                        break;
+                    }
+                }
+            }
+            getWeight(iterableObject) {
+                let i = 0;
+                for (let element of iterableObject) {
+                    i++;
+                    if (i == 7) {
+                        document.write("Вес: " + element + "<br>");
+                        break;
+                    }
+                }
+            }
+            getHeight(iterableObject) {
+                let i = 0;
+                for (let element of iterableObject) {
+                    i++;
+                    if (i == 8) {
+                        document.write("Рост: " + element + "<br>");
+                        break;
+                    }
+                }
+            }
+        }
+        var iterableObject = new Student({
+            1: "Алексей",
+            2: "Сушко",
+            3: "Юльевич",
+            4: 17,
+            5: "Мужской",
+            6: 7.8,
+            7: "55 кг",
+            8: 1.6,
+        });
+
+        iterableObject.fullInfo(iterableObject);
+        document.write("<br>");
+        iterableObject.getAge(iterableObject);
+    </script>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 20</title>
+    </head>
+    <body>
+        <!-- Задание 2: Пусть у вас есть список ul с тегами li:
+            <ul id="elem">
+                <li>text</li>
+                <li>text</li>
+                <li>text</li>
+                <li>text</li>
+                <li>text</li>
+            </ul>
+            Сделайте так, чтобы по клику на любую li, в конец ее текста добавлялось число 1, если нажата клавиша Ctrl, и число 2, если нажата клавиша Shift. -->
+        <ul id="elem">
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+        </ul>
+
+        <script>
+            let elem = document.querySelector("#elem");
+            elem.addEventListener("click", function (event) {
+                if (event.ctrlKey) {
+                    event.target.innerHTML += "1";
+                }
+                if (event.shiftKey) {
+                    event.target.innerHTML += "2";
+                }
+            });
+        </script>
+    </body>
+</html>

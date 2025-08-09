@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 25</title>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <input id="city" type="text" value="Minsk" />
+        <button>Получить данные</button>
+        <br />
+        <p id="loading" style="display: none"></p>
+        <img id="icon" src="" alt="weather" style="display: none" />
+        <table>
+            <tr>
+                <th><b>Температура</b></th>
+                <th><b>Влажность</b></th>
+                <th><b>Направление ветра</b></th>
+                <th><b>Скорость ветра</b></th>
+            </tr>
+            <tr id="info"></tr>
+        </table>
+    </body>
+    <!-- Задание 1: Реализовать на странице поле ввода текста и кнопку, по нажатию на которую будет добавляться на странице таблица с данными о погоде города, введенного в поле, а также рекомендации относительно данных о погоде. В данные о погоде должны входить: температура воздуха, влажность, осадки, направление и скорость ветра, иконка погоды.
+Ссылка на документацию по API: https://openweathermap.org/current, https://openweathermap.org/weather-conditions -->
+    <script>
+        let input = document.getElementById("city");
+        let button = document.querySelector("button");
+        let tr = document.getElementById("info");
+        let img = document.getElementById("icon");
+        let loading = document.getElementById("loading");
+        let table = document.querySelector("table");
+        let json;
+        async function responseWeather(city, key) {
+            table.style.display = "none";
+            img.style.display = "none";
+            loading.style.display = "";
+            let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`);
+            json = await response.json();
+            table.style.display = "";
+            loading.style.display = "none";
+            console.log(json);
+            let weather = json.weather[0];
+            let main = json.main;
+            let wind = json.wind;
+            let icon = weather.icon;
+            img.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+            img.style.display = "";
+            tr.innerHTML = `
+            <td>${main.temp}</td>
+            <td>${main.humidity}</td>
+            <td>${wind.deg}</td>
+            <td>${wind.speed}</td>`;
+        }
+        button.addEventListener("click", function () {
+            const KEY = "9cd01aea15bc57202945cf075a9872da";
+            responseWeather(input.value, KEY).result;
+        });
+    </script>
+</html>
