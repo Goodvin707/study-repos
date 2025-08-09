@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 14</title>
+    </head>
+    <body>
+        <!-- 
+    Задание 1: Реализуйте класс Elem, который параметром принимает селектор одного HTML элемента и затем может выполнять с ним различные операции. Класс должен работать следующим образом:
+    var elem = new Elem('селектор');
+
+    elem.html('!'); //запишет в текст элемента '!'
+    elem.append('!'); //запишет в начало элемента '!'
+    elem.prepend('!'); //запишет в конец элемента '!'
+    elem.attr('class', 'www'); //запишет в атрибут class значение www
+
+    //Должны работать цепочки методов:
+    elem.html('hello').append('!').prepend('!');
+    elem.attr('class', 'www').attr('title', 'hello');
+    -->
+        <div id="test">текст</div>
+        <script>
+            class Elem {
+                constructor(selector) {
+                    this.elem = document.querySelector(selector);
+                }
+                html(text) {
+                    this.elem.innerHTML = text;
+                    return this;
+                }
+                append(text) {
+                    var el = document.getElementById("test");
+                    this.elem.innerHTML = text + el.innerText;
+                    return this;
+                }
+                prepend(text) {
+                    var el = document.getElementById("test");
+                    this.elem.innerHTML = el.innerText + text;
+                    return this;
+                }
+                attr(name, value) {
+                    this.elem.setAttribute(name, value);
+                    return this;
+                }
+            }
+            var elem = new Elem("#test");
+            elem.html("!");
+            elem.append("!");
+            elem.prepend("!");
+            elem.attr("class", "www");
+            elem.html("hello").append("!").prepend("!");
+            elem.attr("class", "www").attr("title", "hello");
+        </script>
+    </body>
+</html>

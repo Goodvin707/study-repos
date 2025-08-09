@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 14</title>
+    </head>
+    <body>
+        <!-- Задание 3: Реализуйте класс Rectangle. У него должны быть следующие свойства: ширина width, высота height. Также у него должны быть следующие методы: получить ширину getWidth, установить ширину setWidth, получить высоту getHeight, установить высоту setHeight. Листинг или ссылка на проект: -->
+        <script>
+            class Rectangle {
+                constructor(width, height) {
+                    this.elem = document.createElement("div");
+                    this.setWidth(width);
+                    this.setHeight(height);
+                    this.elem.style.border = "1px solid green";
+                    document.body.appendChild(this.elem);
+                }
+                setWidth(width) {
+                    this.elem.style.width = width + "px";
+                }
+                setHeight(height) {
+                    this.elem.style.height = height + "px";
+                }
+                getWidth(width) {
+                    return this.elem.style.width;
+                }
+                getHeight(height) {
+                    return this.elem.style.height;
+                }
+            }
+            var elem1 = new Rectangle(250, 150);
+            elem1.setWidth(40);
+            elem1.setHeight(40);
+            document.write("Ширина: " + elem1.getWidth() + "<br>");
+            document.write("Высота: " + elem1.getHeight() + "<br><br>");
+            var elem2 = new Rectangle(500, 300);
+            elem2.setWidth(80);
+            elem2.setHeight(80);
+            document.write("Ширина: " + elem2.getWidth() + "<br>");
+            document.write("Высота: " + elem2.getHeight());
+        </script>
+    </body>
+</html>

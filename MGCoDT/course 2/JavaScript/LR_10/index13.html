@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LR 10</title>
+    </head>
+    <script>
+        function hide() {
+            elem = document.getElementById("test");
+            elem.style.display = "none";
+        }
+        function show() {
+            elem = document.getElementById("test");
+            elem.style.display = "inline-block";
+        }
+    </script>
+    <body>
+        <input type="text" value="Ку-ку" id="test" />
+        <button onclick="hide()">Нажми на меня!</button>
+        <button onclick="show()">Нажми потом на меня!</button>
+    </body>
+</html>

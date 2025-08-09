@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LR 10</title>
+    </head>
+    <style>
+        input {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+    </style>
+    <script>
+        function go(elem) {
+            elem.value = parseInt(elem.value) + 1;
+        }
+    </script>
+    <body>
+        <p>Кнопка считает кол-во нажатий по ней.</p>
+        <input type="submit" onclick="go(this)" value="0" />
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LR 10</title>
+    </head>
+    <style>
+        input {
+            width: 100px;
+        }
+    </style>
+    <script>
+        function go() {
+            var test1 = document.getElementById("test1");
+            var test2 = document.getElementById("test2");
+            var tmp = test1.value;
+            test1.value = test2.value;
+            test2.value = tmp;
+        }
+    </script>
+    <body>
+        <input type="text" value="Привет!" id="test1" />
+        <input type="text" value="Пока!" id="test2" />
+        <button onclick="go()">Нажми на меня!</button>
+    </body>
+</html>
