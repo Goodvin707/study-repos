@@ -1,0 +1,628 @@
+C:\Users\User\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\User\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\User\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csprojAssemblyReference.cache
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\Window1.baml
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\User\source\repos\WpfApp2\WpfApp2\obj\Debug\Window2.baml
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\Window1.baml
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\Window2.baml
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\Goodvin\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csprojAssemblyReference.cache
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\Window1.baml
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\Window2.baml
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\minsk\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+E:\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+E:\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+E:\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+E:\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+E:\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+E:\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+E:\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+E:\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+E:\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+E:\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+E:\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+E:\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+E:\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+E:\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+E:\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+E:\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+E:\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+E:\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+E:\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csprojAssemblyReference.cache
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+D:\Profiles\Sush_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\Goodvin\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Desktop\Новая папка\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\artem\Downloads\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\Goodvin\Desktop\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\ЗКИ (1)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\ЗКИ (2)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+D:\profiles\pulk_45\Desktop\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+D:\profiles\pulk_45\Desktop\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+D:\profiles\pulk_45\Desktop\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\фыва\фыва\фыва\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csprojAssemblyReference.cache
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\pulk_45\Desktop\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИгрбн\ЗКИгрбн\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\Window6.baml
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Desktop\ЗКИи\ЗКИи\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Downloads\ЗКИ (4)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИ (5)\ЗКИ\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИ (6)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window2.g.cs
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\App.g.cs
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window1.baml
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window2.baml
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window3.baml
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window4.baml
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window5.baml
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\Window6.baml
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\artem\Downloads\ЗКИ (7)\ЗКИ\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\Goodvin\source\repos\ЗКИ\WpfApp2\obj\Debug\WpfApp2.csproj.SuggestedBindingRedirects.cache
