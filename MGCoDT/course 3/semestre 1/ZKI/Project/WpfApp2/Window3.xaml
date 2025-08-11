@@ -1,0 +1,53 @@
+﻿<Window x:Class="WpfApp2.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="800" Margin="0,0,-3,0" RenderTransformOrigin="0.5,0.5">
+            <Grid Background="#9f4636" HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="235">
+                <Label Foreground="White" FontSize="15" Content="Метод шифрующих таблиц" HorizontalAlignment="Left" Margin="6,3,0,0" VerticalAlignment="Top" Width="202"/>
+                <TextBox  HorizontalAlignment="Left" Height="23" Margin="12,47,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="205" TextChanged="TextBox_TextChanged" MouseDown="TextBox_MouseDown" KeyDown="TextBox_KeyDown"/>
+                <CheckBox FontSize="13" Foreground="White" IsChecked="True" Content="Отобразить шифрование" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Width="180" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" />
+                <TextBox HorizontalAlignment="Left" Height="212" Margin="12,113,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="205" MouseDown="TextBox_MouseDown_1" MouseLeftButtonDown="TextBox_MouseLeftButtonDown" PreviewMouseLeftButtonDown="TextBox_PreviewMouseLeftButtonDown"/>
+                <TextBox HorizontalAlignment="Left" Height="24" Margin="12,332,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Width="206"/>
+                <TextBox Height="24" Margin="12,361,17,0" TextWrapping="Wrap" Text="Расшифровка" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid Background="#f1dcc9" HorizontalAlignment="Left" Height="398" Margin="235,0,0,0" VerticalAlignment="Top" Width="560" PreviewMouseLeftButtonDown="Grid_PreviewMouseLeftButtonDown">
+
+                <Label Foreground="#6c2d2c" Content="Метод магического квадрата" FontSize="15" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="214" RenderTransformOrigin="0.5,0.5" Height="30"/>
+                <Button  HorizontalAlignment="Left" Margin="59,69,0,0" VerticalAlignment="Top" Width="132" Height="112">
+
+                </Button>
+                <Button  HorizontalAlignment="Left" Margin="209,69,0,0" VerticalAlignment="Top" Width="132" Height="112">
+
+                </Button>
+                <Button  HorizontalAlignment="Left" Margin="209,212,0,0" VerticalAlignment="Top" Width="132" Height="112">
+
+                </Button>
+                <Button  HorizontalAlignment="Left" Margin="59,212,0,0" VerticalAlignment="Top" Width="132" Height="112">
+
+                </Button>
+                <Button  HorizontalAlignment="Left" Margin="363,212,0,0" VerticalAlignment="Top" Width="132" Height="112" Grid.ColumnSpan="2">
+
+                </Button>
+                <Button  HorizontalAlignment="Left" Margin="363,69,0,0" VerticalAlignment="Top" Width="132" Height="112" Grid.ColumnSpan="2">
+
+                </Button>
+                <TextBox Height="24" Margin="209,329,65,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                <Button Foreground="#6c2d2c" Content="Выбрать квадрат" FontSize="15" HorizontalAlignment="Left" Margin="16,40,0,0" VerticalAlignment="Top" Click="Button_Click" Height="24" Width="120"/>
+                <Button Foreground="#6c2d2c" Content="Сгенерировать квадрат" FontSize="15" HorizontalAlignment="Left" Margin="313,40,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="24" Width="166"/>
+                <TextBlock Foreground="#6c2d2c" FontSize="15" HorizontalAlignment="Left" Margin="209,69,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"  Height="255" Width="286"/>
+                <TextBox Height="24" Margin="209,358,65,0" TextWrapping="Wrap" Text="Расшифровка" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+
+
+            </Grid>
+
+        </Grid>
+
+
+    </Grid>
+</Window>
