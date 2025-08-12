@@ -1,0 +1,15 @@
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\bin\Debug\MVVM.exe.config
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\bin\Debug\MVVM.exe
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\bin\Debug\MVVM.pdb
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\MVVM.csprojAssemblyReference.cache
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\MainWindow.g.cs
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\App.g.cs
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\MVVM_MarkupCompile.cache
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\MVVM_MarkupCompile.lref
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\MainWindow.baml
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\MVVM.g.resources
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\MVVM.Properties.Resources.resources
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\MVVM.csproj.GenerateResource.cache
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\MVVM.csproj.CoreCompileInputs.cache
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\MVVM.exe
+D:\PROFILES\Sush_45\source\repos\MVVM\MVVM\obj\Debug\MVVM.pdb
