@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Интервальный таймеhhр</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		body {
+			text-align: center;
+			margin: 10;
+			font-family: Verdana, Arial, sans-serif;
+			font-size: 16px;
+		}
+
+		.app_form_block input[type="number"] {
+			padding: 4px 4px;
+		}
+
+		.app_main .block_row {
+			padding: 1em 0.5em;
+		}
+
+		.app_timer .app_console .timer_panel_info {
+			font-size: 1.6em;
+			line-height: 1.2em;
+			letter-spacing: 0;
+		}
+
+		.green {
+			color: #BFF08E;
+		}
+
+		.red {
+			color: #E56655;
+		}
+
+		.app_timer .app_console .timer_panel_nums {
+			font-size: 4.8em;
+			line-height: 1.2em;
+			margin-top: 50px;
+		}
+
+		.app_timer .timer_btn.hide,
+		.app_timer .timer_nums.hide,
+		.app_timer .timer_sep.hide {
+			display: none;
+		}
+
+		.app_timer .timer_btn {
+			border-color: #777;
+			color: #777;
+			font-size: 1.2em;
+			font-weight: 400;
+			line-height: 1.8em;
+			padding: 8px 12px;
+			margin: 0 2px;
+			min-width: 180px;
+		}
+
+		.app_timer .timer_btn:hover {
+			background-color: #777;
+			color: #FFF;
+		}
+
+		.app_timer .timer_btn.run,
+		.app_timer .timer_btn.pause {
+			border-color: #5594E5;
+			color: #5594E5;
+			font-weight: 600;
+		}
+
+		.app_timer .timer_btn.run:hover,
+		.app_timer .timer_btn.pause:hover {
+			background-color: #5594E5;
+			color: #FFF;
+		}
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+	<div class="app_form_block app_main app_timer ">
+		<audio id="audio_beep">
+			<source src="s.mp3" type="audio/mp3">
+		</audio>
+		<form name="timer_form" id="timer_form">
+			<div class="block_row timer_types ">
+				<span class="timer_types_btn active" id="Secret">Интервальный таймер
+				</span>
+			</div>
+			<div class="block_row  app_console">
+				<div class="timer_panel_info ">
+					<span class="timer_interval_work">
+						<span class="timer_interval_nums minutes green" contenteditable="true">00
+						</span>
+						<span class="timer_sep">:
+						</span>
+						<span class="timer_interval_nums seconds green" contenteditable="true">25
+						</span></span>
+					<span class="timer_interval_count">
+						<span class="timer_interval_nums times">1
+						</span>
+						<span class="timer_sep">/
+						</span>
+						<span class="timer_interval_nums all_times" contenteditable="true">10
+						</span></span>
+					<span class="timer_interval_rest">
+						<span class="timer_interval_nums minutes red" contenteditable="true">00
+						</span>
+						<span class="timer_sep">:
+						</span>
+						<span class="timer_interval_nums seconds red" contenteditable="true">5
+						</span></span>
+				</div>
+				<div class="timer_panel_nums">
+					<span class="timer_nums minutes">00</span>
+					<span>:</span>
+					<span class="timer_nums seconds">00</span>
+				</div>
+			</div>
+			<div class="block_row">
+				<input value="Сброс" name="timer_clear" id="timer_clear" class="timer_btn" type="button" />
+				<input value="Старт" name="timer_run" id="timer_run" class="timer_btn run" type="button" />
+				<input value="Пауза" name="timer_pause" id="timer_pause" class="timer_btn pause hide" type="button" />
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="interval_timer_script.js" defer></script>
+</body>
+
+</html>
