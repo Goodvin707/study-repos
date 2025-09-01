@@ -1,0 +1,425 @@
+﻿<Window x:Class="_29__3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_29__3"
+        mc:Ignorable="d"
+        Title="Текстовый редактор" Height="450" Width="800">
+    <Grid>
+        <Canvas Background="AliceBlue">
+            <StackPanel Opacity=".7" Height="178" Width="264" HorizontalAlignment="Left" Canvas.Top="251" VerticalAlignment="Top" Canvas.Left="22" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Content="Вырезать" HorizontalAlignment="Left"   Height="21" Width="79" VerticalAlignment="Center"/>
+                        <Button  Grid.Column="1" Content="Вставить" Height="21" Width="79"/>
+                        <Button  Grid.Column="2" Content="Копировать" Width="77" Height="20"/>
+                    </Grid>
+                    <ListBox Grid.Row="1" Height="117"  Margin="2">
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                    </ListBox>
+                </Grid>
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="10" CenterX="0" CenterY="0" />
+                        <ScaleTransform ScaleX=".5" ScaleY="0.5"/>
+                        <SkewTransform AngleX="10" AngleY="0" CenterX="10"/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <StackPanel.Triggers>
+                    <EventTrigger RoutedEvent="GotFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Top)"
+                                 To="67" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)"
+                                 To="250" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[0].Angle"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleX"
+                                 To="1" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleY"
+                                 To="1" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleX"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleY"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].CenterX"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Opacity)"
+                                 To="1.0" Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="LostFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Top)"
+                                 To="251" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)"
+                                 To="22" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[0].Angle"
+                                 To="10" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleX"
+                                 To=".5" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleY"
+                                 To=".5" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleX"
+                                 To="10" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleY"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].CenterX"
+                                 To="10" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Opacity)"
+                                 To=".7" Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </StackPanel.Triggers>
+            </StackPanel>
+            <StackPanel Opacity=".8" Height="178" Width="264" HorizontalAlignment="Left" Canvas.Top="298" VerticalAlignment="Top" Canvas.Left="161" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Content="Вырезать" HorizontalAlignment="Left"   Height="21" Width="79" VerticalAlignment="Center"/>
+                        <Button  Grid.Column="1" Content="Вставить" Height="21" Width="79"/>
+                        <Button  Grid.Column="2" Content="Копировать" Width="77" Height="20"/>
+                    </Grid>
+                    <ListBox Grid.Row="1" Height="117"  Margin="2">
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                    </ListBox>
+                </Grid>
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="7" CenterX="0" CenterY="0" />
+                        <ScaleTransform ScaleX=".5" ScaleY="0.5"/>
+                        <SkewTransform AngleX="10" AngleY="0" CenterX="10"/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <StackPanel.Triggers>
+                    <EventTrigger RoutedEvent="GotFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Top)"
+                                 To="67" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)"
+                                 To="250" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[0].Angle"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleX"
+                                 To="1" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleY"
+                                 To="1" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleX"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleY"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].CenterX"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Opacity)"
+                                 To="1.0" Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="LostFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Top)"
+                                 To="298" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)"
+                                 To="161" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[0].Angle"
+                                 To="7" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleX"
+                                 To=".5" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleY"
+                                 To=".5" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleX"
+                                 To="10" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleY"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].CenterX"
+                                 To="10" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Opacity)"
+                                 To=".8" Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </StackPanel.Triggers>
+            </StackPanel>
+            <StackPanel Opacity=".8" Height="178" Width="264" HorizontalAlignment="Left" Canvas.Top="321" VerticalAlignment="Center" Canvas.Left="479" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Content="Вырезать" HorizontalAlignment="Left"   Height="21" Width="79" VerticalAlignment="Center"/>
+                        <Button  Grid.Column="1" Content="Вставить" Height="21" Width="79"/>
+                        <Button  Grid.Column="2" Content="Копировать" Width="77" Height="20"/>
+                    </Grid>
+                    <ListBox Grid.Row="1" Height="117"  Margin="2">
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                    </ListBox>
+                </Grid>
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-6" CenterX="0" CenterY="0" />
+                        <ScaleTransform ScaleX=".5" ScaleY="0.5"/>
+                        <SkewTransform AngleX="10" AngleY="0" CenterX="10"/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <StackPanel.Triggers>
+                    <EventTrigger RoutedEvent="GotFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Top)"
+                                 To="67" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)"
+                                 To="250" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[0].Angle"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleX"
+                                 To="1" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleY"
+                                 To="1" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleX"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleY"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].CenterX"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Opacity)"
+                                 To="1.0" Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="LostFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Top)"
+                                 To="321" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)"
+                                 To="479" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[0].Angle"
+                                 To="-6" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleX"
+                                 To=".5" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleY"
+                                 To=".5" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleX"
+                                 To="10" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleY"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].CenterX"
+                                 To="10" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Opacity)"
+                                 To=".8" Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </StackPanel.Triggers>
+            </StackPanel>
+            <StackPanel Opacity=".7" Height="178" Width="264" HorizontalAlignment="Center" Canvas.Top="282" VerticalAlignment="Top" Canvas.Left="612" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Content="Вырезать" HorizontalAlignment="Left"   Height="21" Width="79" VerticalAlignment="Center"/>
+                        <Button  Grid.Column="1" Content="Вставить" Height="21" Width="79"/>
+                        <Button  Grid.Column="2" Content="Копировать" Width="77" Height="20"/>
+                    </Grid>
+                    <ListBox Grid.Row="1" Height="117"  Margin="2">
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                    </ListBox>
+                </Grid>
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-10" CenterX="0" CenterY="0" />
+                        <ScaleTransform ScaleX=".5" ScaleY="0.5"/>
+                        <SkewTransform AngleX="10" AngleY="0" CenterX="10"/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <StackPanel.Triggers>
+                    <EventTrigger RoutedEvent="GotFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Top)"
+                                 To="67" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)"
+                                 To="250" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[0].Angle"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleX"
+                                 To="1" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleY"
+                                 To="1" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleX"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleY"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].CenterX"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Opacity)"
+                                 To="1.0" Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="LostFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Top)"
+                                 To="282" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)"
+                                 To="612" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[0].Angle"
+                                 To="-10" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleX"
+                                 To=".5" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleY"
+                                 To=".5" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleX"
+                                 To="10" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleY"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].CenterX"
+                                 To="10" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Opacity)"
+                                 To=".7" Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </StackPanel.Triggers>
+            </StackPanel>
+            <StackPanel Opacity=".93" Height="178" Width="264" HorizontalAlignment="Left" Canvas.Top="319" VerticalAlignment="Center" Canvas.Left="334" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Content="Вырезать" HorizontalAlignment="Left"   Height="21" Width="79" VerticalAlignment="Center"/>
+                        <Button  Grid.Column="1" Content="Вставить" Height="21" Width="79"/>
+                        <Button  Grid.Column="2" Content="Копировать" Width="77" Height="20"/>
+                    </Grid>
+                    <ListBox Grid.Row="1" Height="117"  Margin="2">
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                        <ListBoxItem>dsadsa</ListBoxItem>
+                    </ListBox>
+                </Grid>
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="0" CenterX="0" CenterY="0" />
+                        <ScaleTransform ScaleX=".5" ScaleY="0.5"/>
+                        <SkewTransform AngleX="0" AngleY="0" CenterX="10"/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <StackPanel.Triggers>
+                    <EventTrigger RoutedEvent="GotFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Top)"
+                                 To="67" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)"
+                                 To="250" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[0].Angle"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleX"
+                                 To="1" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleY"
+                                 To="1" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleX"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleY"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].CenterX"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Opacity)"
+                                 To="1.0" Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="LostFocus">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Top)"
+                                 To="319" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)"
+                                 To="334" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[0].Angle"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleX"
+                                 To=".5" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[1].ScaleY"
+                                 To=".5" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleX"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].AngleY"
+                                 To="0" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.Children[2].CenterX"
+                                 To="10" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetProperty="(Opacity)"
+                                 To=".93" Duration="0:0:1" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </StackPanel.Triggers>
+            </StackPanel>
+        </Canvas>
+    </Grid>
+</Window>

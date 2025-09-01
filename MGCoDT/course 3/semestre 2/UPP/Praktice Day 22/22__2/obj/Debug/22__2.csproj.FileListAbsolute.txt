@@ -1,0 +1,32 @@
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_22\Praktice Day 22\22__2\bin\Debug\22__2.exe.config
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_22\Praktice Day 22\22__2\bin\Debug\22__2.exe
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_22\Praktice Day 22\22__2\bin\Debug\22__2.pdb
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_22\Praktice Day 22\22__2\obj\Debug\22__2.csproj.AssemblyReference.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_22\Praktice Day 22\22__2\obj\Debug\_22__2.Form1.resources
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_22\Praktice Day 22\22__2\obj\Debug\_22__2.Properties.Resources.resources
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_22\Praktice Day 22\22__2\obj\Debug\22__2.csproj.GenerateResource.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_22\Praktice Day 22\22__2\obj\Debug\22__2.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_22\Praktice Day 22\22__2\obj\Debug\22__2.exe
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_22\Praktice Day 22\22__2\obj\Debug\22__2.pdb
+C:\Users\minsk\Downloads\Praktice Day 22\22__2\bin\Debug\22__2.exe.config
+C:\Users\minsk\Downloads\Praktice Day 22\22__2\bin\Debug\22__2.exe
+C:\Users\minsk\Downloads\Praktice Day 22\22__2\bin\Debug\22__2.pdb
+C:\Users\minsk\Downloads\Praktice Day 22\22__2\obj\Debug\22__2.csproj.AssemblyReference.cache
+C:\Users\minsk\Downloads\Praktice Day 22\22__2\obj\Debug\22__2.csproj.SuggestedBindingRedirects.cache
+C:\Users\minsk\Downloads\Praktice Day 22\22__2\obj\Debug\_22__2.Form1.resources
+C:\Users\minsk\Downloads\Praktice Day 22\22__2\obj\Debug\_22__2.Properties.Resources.resources
+C:\Users\minsk\Downloads\Praktice Day 22\22__2\obj\Debug\22__2.csproj.GenerateResource.cache
+C:\Users\minsk\Downloads\Praktice Day 22\22__2\obj\Debug\22__2.csproj.CoreCompileInputs.cache
+C:\Users\minsk\Downloads\Praktice Day 22\22__2\obj\Debug\22__2.exe
+C:\Users\minsk\Downloads\Praktice Day 22\22__2\obj\Debug\22__2.pdb
+C:\Users\minsk\source\repos\Praktice Day 22\22__2\bin\Debug\22__2.exe.config
+C:\Users\minsk\source\repos\Praktice Day 22\22__2\bin\Debug\22__2.exe
+C:\Users\minsk\source\repos\Praktice Day 22\22__2\bin\Debug\22__2.pdb
+C:\Users\minsk\source\repos\Praktice Day 22\22__2\obj\Debug\22__2.csproj.AssemblyReference.cache
+C:\Users\minsk\source\repos\Praktice Day 22\22__2\obj\Debug\22__2.csproj.SuggestedBindingRedirects.cache
+C:\Users\minsk\source\repos\Praktice Day 22\22__2\obj\Debug\_22__2.Form1.resources
+C:\Users\minsk\source\repos\Praktice Day 22\22__2\obj\Debug\_22__2.Properties.Resources.resources
+C:\Users\minsk\source\repos\Praktice Day 22\22__2\obj\Debug\22__2.csproj.GenerateResource.cache
+C:\Users\minsk\source\repos\Praktice Day 22\22__2\obj\Debug\22__2.csproj.CoreCompileInputs.cache
+C:\Users\minsk\source\repos\Praktice Day 22\22__2\obj\Debug\22__2.exe
+C:\Users\minsk\source\repos\Praktice Day 22\22__2\obj\Debug\22__2.pdb

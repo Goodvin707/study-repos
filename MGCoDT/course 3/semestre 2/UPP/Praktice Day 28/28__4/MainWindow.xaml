@@ -1,0 +1,27 @@
+﻿<Window x:Class="_28__4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_28__4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MouseMove="Window_MouseMove">
+    <Grid x:Name="grid1" Height="434" VerticalAlignment="Top">
+        <Canvas  Name="paintSurface" MouseMove="Canvas_MouseMove_1" >
+            <Canvas.Background>
+                <SolidColorBrush Color="White" Opacity="0"/>
+            </Canvas.Background>
+        </Canvas>
+        <Menu Margin="0,0,0,409">
+            <ComboBox x:Name="ColorChange" Width="120" Text="Цвет" SelectedIndex="0">
+                <ComboBoxItem Content="Черный" Foreground="Black"/>
+                <ComboBoxItem Content="Красный" Foreground="Red"/>
+                <ComboBoxItem Content="Синий" Foreground="Blue"/>
+            </ComboBox>
+            <Slider x:Name="tWidth" Width="120" Maximum="10" Minimum="1" Value="3"/>
+            <RadioButton x:Name="m1" Content="Рисование" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True" Checked="m1_Checked"/>
+            <RadioButton x:Name="m2" Content="Удаление" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="m1_Checked"/>
+            <Label x:Name="qwe"/>
+        </Menu>
+    </Grid>
+</Window>

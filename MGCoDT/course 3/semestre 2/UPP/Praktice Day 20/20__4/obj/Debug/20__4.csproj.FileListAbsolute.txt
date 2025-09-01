@@ -1,0 +1,10 @@
+C:\Users\Goodvin\source\repos\Praktice Day 20\20__4\bin\Debug\20__4.exe.config
+C:\Users\Goodvin\source\repos\Praktice Day 20\20__4\bin\Debug\20__4.exe
+C:\Users\Goodvin\source\repos\Praktice Day 20\20__4\bin\Debug\20__4.pdb
+C:\Users\Goodvin\source\repos\Praktice Day 20\20__4\obj\Debug\20__4.csproj.AssemblyReference.cache
+C:\Users\Goodvin\source\repos\Praktice Day 20\20__4\obj\Debug\_20__4.Form1.resources
+C:\Users\Goodvin\source\repos\Praktice Day 20\20__4\obj\Debug\_20__4.Properties.Resources.resources
+C:\Users\Goodvin\source\repos\Praktice Day 20\20__4\obj\Debug\20__4.csproj.GenerateResource.cache
+C:\Users\Goodvin\source\repos\Praktice Day 20\20__4\obj\Debug\20__4.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\source\repos\Praktice Day 20\20__4\obj\Debug\20__4.exe
+C:\Users\Goodvin\source\repos\Praktice Day 20\20__4\obj\Debug\20__4.pdb

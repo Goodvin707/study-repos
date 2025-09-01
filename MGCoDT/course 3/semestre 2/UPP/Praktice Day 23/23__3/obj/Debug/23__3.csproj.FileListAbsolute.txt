@@ -1,0 +1,11 @@
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_23\Praktice Day 23\23__3\bin\Debug\23__3.exe.config
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_23\Praktice Day 23\23__3\bin\Debug\23__3.exe
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_23\Praktice Day 23\23__3\bin\Debug\23__3.pdb
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_23\Praktice Day 23\23__3\obj\Debug\23__3.csproj.AssemblyReference.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_23\Praktice Day 23\23__3\obj\Debug\23__3.csproj.SuggestedBindingRedirects.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_23\Praktice Day 23\23__3\obj\Debug\_23__3.Form1.resources
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_23\Praktice Day 23\23__3\obj\Debug\_23__3.Properties.Resources.resources
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_23\Praktice Day 23\23__3\obj\Debug\23__3.csproj.GenerateResource.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_23\Praktice Day 23\23__3\obj\Debug\23__3.csproj.CoreCompileInputs.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_23\Praktice Day 23\23__3\obj\Debug\23__3.exe
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_23\Praktice Day 23\23__3\obj\Debug\23__3.pdb

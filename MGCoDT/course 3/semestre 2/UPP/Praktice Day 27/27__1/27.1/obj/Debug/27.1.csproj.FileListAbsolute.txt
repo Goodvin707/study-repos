@@ -1,0 +1,31 @@
+D:\Codes\Visual Studio 2022\Day 27\27.1\bin\Debug\27.1.exe.config
+D:\Codes\Visual Studio 2022\Day 27\27.1\bin\Debug\27.1.exe
+D:\Codes\Visual Studio 2022\Day 27\27.1\bin\Debug\27.1.pdb
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\27.1.csproj.AssemblyReference.cache
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\27.1.csproj.SuggestedBindingRedirects.cache
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\MainWindow.g.cs
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\App.g.cs
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\27.1_MarkupCompile.cache
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\27.1_MarkupCompile.lref
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\MainWindow.baml
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\27.1.g.resources
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\_27._1.Properties.Resources.resources
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\27.1.csproj.GenerateResource.cache
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\27.1.csproj.CoreCompileInputs.cache
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\27.1.exe
+D:\Codes\Visual Studio 2022\Day 27\27.1\obj\Debug\27.1.pdb
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\bin\Debug\27.1.exe.config
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\bin\Debug\27.1.exe
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\bin\Debug\27.1.pdb
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\27.1.csproj.AssemblyReference.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\MainWindow.g.cs
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\App.g.cs
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\27.1_MarkupCompile.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\27.1_MarkupCompile.lref
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\MainWindow.baml
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\27.1.g.resources
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\_27._1.Properties.Resources.resources
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\27.1.csproj.GenerateResource.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\27.1.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\27.1.exe
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_27\27__1\27.1\obj\Debug\27.1.pdb

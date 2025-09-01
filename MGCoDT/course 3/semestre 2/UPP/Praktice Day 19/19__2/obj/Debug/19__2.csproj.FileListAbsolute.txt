@@ -1,0 +1,10 @@
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_19\Praktice Day 19\19__2\bin\Debug\19__2.exe.config
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_19\Praktice Day 19\19__2\bin\Debug\19__2.exe
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_19\Praktice Day 19\19__2\bin\Debug\19__2.pdb
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_19\Praktice Day 19\19__2\obj\Debug\19__2.csproj.AssemblyReference.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_19\Praktice Day 19\19__2\obj\Debug\_19__2.Form1.resources
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_19\Praktice Day 19\19__2\obj\Debug\_19__2.Properties.Resources.resources
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_19\Praktice Day 19\19__2\obj\Debug\19__2.csproj.GenerateResource.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_19\Praktice Day 19\19__2\obj\Debug\19__2.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_19\Praktice Day 19\19__2\obj\Debug\19__2.exe
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_19\Praktice Day 19\19__2\obj\Debug\19__2.pdb

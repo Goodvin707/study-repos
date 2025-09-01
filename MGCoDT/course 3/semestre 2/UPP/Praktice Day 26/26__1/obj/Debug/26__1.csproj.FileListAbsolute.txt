@@ -1,0 +1,16 @@
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\bin\Debug\26__1.exe.config
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\bin\Debug\26__1.exe
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\bin\Debug\26__1.pdb
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\26__1.csproj.AssemblyReference.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\26__1.csproj.SuggestedBindingRedirects.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\MainWindow.g.cs
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\App.g.cs
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\26__1_MarkupCompile.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\26__1_MarkupCompile.lref
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\MainWindow.baml
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\26__1.g.resources
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\_26__1.Properties.Resources.resources
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\26__1.csproj.GenerateResource.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\26__1.csproj.CoreCompileInputs.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\26__1.exe
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_26\Praktice Day 26\26__1\obj\Debug\26__1.pdb

@@ -1,0 +1,50 @@
+﻿<Window x:Class="_26__2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_26__2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="494" Width="884">
+    <Window.Resources>
+        <Style x:Key="style1">
+            <Setter Property="Shape.Fill">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Offset="0" Color="#FF6A21A0"/>
+                        <GradientStop Offset="0.5" Color="#FFD1E427"/>
+                        <GradientStop Offset="1.5" Color="Navy"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Shape.Stroke" Value="#FFCA186A"/>
+            <Setter Property="Shape.StrokeThickness" Value="4"/>
+        </Style>
+        <Style x:Key="style2">
+            <Setter Property="Shape.Fill" Value="#FF27D219"/>
+            <Setter Property="Shape.Stroke" Value="#FF1168C8"/>
+            <Setter Property="Shape.StrokeThickness" Value="8"/>
+        </Style>
+        <Style x:Key="style3">
+            <Setter Property="Shape.StrokeThickness" Value="5"/>
+            <Setter Property="Shape.Fill" Value="#FF83DE1A"/>
+            <Setter Property="Shape.Stroke" Value="#FF1D1D0D"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Name="FigureCount"
+                     ToolTip="Inter figere Count"
+                     Margin="5" Text ="10"/>
+            <Button Grid.Column="1" Click="Button_Click">Generate Shapes</Button>
+        </Grid>
+        <Canvas Name="MainCanvas" Grid.Row="1" Margin="5"/>
+    </Grid>
+</Window>

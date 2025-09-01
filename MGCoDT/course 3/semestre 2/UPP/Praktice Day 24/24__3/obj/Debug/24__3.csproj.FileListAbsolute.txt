@@ -1,0 +1,20 @@
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_24\Praktice Day 24\24__3\bin\Debug\24__3.exe.config
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_24\Praktice Day 24\24__3\bin\Debug\24__3.exe
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_24\Praktice Day 24\24__3\bin\Debug\24__3.pdb
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_24\Praktice Day 24\24__3\obj\Debug\24__3.csproj.AssemblyReference.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_24\Praktice Day 24\24__3\obj\Debug\_24__3.Form1.resources
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_24\Praktice Day 24\24__3\obj\Debug\_24__3.Properties.Resources.resources
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_24\Praktice Day 24\24__3\obj\Debug\24__3.csproj.GenerateResource.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_24\Praktice Day 24\24__3\obj\Debug\24__3.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_24\Praktice Day 24\24__3\obj\Debug\24__3.exe
+C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_24\Praktice Day 24\24__3\obj\Debug\24__3.pdb
+D:\profiles\Sush_45\Desktop\Сушко 45ТП УПП day24\Praktice Day 24\24__3\bin\Debug\24__3.exe.config
+D:\profiles\Sush_45\Desktop\Сушко 45ТП УПП day24\Praktice Day 24\24__3\bin\Debug\24__3.exe
+D:\profiles\Sush_45\Desktop\Сушко 45ТП УПП day24\Praktice Day 24\24__3\bin\Debug\24__3.pdb
+D:\profiles\Sush_45\Desktop\Сушко 45ТП УПП day24\Praktice Day 24\24__3\obj\Debug\24__3.csproj.AssemblyReference.cache
+D:\profiles\Sush_45\Desktop\Сушко 45ТП УПП day24\Praktice Day 24\24__3\obj\Debug\_24__3.Form1.resources
+D:\profiles\Sush_45\Desktop\Сушко 45ТП УПП day24\Praktice Day 24\24__3\obj\Debug\_24__3.Properties.Resources.resources
+D:\profiles\Sush_45\Desktop\Сушко 45ТП УПП day24\Praktice Day 24\24__3\obj\Debug\24__3.csproj.GenerateResource.cache
+D:\profiles\Sush_45\Desktop\Сушко 45ТП УПП day24\Praktice Day 24\24__3\obj\Debug\24__3.csproj.CoreCompileInputs.cache
+D:\profiles\Sush_45\Desktop\Сушко 45ТП УПП day24\Praktice Day 24\24__3\obj\Debug\24__3.exe
+D:\profiles\Sush_45\Desktop\Сушко 45ТП УПП day24\Praktice Day 24\24__3\obj\Debug\24__3.pdb

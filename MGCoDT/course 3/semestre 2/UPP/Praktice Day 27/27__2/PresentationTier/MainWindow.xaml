@@ -1,0 +1,65 @@
+﻿<Window x:Class="PresentationTier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{Binding НаименованиеМагазина}" Height="400" Width="800"
+        WindowStartupLocation="CenterScreen" Background="LightCyan">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Name="GridForTovar"
+              DataContext="{Binding ElementName=MainList, Path=SelectedItem}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Margin="5" Grid.Row="0" Text="Код:"/>
+            <TextBox Margin="5" Grid.Row="0" Grid.Column="1"
+                     Text="{Binding Path=КодТовара}"/>
+            <TextBlock Margin="5" Grid.Row="1" Text="Наименование:"/>
+            <TextBox Margin="5" Grid.Row="1" Grid.Column="1"
+                     Text="{Binding Path=НаименованиеТовара}"/>
+            <TextBlock Margin="5" Grid.Row="2" Text="Цена:"/>
+            <TextBox Margin="5" Grid.Row="2" Grid.Column="1"
+                     Text="{Binding Path=ЦенаТовара}"/>
+            <TextBlock Margin="5" Grid.Row="3" Text = "Количество:"/>
+            <TextBox Margin="5" Grid.Row="3" Grid.Column="1"
+                     Text="{Binding Path=КоличествоТовара}"/>
+            <TextBlock Margin="5" Grid.Row="4" Text="Описание:"/>
+            <TextBox Margin="5" Grid.Row="5"
+                     Grid.Column="0" Grid.ColumnSpan="2"
+                     Text="{Binding Path=ОписаниеТовара}"/>
+            <TextBlock Margin="5" Grid.Row="6" Text="Bcero по товару:"/>
+            <TextBox Margin="5" Grid.Row="6" Grid.Column="1"
+                     Text="{Binding Path=СуммарнаяСтоимостьПозиции, Mode=OneWay}"/>
+        </Grid>
+        <Grid Grid.Row="1" Name="GridForCollections">
+            <ListBox Name="MainList" ItemsSource="{Binding Path=СписокТоваров, Mode=OneWay}"
+                     DisplayMemberPath="ПредставлениеТовара" Background="Azure" Margin="10"/>
+        </Grid>
+        <Grid Grid.Row="2" Name="GridForItog">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Margin="5" Text="Cyммapнaя стоимость:" Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox Margin="5" Grid.Column="1"
+                     Text="{Binding Path=СуммарнаяСтоимость, Mode=OneWay}"/>
+            <TextBlock Margin="5" Text = "Bcero товаров:" Grid.Column="2" HorizontalAlignment="Right"/>
+            <TextBox Margin="5" Grid.Column="3" Text="{Binding Path=СуммарноеКоличество, Mode=OneWay}"/>
+        </Grid>
+    </Grid>
+</Window>
