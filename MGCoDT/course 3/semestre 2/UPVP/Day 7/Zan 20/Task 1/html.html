@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <title>Задание 1</title>
+          <link href="..\..\jquery-ui.min.css" rel="stylesheet" type="text/css" />
+          <link href="..\jquery-ui.min.css" rel="stylesheet" type="text/css" />
+          <link href="jquery-ui.min.css" rel="stylesheet" type="text/css" />
+          <script src="..\..\jquery-3.6.0.js"></script>
+          <script src="..\jquery-3.6.0.js"></script>
+          <script src="jquery-3.6.0.js"></script>
+          <script src="..\..\jquery-ui.min.js"></script>
+          <script src="..\jquery-ui.min.js"></script>
+          <script src="jquery-ui.min.js"></script>
+
+          <script type="text/javascript">
+               $(document).ready(function () {
+                    $("h3").wrap("<div></div>");
+                    $("span").unwrap();
+                    $("p").before("<span>!!!</span>");
+                    $("p").after("<span>???</span>");
+                    alert($(".www").attr("src"));
+                    $("img").each(function () {
+                         alert($(this).attr("src"));
+                    });
+               });
+          </script>
+     </head>
+
+     <body>
+          <h3 class="aaa">aboba</h3>
+          <span>oaoao</span>
+          <p><span></span></p>
+          <p></p>
+          <img class="www" src="pics/1.jpg" alt="" />
+          <img class="" src="pics/2.jpg" alt="" />
+          <p></p>
+     </body>
+</html>

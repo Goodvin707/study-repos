@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача 4</title>
+</head>
+<body>
+    <input type="text" style="width: 300px" placeholder="Input your birth time YYYY-MM-DD" onblur="getBirthday(this)"> </br>
+    </br>
+    <span id="birthday"></span>
+</body>
+<script>
+    function getBirthday(input) {
+        let today = new Date()
+        let output = document.getElementById('birthday')
+        let bday = Date.parse(input.value)
+        if (bday > today.getTime())
+            return (output.innerHTML = 'Incorect')
+        bday = Date.parse(today.getFullYear() + input.value.substr(4))
+        if (bday < today.getTime())
+            bday = Date.parse(today.getFullYear() + 1) + input.value.substr(4)
+        output.innerHTML = Math.floor((bday - today.getTime()) / 60000 / 60 / 24)
+    }
+</script>
+</html>
