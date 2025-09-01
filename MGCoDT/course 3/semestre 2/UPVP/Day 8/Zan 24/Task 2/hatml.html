@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Leo</title>
+          <link rel="stylesheet" type="text/css" href="style.css" />
+          <script src="..\..\jquery.validate.min.js"></script>
+          <script src="..\jquery.validate.min.js"></script>
+          <script src="jquery.validate.min.js"></script>
+          <script src="..\..\jquery-3.6.0.js"></script>
+          <script src="..\jquery-3.6.0.js"></script>
+          <script src="jquery-3.6.0.js"></script>
+          <script>
+               $(document).ready(function () {
+                    $("#basic-form").validate({
+                         rules: {
+                              name: {
+                                   required: true,
+                                   minlength: 3,
+                              },
+                              email: {
+                                   required: true,
+                                   email: true,
+                              },
+                         },
+                    });
+               });
+               function SquareComput() {
+                    let i = document.getElementById("i1_1");
+                    if (!isNaN(Math.pow(i.value, 2))) document.getElementById("i1_2").value = Math.pow(i.value, 2);
+                    else alert("Введено не число");
+               }
+               function ClickCount() {
+                    let i = document.getElementById("i3_1");
+                    let clCount = parseInt(i.value);
+                    i.value = clCount + 1;
+               }
+               function func1() {
+                    let elems = document.getElementsByTagName("a");
+                    elems[0].href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+                    elems[1].href = "https://mangalib.me/?section=all-updates";
+                    elems[2].href = "https://akuma-kira.itch.io/corpseocean";
+               }
+               function plus() {
+                    let i1 = document.getElementById("i5_1");
+                    let i2 = document.getElementById("i5_1");
+                    let result = document.getElementById("result");
+                    result.innerHTML = "= " + (parseInt(i1.value) + parseInt(i2.value));
+               }
+               function func2() {
+                    let elems = document.getElementsByClassName("zzz");
+                    for (let i = 0; i < elems.length; i++) {
+                         const element = elems[i];
+                         element.innerHTML = i;
+                    }
+               }
+          </script>
+     </head>
+     <body>
+          <div class="logo">Leo</div>
+          <div class="melopikcha"></div>
+          <div class="Solutions_Products_Portfolio">Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Products&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portfolio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact</div>
+          <div class="icon"></div>
+          <div class="Introducing">Introducing</div>
+          <div class="Something_hot">Something hot......</div>
+          <div class="Try_Demo">Try Demo</div>
+          <div class="Shape_10"></div>
+          <div class="tabs"></div>
+          <div class="screen_shot"></div>
+
+          <div class="Why_choose_us">Why choose us ?</div>
+
+          <div class="Shape_15" style="left: 638px; top: 1757px"></div>
+          <div class="Shape_15" style="left: 638px; top: 1794px"></div>
+          <div class="Shape_15" style="left: 638px; top: 1831px"></div>
+          <div class="Shape_15" style="left: 638px; top: 1868px"></div>
+          <div class="Shape_15" style="left: 638px; top: 1905px"></div>
+          <div class="Shape_15" style="left: 638px; top: 1942px"></div>
+
+          <div class="Lorem_Ipsum_is_simply_dummy_text_of_the_printin">
+               Lorem Ipsum is simply dummy text of the printing and typesetting<br />
+               Lorem Ipsum has been the industry's standard dummy text ever<br />
+               When an unknown printer took a galley of type and scrambled<br />
+               It has survived not only five centuries, but also the leap into electronic<br />
+               It was popularised in the 1960s with the release of Letraset sheets containing<br />
+               More recently with desktop publishing software like Aldus PageMaker
+          </div>
+
+          <div class="foot1"></div>
+          <div class="foot2"></div>
+          <!--  -->
+          <!--  -->
+          <!--  -->
+          <!--  -->
+          <!--  -->
+          <!--  -->
+          <!--  -->
+          <!--  -->
+          <div class="extendTask1">
+               <p>По нажатию на кнопку в нижнем инпуте появится квадрат числа из верхнего инпута.</p>
+               <p>Если введено не число -- появится ошибка.</p>
+               <input id="i1_1" type="text" placeholder="Введите число!" />
+               <p></p>
+               <input id="i1_2" type="text" placeholder="Здесь появится результат." disabled />
+               <p></p>
+               <button onclick="SquareComput()">Нажми на меня</button>
+          </div>
+          <div class="extendTask2">
+               <button onclick="document.getElementById('i2_1').disabled = true">Заблокировать</button>
+               <button onclick="document.getElementById('i2_1').disabled = false">Отблокировать</button>
+               <input id="i2_1" type="text" value="Какой-то текст!" />
+          </div>
+          <div class="extendTask3">
+               <p>Кнопка считает количество нажатий</p>
+               <input id="i3_1" type="button" value="0" onclick="ClickCount()" style="width: 300px" />
+          </div>
+          <div class="extendTask4">
+               <a>ссылка 1</a>
+               <p></p>
+               <a>ссылка 2</a>
+               <p></p>
+               <a>ссылка 3</a>
+               <p></p>
+               <button onclick="func1()">Нажми на меня!</button>
+          </div>
+          <div class="extendTask5">
+               <div>
+                    <input style="float: left; margin: 0 10px" id="i5_1" type="text" />
+                    <p style="float: left; margin: 0 10px">+</p>
+                    <input style="float: left; margin: 0 10px" id="i5_1" type="text" />
+                    <p id="result">= ?</p>
+               </div>
+               <button onclick="plus()">Нажмите чтобы сложить</button>
+          </div>
+          <div class="extendTask6">
+               <h2 class="zzz">Заголовок с классом zzz.</h2>
+               <p class="zzz">Абзац с классом zzz.</p>
+               <p class="zzz">Абзац с классом zzz.</p>
+               <p>Просто абзац, не поменяется.</p>
+               <button onclick="func2()">Нажми на меня!</button>
+          </div>
+          <form id="basic-form" action="" method="post">
+               <p>
+                    <label for="name">Name <span>(required, at least 3 characters)</span></label>
+                    <input id="name" name="name" minlength="3" type="text" required />
+               </p>
+               <p>
+                    <label for="email">E-Mail <span>(required)</span></label>
+                    <input id="email" type="email" name="email" required />
+               </p>
+               <p>
+                    <input class="submit" type="submit" value="SUBMIT" />
+               </p>
+          </form>
+     </body>
+</html>
