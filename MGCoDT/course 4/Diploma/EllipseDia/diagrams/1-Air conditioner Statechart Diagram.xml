@@ -1,0 +1,150 @@
+<mxGraphModel>
+  <root>
+    <Diagram label="Air conditioner Statechart Diagram" href="" id="0">
+      <mxCell />
+    </Diagram>
+    <Layer label="Default Layer" id="1">
+      <mxCell parent="0" />
+    </Layer>
+    <Connector label="Сбой устранен" href="" id="26">
+      <mxCell style="filledArrowConnector;fontSize=14;strokeColor=#00cf13;" parent="1" source="24" target="16" edge="1">
+        <mxGeometry y="85" relative="1" as="geometry">
+          <mxPoint x="27" y="63" as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Group label="Нагрев" href="" id="13">
+      <mxCell style="group;rounded=1;fontSize=14;fillColor=#9f9cff;" parent="1" vertex="1" connectable="0">
+        <mxGeometry x="180" y="80" width="170" height="90" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="11">
+      <mxCell style="hline;shadow=0;" parent="13" vertex="1">
+        <mxGeometry y="20" width="170" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="вход/включение&#xa;выход/выключение" href="" id="14">
+      <mxCell style="text" parent="13" vertex="1">
+        <mxGeometry x="10" y="30" width="110" height="30" as="geometry" />
+      </mxCell>
+    </Text>
+    <Shape label="Shape" href="" id="15">
+      <mxCell style="ellipse;fillColor=black;gradientColor=black;strokeColor=black;" parent="1" vertex="1">
+        <mxGeometry x="585" y="10" width="30" height="30" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Roundrect label="Бездействие" href="" id="16">
+      <mxCell style="rounded;fontSize=13;fillColor=#9f9cff;" parent="1" vertex="1">
+        <mxGeometry x="535" y="95" width="130" height="60" as="geometry" />
+      </mxCell>
+    </Roundrect>
+    <Connector label="" href="" id="17">
+      <mxCell style="filledArrowConnector" parent="1" source="15" target="16" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="ok" href="" id="18">
+      <mxCell style="filledArrowConnector;fontSize=14;strokeColor=#00cf13;" parent="1" source="11" target="16" edge="1">
+        <mxGeometry x="-0.4146" y="15" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Group label="Сбой" href="" id="23">
+      <mxCell style="group;rounded=1;fontSize=14;fillColor=#9f9cff;" parent="1" vertex="1" connectable="0">
+        <mxGeometry x="410" y="340" width="210" height="90" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="24">
+      <mxCell style="hline;shadow=0;" parent="23" vertex="1">
+        <mxGeometry y="20" width="210" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="вход/включение сигнализации&#xa;выход/выключение" href="" id="25">
+      <mxCell style="text" parent="23" vertex="1">
+        <mxGeometry x="10" y="30" width="170" height="30" as="geometry" />
+      </mxCell>
+    </Text>
+    <Roundrect label="Охлаждение&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" href="" id="28">
+      <mxCell style="rounded;fontSize=14;fillColor=#9f9cff;gradientColor=#e06eff;" parent="1" vertex="1">
+        <mxGeometry x="840" y="50" width="240" height="300" as="geometry" />
+      </mxCell>
+    </Roundrect>
+    <Roundrect label="Запуск" href="" id="29">
+      <mxCell style="rounded;fontSize=13;" parent="1" vertex="1">
+        <mxGeometry x="907.5" y="105" width="105" height="40" as="geometry" />
+      </mxCell>
+    </Roundrect>
+    <Roundrect label="Готовность" href="" id="30">
+      <mxCell style="rounded;fontSize=13;" parent="1" vertex="1">
+        <mxGeometry x="907.5" y="200" width="105" height="40" as="geometry" />
+      </mxCell>
+    </Roundrect>
+    <Roundrect label="Работает" href="" id="31">
+      <mxCell style="rounded;fontSize=13;" parent="1" vertex="1">
+        <mxGeometry x="907.5" y="290" width="105" height="40" as="geometry" />
+      </mxCell>
+    </Roundrect>
+    <Connector label="Компрессор&#xa;запушен" href="" id="32">
+      <mxCell style="filledArrowConnector" parent="1" source="29" target="30" edge="1">
+        <mxGeometry y="-40" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="Вентилятор&#xa;запущен" href="" id="33">
+      <mxCell style="filledArrowConnector" parent="1" source="30" target="31" edge="1">
+        <mxGeometry y="-40" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="Слишком холодно&#xa;[время перезапуска &gt;= 5 минут]" href="" id="35">
+      <mxCell style="filledArrowConnector;fontSize=14;strokeColor=#3230ff;" parent="1" source="16" target="11" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <mxPoint x="280" y="200" as="targetPoint" />
+          <Array as="points">
+            <mxPoint x="330" y="210" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="Сбой" href="" id="36">
+      <mxCell style="filledArrowConnector;fontSize=14;strokeColor=#fc0017;" parent="1" source="11" target="24" edge="1">
+        <mxGeometry x="0.1321" y="15" relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="160" y="250" />
+          </Array>
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="Слишком жарко" href="" id="37">
+      <mxCell style="filledArrowConnector;fontSize=14;strokeColor=#ff320d;" parent="1" source="16" target="29" edge="1">
+        <mxGeometry x="-0.0021" y="48" relative="1" as="geometry">
+          <mxPoint x="-46" y="33" as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="ok" href="" id="38">
+      <mxCell style="filledArrowConnector;fontSize=14;strokeColor=#00cf13;" parent="1" source="31" target="16" edge="1">
+        <mxGeometry x="0.0545" y="-10" relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="650" y="240" />
+          </Array>
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="Сбой" href="" id="39">
+      <mxCell style="filledArrowConnector;fontSize=14;strokeColor=#fc0017;" parent="1" source="31" target="24" edge="1">
+        <mxGeometry x="0.2518" y="-10" relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="930" y="365" />
+          </Array>
+          <mxPoint x="1" as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+  </root>
+</mxGraphModel>

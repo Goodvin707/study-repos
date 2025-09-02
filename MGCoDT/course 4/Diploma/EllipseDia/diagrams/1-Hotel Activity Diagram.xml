@@ -1,0 +1,179 @@
+<mxGraphModel>
+  <root>
+    <Diagram label="Hotel Activity Diagram" href="" id="0">
+      <mxCell />
+    </Diagram>
+    <Layer label="Default Layer" id="1">
+      <mxCell parent="0" />
+    </Layer>
+    <Container label="Sales Person" href="" id="16">
+      <mxCell style="swimlane;strokeColor=black;fontSize=14;" parent="1" vertex="1" connectable="0">
+        <mxGeometry x="190" y="40" width="270" height="830" as="geometry" />
+      </mxCell>
+    </Container>
+    <Shape label="" href="" id="2">
+      <mxCell style="ellipse;fillColor=white;strokeColor=white;" parent="16" vertex="1">
+        <mxGeometry x="115" y="30" width="40" height="40" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Rect label="Set-up appointment with a client" href="" id="14">
+      <mxCell style="fillColor=white;rounded=1;" parent="16" vertex="1">
+        <mxGeometry x="40" y="140" width="180" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="" href="" id="17">
+      <mxCell style="filledArrowConnector" parent="16" source="2" target="14" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Shape label="" href="" id="20">
+      <mxCell style="rhombus;fillColor=white;strokeColor=white;" parent="16" vertex="1">
+        <mxGeometry x="110" y="240" width="50" height="50" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Connector label="" href="" id="21">
+      <mxCell style="filledArrowConnector" parent="16" source="14" target="20" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Rect label="Send a follow-up letter" href="" id="22">
+      <mxCell style="fillColor=white;rounded=1;" parent="16" vertex="1">
+        <mxGeometry x="60" y="420" width="150" height="30" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Shape label="" href="" id="23">
+      <mxCell style="rhombus;fillColor=white;strokeColor=white;" parent="16" vertex="1">
+        <mxGeometry x="105" y="530" width="55" height="50" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Connector label="" href="" id="24">
+      <mxCell style="filledArrowConnector" parent="16" source="22" target="23" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Text label="(our office)" href="" id="52">
+      <mxCell style="text" parent="16" vertex="1">
+        <mxGeometry x="160" y="240" width="60" height="20" as="geometry" />
+      </mxCell>
+    </Text>
+    <Text label="(client&#39;s office)" href="" id="54">
+      <mxCell style="text" parent="16" vertex="1">
+        <mxGeometry x="145" y="300" width="80" height="20" as="geometry" />
+      </mxCell>
+    </Text>
+    <Text label="Deal?" href="" id="55">
+      <mxCell style="text;fontStyle=1" parent="16" vertex="1">
+        <mxGeometry x="50" y="530" width="40" height="20" as="geometry" />
+      </mxCell>
+    </Text>
+    <Text label="(Yes)" href="" id="56">
+      <mxCell style="text" parent="16" vertex="1">
+        <mxGeometry x="165" y="530" width="30" height="20" as="geometry" />
+      </mxCell>
+    </Text>
+    <Text label="(No)" href="" id="57">
+      <mxCell style="text" parent="16" vertex="1">
+        <mxGeometry x="90" y="580" width="30" height="20" as="geometry" />
+      </mxCell>
+    </Text>
+    <Container label="Consultant" href="" id="26">
+      <mxCell style="swimlane;strokeColor=black;fontSize=14;" parent="1" vertex="1" connectable="0">
+        <mxGeometry x="460" y="40" width="270" height="830" as="geometry">
+          <mxRectangle x="460" y="40" width="90" height="23" as="alternateBounds" />
+        </mxGeometry>
+      </mxCell>
+    </Container>
+    <Rect label="Prepare laptop" href="" id="28">
+      <mxCell style="fillColor=white;rounded=1;" parent="26" vertex="1">
+        <mxGeometry x="65" y="300" width="140" height="30" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Rect label="Create Proposal" href="" id="32">
+      <mxCell style="fillColor=white;rounded=1;" parent="26" vertex="1">
+        <mxGeometry x="70" y="545" width="130" height="20" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Rect label="Meet the client" href="" id="44">
+      <mxCell style="fillColor=white;rounded=1;" parent="26" vertex="1">
+        <mxGeometry x="55" y="420" width="160" height="30" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="" href="" id="45">
+      <mxCell style="filledArrowConnector" parent="26" source="28" target="44" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Shape label="" href="" id="3">
+      <mxCell style="doubleEllipse;fillColor=white;rounded=0;gradientColor=white;strokeColor=black;" parent="26" vertex="1">
+        <mxGeometry x="115" y="710" width="40" height="40" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Rect label="Send Proposal" href="" id="46">
+      <mxCell style="fillColor=white;rounded=1;" parent="26" vertex="1">
+        <mxGeometry x="70" y="630" width="130" height="20" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="" href="" id="47">
+      <mxCell style="filledArrowConnector" parent="26" source="32" target="46" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="48">
+      <mxCell style="filledArrowConnector" parent="26" source="46" target="3" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Container label="Administrator" href="" id="35">
+      <mxCell style="swimlane;strokeColor=black;fontSize=14;" parent="1" vertex="1" connectable="0">
+        <mxGeometry x="730" y="40" width="270" height="830" as="geometry" />
+      </mxCell>
+    </Container>
+    <Rect label="Prepare a Conference room" href="" id="37">
+      <mxCell style="fillColor=white;rounded=1;" parent="35" vertex="1">
+        <mxGeometry x="60" y="245" width="150" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="" href="" id="49">
+      <mxCell style="filledArrowConnector" parent="1" source="23" target="32" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="51">
+      <mxCell style="filledArrowConnector" parent="1" source="20" target="37" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="53">
+      <mxCell style="filledArrowConnector" parent="1" source="20" target="28" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="325" y="360" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="58">
+      <mxCell style="filledArrowConnector" parent="1" source="23" target="3" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="323" y="770" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="59">
+      <mxCell style="filledArrowConnector" parent="1" source="37" target="44" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="860" y="450" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="60">
+      <mxCell style="filledArrowConnector" parent="1" source="44" target="22" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+  </root>
+</mxGraphModel>

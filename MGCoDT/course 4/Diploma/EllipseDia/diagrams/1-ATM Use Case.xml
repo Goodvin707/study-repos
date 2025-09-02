@@ -1,0 +1,137 @@
+<mxGraphModel>
+  <root>
+    <Diagram label="ATM Use Case" href="" id="0">
+      <mxCell />
+    </Diagram>
+    <Layer label="Default Layer" id="1">
+      <mxCell parent="0" />
+    </Layer>
+    <Shape label="&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Customer" href="" id="2">
+      <mxCell style="actor" parent="1" vertex="1">
+        <mxGeometry x="150" y="180" width="40" height="60" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Group label="ATM" href="" id="23">
+      <mxCell style="group;fontSize=12;fontStyle=1" parent="1" vertex="1" connectable="0">
+        <mxGeometry x="290" y="70" width="670" height="300" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="Witthdraw Cash" href="" id="3">
+      <mxCell style="ellipse" parent="23" vertex="1">
+        <mxGeometry x="40" y="10" width="140" height="40" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="Transfer Cash" href="" id="4">
+      <mxCell style="ellipse" parent="23" vertex="1">
+        <mxGeometry x="40" y="70" width="140" height="40" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="Donate money to charity" href="" id="5">
+      <mxCell style="ellipse" parent="23" vertex="1">
+        <mxGeometry x="40" y="130" width="140" height="40" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="Check Balance" href="" id="6">
+      <mxCell style="ellipse" parent="23" vertex="1">
+        <mxGeometry x="40" y="190" width="140" height="40" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="Settle Bills" href="" id="7">
+      <mxCell style="ellipse" parent="23" vertex="1">
+        <mxGeometry x="40" y="250" width="140" height="40" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="Login" href="" id="13">
+      <mxCell style="ellipse;strokeColor=cyan;fillColor=cyan;" parent="23" vertex="1">
+        <mxGeometry x="350" y="70" width="120" height="60" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="Handle Invalid Password" href="" id="14">
+      <mxCell style="ellipse;strokeColor=orange;fillColor=orange;" parent="23" vertex="1">
+        <mxGeometry x="300" y="180" width="150" height="60" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="Handle Abort" href="" id="15">
+      <mxCell style="ellipse;strokeColor=orange;fillColor=orange;" parent="23" vertex="1">
+        <mxGeometry x="550" y="200" width="110" height="50" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Connector label="&lt;&lt;Extend&gt;&gt;" href="" id="16">
+      <mxCell style="dashedConnector" parent="23" source="14" target="13" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="390" y="160" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="&lt;&lt;Extend&gt;&gt;" href="" id="17">
+      <mxCell style="dashedConnector" parent="23" source="15" target="13" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="&lt;&lt;Include&gt;" href="" id="18">
+      <mxCell style="dashedConnector" parent="23" source="3" target="13" edge="1">
+        <mxGeometry x="-0.6667" y="10" relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="270" y="100" />
+          </Array>
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="&lt;&lt;Include&gt;" href="" id="19">
+      <mxCell style="dashedConnector" parent="23" source="4" target="13" edge="1">
+        <mxGeometry x="-0.619" y="10" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="&lt;&lt;Include&gt;" href="" id="20">
+      <mxCell style="dashedConnector" parent="23" source="5" target="13" edge="1">
+        <mxGeometry x="-0.6" y="10" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="&lt;&lt;Include&gt;" href="" id="21">
+      <mxCell style="dashedConnector" parent="23" source="6" target="13" edge="1">
+        <mxGeometry x="-0.6774" y="10" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="&lt;&lt;Include&gt;" href="" id="22">
+      <mxCell style="dashedConnector" parent="23" source="7" target="13" edge="1">
+        <mxGeometry x="-0.7297" y="10" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="24">
+      <mxCell parent="1" source="2" target="3" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="25">
+      <mxCell parent="1" source="2" target="4" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="26">
+      <mxCell parent="1" source="2" target="5" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="27">
+      <mxCell parent="1" source="2" target="6" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="28">
+      <mxCell parent="1" source="2" target="7" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+  </root>
+</mxGraphModel>

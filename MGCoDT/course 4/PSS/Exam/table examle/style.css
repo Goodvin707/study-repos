@@ -1,0 +1,22 @@
+table.tabloid {
+    text-align: center;
+}
+table.tabloid th {
+    color: white;
+    background-color: #354251;
+    padding: 10px;
+}
+table.tabloid td {
+    font-size: 21px;
+    color: #2f7ed8;
+}
+table.tabloid td::first-letter {
+    color: red;
+}
+table.tabloid tr:hover:nth-child(even) {
+    background-color: #353b40;
+}
+table.tabloid tr:hover:nth-child(even) td {
+    background-color: #5c7f9d;
+    color: #2f7;
+}

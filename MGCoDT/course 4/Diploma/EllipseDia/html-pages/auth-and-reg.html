@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Log In / Sign In</title>
+    <link rel="icon" href="html-pages/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/styles/auth-and-reg-style.css" />
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form id="formReg" class="register-form" action="/registrated" method="post">
+                <input id="usernameReg" name="username" type="text" placeholder="Имя пользователя" required minlength="4" maxlength="20" />
+                <input id="passwordReg" name="password" type="password" placeholder="Пароль" required minlength="4" maxlength="20" />
+                <input id="emailReg" name="email" type="email" placeholder="Почта" required />
+                <button type="submit">регистрация</button>
+                <p class="message">Уже зарегестрированы? <a href="#">Войти</a></p>
+            </form>
+
+            <form id="formLogin" class="login-form" action="/authorized" method="post">
+                <input id="usernameLogin" name="username" type="text" placeholder="Имя пользователя" required minlength="4" maxlength="20" />
+                <input id="passwordLogin" name="password" type="password" placeholder="Пароль" required minlength="4" maxlength="20" />
+                <button type="submit">войти</button>
+                <p class="message">Не зарегестрированы? <a href="#">Создать аккаунт</a></p>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="/scripts/jquery-3.6.0.js"></script>
+    <script>
+        $(".message a").click(function () {
+            $("form").animate({ height: "toggle", opacity: "toggle" }, "slow");
+        });
+    </script>
+</body>
+
+</html>

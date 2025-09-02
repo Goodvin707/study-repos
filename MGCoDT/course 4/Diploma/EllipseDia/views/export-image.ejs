@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Diagram Export - <%=diag_title %>
+    </title>
+    <link rel="icon" href="html-pages/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/styles/main-page-style-b.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main-page-style.css">
+    <link rel="stylesheet" href="/styles/export-image-style.css" />
+    <script type="text/javascript" src="/scripts/html2canvas.js"></script>
+</head>
+
+<body>
+    <meta name="theme-color" content="#ffffff">
+    <div class="topbar-container" id="main-index-header">
+        <nav id="mainNav" class="navbar fixed-top-bar navbar-fixed-top affix-top" data-spy="affix" data-offset-top="70">
+            <nav id="stickymainNav" class="navbar navbar-default navbar-doublerow  navbar-trans navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <div class="sub-features-wrapper">
+                            <a class="navbar-brand hidden-sm" href="/"><img src="/html-pages/img/logo-white-background-with-text.png" alt="Logo of EllipseDia"></a> <a class="navbar-brand hidden-md hidden-lg hidden-xs" href="/"><img src="/html-pages/img/logo-white-background.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+    </div>
+
+
+    <section id="features">
+        <div class="features section-padding">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="features-header">
+                            <h2>Просмотр изображения</h2>
+                            <hr class="bottom-line">
+                        </div>
+                        <div class="features-description">
+                            <p class="description">
+                                Для скачивания картинки в PNG-формате нажмите правой кнопкой мыши по картинке и выберите "Сохранить изображение как..."
+                            </p>
+                            <p class="description">Для скачивания картинки в SVG-формате нажмите на соответствующую кнопку</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="feature-image">
+        <div class="features section-padding">
+
+            <div class="container">
+                <div class="row" style="text-align: center; padding-bottom: 50px;">
+                    <div class="try-it-now-btn" style="display: inline; margin-left: 30px;">
+                        <a href="#" class="general-btn" onclick="downloadSVG()">Скачать SVG</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="resultPNG" class="scrolling"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div id='svgDoc'>
+        <%-svgContent %>
+    </div>
+
+    <script src="/scripts/export-image-script.js"></script>
+</body>
+
+</html>

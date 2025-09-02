@@ -1,0 +1,146 @@
+<html>
+
+<head>
+    <title>Account - <%=username %>
+    </title>
+    <link rel="icon" href="html-pages/img/favicon.ico">
+    <link rel="stylesheet" href="/styles/account-style.css" />
+    <script src="https://yastatic.net/share2/share.js"></script>
+</head>
+
+<body>
+    <section class="menu">
+        <a href="/" class="menu__logo logo">EllipseDia</a>
+        <ul class="menu__list list">
+            <li class="menu__item item">
+                <a href="/" class="menu__link link">
+                    <img src="/html-pages/img/home.svg" alt="Home" />
+                    <span>Главная</span>
+                </a>
+            </li>
+            <li class="menu__item item">
+                <a href="" class="menu__link link" id="activeLink">
+                    <img src="/html-pages/img/user.svg" alt="User" />
+                    <span>Аккаунт</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="menu__admin admin">
+            <li class="admin__item item">
+                <a href="/auth-or-reg" class="admin__link link">
+                    <img src="/html-pages/img/logout.svg" alt="Logout" />
+                    <span>Выйти</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="content" id="cont">
+        <h1>Диаграммы</h1>
+
+        <% if (!diagList.length) { %>
+            <div class="listView">
+                <ul>
+                    <a href="/diagrameditor" class="new_diagram">
+
+                        Новая
+                        диаграмма
+                    </a>
+                </ul>
+            </div>
+
+            <% } %>
+
+
+                <div class="listView">
+                    <% if (diagList.length) { %>
+                        <ul>
+                            <a href="/diagrameditor" class="new_diagram">
+
+                                Новая
+                                диаграмма
+                            </a>
+
+
+                            <% for (let i=0; i < diagList.length; i++) { %>
+                                <% let diagramPath=diagList[i].diag_path %>
+                                    <% let diagTitle=diagramPath.slice(10 + id.length, diagramPath.length - 4) %>
+
+                                        <li>
+                                            <div class="existing_diag">
+                                                <div class="diagramPreviewContainer">
+                                                    <a href="/diagrameditor?filename=<%=diagramPath %>">
+                                                        <img class="diagramPlaceholder" src="/html-pages/img/diagramPlaceholder.png" alt="Diagram preview">
+                                                    </a>
+                                                </div>
+                                                <a class="diagramName" href="/diagrameditor?filename=<%=diagramPath %>" title="<%=diagTitle %>">
+                                                    <%=diagTitle %>
+                                                </a>
+                                                <div class="diagramActions">
+                                                    <div class="deleteDiagramLinkContainer">
+                                                        <a class="deleteDiagramLink" href="/fusion?filename=<%=diagramPath %>" title="Удалить" onclick="askForDelete(event)">
+                                                            <img class="deleteDiagramImage" src="/html-pages/img/deleteDiagram.png" alt="Delete diagram">
+                                                        </a>
+                                                    </div>
+
+                                                    <!-- <div class="ya-share2" data-curtain data-shape="round" data-services="vkontakte,telegram" data-url="/diagrameditor?filename=<%=diagramPath %>" data-title="<%=diagTitle %>" data-copy="extraItem" data-use-links></div> -->
+                                                    <div class="ya-share2" data-curtain data-shape="round" data-limit="0" data-more-button-type="short" data-direction="vertical" data-url="/diagrameditor?filename=<%=diagramPath %>" data-title="<%=diagTitle %>" data-use-links data-services="vkontakte,telegram,messenger,twitter,odnoklassniki,reddit,whatsapp"></div>
+                                                    <!-- data-image="https://cdn-icons-png.flaticon.com/128/2145/2145657.png" -->
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <% } %>
+                        </ul>
+                        <% } %>
+                </div>
+                <br>
+                <br>
+                <br>
+                <h1>Данные вашего аккаунта</h1>
+                <div id="userInfo">
+                    <p id="username">Имя пользователя: <%=username %>
+                    </p>
+                    <p id="email">Почта: <%=email %>
+                    </p>
+
+
+                    <a href="" class="js-open-modal accountSettingsButton changeData" data-modal="1">Изменить</a>
+                    <button class="accountSettingsButton deleteAcc" onclick="deleteAccount()">Удалить аккаунт</button>
+
+                    <div class="modal" data-modal="1">
+                        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+                        </svg>
+                        <form id="formReg" class="form" action="/updated" method="post">
+                            <input id="usernameReg" name="username" type="text" placeholder="Имя пользователя" required />
+                            <input id="passwordReg" name="password" type="password" placeholder="Пароль" required />
+                            <input id="emailReg" name="email" type="email" placeholder="Почта" required />
+                            <button type="submit">Изменить</button>
+                        </form>
+                    </div>
+                    <div class="overlay js-overlay-modal"></div>
+                </div>
+    </section>
+    <style>
+        .ya-share2 {
+            margin-right: 5px;
+        }
+
+        .ya-share2__container_size_m .ya-share2__item_more.ya-share2__item_has-pretty-view .ya-share2__link_more.ya-share2__link_more-button-type_short {
+            background-color: #9693ba;
+        }
+
+        .ya-share2__container_size_m .ya-share2__item_more.ya-share2__item_has-pretty-view .ya-share2__link_more.ya-share2__link_more-button-type_short:hover {
+            background-color: #dd9205;
+        }
+
+        .ya-share2__container_size_m.ya-share2__container_alone .ya-share2__popup_direction_bottom,
+        .ya-share2__container_size_m .ya-share2__item_more.ya-share2__item_has-pretty-view .ya-share2__popup_direction_bottom {
+            top: -260px;
+            left: -136px;
+        }
+    </style>
+    <script type="text/javascript" src="/scripts/account-script.js"></script>
+</body>
+
+</html>

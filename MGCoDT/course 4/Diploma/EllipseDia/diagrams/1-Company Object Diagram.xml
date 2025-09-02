@@ -1,0 +1,129 @@
+<mxGraphModel>
+  <root>
+    <Diagram label="Company Object Diagram" href="" id="0">
+      <mxCell />
+    </Diagram>
+    <Layer label="Default Layer" id="1">
+      <mxCell parent="0" />
+    </Layer>
+    <Group label="C: Company" href="" id="84">
+      <mxCell style="group;fontSize=12;gradientColor=#0061cf;fillColor=#00f830;fontColor=#0d6300;" parent="1" vertex="1">
+        <mxGeometry x="500" width="120" height="70" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="81">
+      <mxCell style="hline;shadow=0;" parent="84" vertex="1">
+        <mxGeometry y="20" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Group label="D1: Department" href="" id="85">
+      <mxCell style="group;fontSize=12;gradientColor=#00362b;" parent="1" vertex="1">
+        <mxGeometry x="240" y="60" width="120" height="110" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="86">
+      <mxCell style="hline;shadow=0;" parent="85" vertex="1">
+        <mxGeometry y="20" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="Name = Sales" href="" id="87">
+      <mxCell style="text" parent="85" vertex="1">
+        <mxGeometry y="30" width="80" height="20" as="geometry" />
+      </mxCell>
+    </Text>
+    <Connector label="" href="" id="88">
+      <mxCell parent="1" source="85" target="84" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <mxPoint x="440" y="130" as="sourcePoint" />
+          <mxPoint x="440" y="210" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Group label="" href="" id="89">
+      <mxCell style="group;fontSize=12;" parent="1" vertex="1">
+        <mxGeometry x="240" y="230" width="120" height="110" as="geometry" />
+      </mxCell>
+    </Group>
+    <Text label="Name = EuroSales" href="" id="93">
+      <mxCell style="text" parent="89" vertex="1">
+        <mxGeometry y="30" width="110" height="20" as="geometry" />
+      </mxCell>
+    </Text>
+    <Shape label="" href="" id="90">
+      <mxCell style="hline;shadow=0;" parent="89" vertex="1">
+        <mxGeometry y="20" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Connector label="" href="" id="94">
+      <mxCell parent="1" source="89" target="85" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <mxPoint x="400" y="240" as="sourcePoint" />
+          <mxPoint x="540" y="140" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Group label="P: Person" href="" id="98">
+      <mxCell style="group;fontSize=12;fillColor=#6600f7;fontColor=white;" parent="1" vertex="1">
+        <mxGeometry x="470" y="290" width="150" height="170" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="99">
+      <mxCell style="hline;shadow=0;" parent="98" vertex="1">
+        <mxGeometry y="20" width="150" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="Name = Joe Doe&#xa;employeeID = 12345&#xa;Title = Manager" href="" id="105">
+      <mxCell style="text;fontColor=#1b004a;" parent="98" vertex="1">
+        <mxGeometry y="30" width="120" height="50" as="geometry" />
+      </mxCell>
+    </Text>
+    <Connector label="" href="" id="106">
+      <mxCell parent="1" source="98" target="89" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <mxPoint x="209.999633911368" y="420" as="sourcePoint" />
+          <mxPoint x="209.999633911368" y="360" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Group label=": ContactInformaiton" href="" id="116">
+      <mxCell style="group;fontSize=12;fillColor=#ff933a;gradientColor=#ff36cc;" parent="1" vertex="1">
+        <mxGeometry x="820" y="280" width="180" height="120" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="117">
+      <mxCell style="hline;shadow=0;" parent="116" vertex="1">
+        <mxGeometry y="20" width="180" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="Address = 64 Penny Lane" href="" id="118">
+      <mxCell style="text" parent="116" vertex="1">
+        <mxGeometry y="30" width="140" height="20" as="geometry" />
+      </mxCell>
+    </Text>
+    <Group label="D2: Department" href="" id="119">
+      <mxCell style="group;fontSize=12;fillColor=#00c997;" parent="1" vertex="1">
+        <mxGeometry x="790" y="80" width="120" height="110" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="120">
+      <mxCell style="hline;shadow=0;" parent="119" vertex="1">
+        <mxGeometry y="20" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="Name = R&amp;D" href="" id="121">
+      <mxCell style="text" parent="119" vertex="1">
+        <mxGeometry y="30" width="80" height="20" as="geometry" />
+      </mxCell>
+    </Text>
+    <Connector label="" href="" id="123">
+      <mxCell parent="1" source="84" target="119" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="124">
+      <mxCell parent="1" source="116" target="98" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+  </root>
+</mxGraphModel>

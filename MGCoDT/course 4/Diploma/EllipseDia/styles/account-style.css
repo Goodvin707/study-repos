@@ -1,0 +1,435 @@
+body {
+    background-color: #9693ba;
+    color: white;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #d8d5f2;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ffa000;
+    border-radius: 20px;
+}
+
+li::marker {
+    content: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343951;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.content {
+    padding-left: 240px;
+    padding-top: 40px;
+    /* padding-right: 300px; */
+    padding-bottom: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+.logo:before {
+    content: url(/html-pages/img/tempLogo.png);
+    padding-right: 8px;
+}
+
+.menu__logo {
+    padding-top: 50px;
+    padding-left: 12px;
+    margin-bottom: 59px;
+}
+
+.link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    text-decoration: none;
+}
+
+.link>img {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.link>span {
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.link:hover:before {
+    display: flex;
+}
+
+.link:before {
+    content: "";
+    display: none;
+    position: absolute;
+    left: -7;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #ffa000;
+}
+
+.menu__admin {
+    margin-top: auto;
+    padding-bottom: 40px;
+}
+
+#diagList {
+    display: flex;
+}
+
+a.new_diagram {
+    color: #fffb00;
+    /* padding: 10px 20px; */
+    margin-left: 20px;
+    width: 150px;
+    height: 200px;
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(to left, transparent, transparent 50%, #ffa000 50%, #ffa000);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 400 18px tahoma;
+    border: 1px solid #ddd013;
+    white-space: pre-line;
+}
+
+a.new_diagram:hover {
+    background-position: 0 0;
+    color: #fff;
+
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+        7px 7px 20px 0px rgba(253, 253, 0, 0.1),
+        4px 4px 5px 0px rgb(255 0 0 / 10%),
+        4px 4px 5px 0px rgb(255 0 0 / 10%);
+}
+
+#userInfo {
+    margin-left: 20px;
+}
+
+/* -------------------------- */
+
+.existing_diag {
+    width: 150px;
+    height: 200px;
+
+    color: #fff;
+    background: #b3b7f8;
+
+    border: none;
+    border-radius: 5px;
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    z-index: 1;
+}
+
+.existing_diag:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: #ffa000;
+    background-image: linear-gradient(315deg, #f6fc9c 0%, #ffa000 74%);
+    transition: all 0.3s ease;
+}
+
+.existing_diag:hover {
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+        7px 7px 20px 0px rgba(255, 162, 0, 0.194),
+        4px 4px 5px 0px rgba(255, 162, 0, 0.267);
+}
+
+.existing_diag:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+
+.existing_diag:active {
+    top: 2px;
+}
+
+
+/* ------diagramPreview------ */
+.diagramPreviewContainer {
+    width: 100%;
+    height: 150px;
+    background-color: #9b9ccf;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.diagramPlaceholder {
+    width: 80px;
+    height: 90px;
+    margin-top: 20%;
+}
+
+.deleteDiagramLinkContainer {
+    text-align: center;
+    vertical-align: middle;
+
+    margin-right: 5px;
+}
+
+.deleteDiagramImage {
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
+}
+
+.diagramName {
+    display: block;
+    margin-left: 5px;
+
+    color: #10207a;
+    font: 400 14px tahoma;
+    /* font-family: 'Lato', sans-serif; */
+    font-weight: 500;
+    text-decoration: none;
+
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.diagramName:hover {
+    color: #1996c7;
+}
+
+.diagramActions {
+    display: flex;
+    justify-content: right
+}
+
+
+/* Вид списка */
+.listView>ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.listView>ul li {
+    list-style: none;
+    /* flex: 0 0 25px; */
+    /* 4 элемента на строку */
+}
+
+
+
+
+/* Стили для подложки */
+.overlay {
+
+    /* Скрываем подложку  */
+    opacity: 0;
+    visibility: hidden;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+    transition: .3s all;
+}
+
+
+/* Стили для модальных окон */
+.modal {
+
+    /* Скрываем окна  */
+    opacity: 0;
+    visibility: hidden;
+
+
+    /*  Установаем ширину окна  */
+    width: 100%;
+    max-width: 500px;
+
+    /*  Центрируем и задаем z-index */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+    /* Должен быть выше чем у подложки*/
+
+    /*  Побочные стили   */
+    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: 0.3s all;
+}
+
+
+/* Стили для активных классов подложки и окна */
+.modal.active,
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Стили для кнопки закрытия */
+.modal__cross {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    fill: #ffa000;
+    cursor: pointer;
+}
+
+
+/* Стили для кнопкок аккаунта */
+.accountSettingsButton {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffa000;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.changeData {
+    cursor: default;
+    background-color: #ffa000;
+}
+
+.deleteAcc {
+    background-color: #ff3700;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Стили для формы */
+.form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 300px;
+    margin: 0 auto 20px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #ffa000;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #e49100;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #ffa000;
+    text-decoration: none;
+}
+
+
+#activeLink {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#activeLink:before {
+    content: "";
+    display: flex;
+    position: absolute;
+    left: -7;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #ffa000;
+}

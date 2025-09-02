@@ -1,0 +1,217 @@
+<mxGraphModel>
+  <root>
+    <Diagram label="Product ordering Activity Diagram" href="" id="0">
+      <mxCell />
+    </Diagram>
+    <Layer label="Default Layer" id="1">
+      <mxCell parent="0" />
+    </Layer>
+    <Container label="Клиент" href="" id="16">
+      <mxCell style="swimlane;strokeColor=black;fontSize=14;" parent="1" vertex="1" connectable="0">
+        <mxGeometry x="120" y="40" width="270" height="830" as="geometry" />
+      </mxCell>
+    </Container>
+    <Shape label="" href="" id="2">
+      <mxCell style="ellipse;fillColor=white;strokeColor=white;" parent="16" vertex="1">
+        <mxGeometry x="115" y="40" width="40" height="40" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Rect label="Выбор товаров" href="" id="14">
+      <mxCell style="fillColor=white;rounded=1;fontSize=14;" parent="16" vertex="1">
+        <mxGeometry x="40" y="140" width="180" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="" href="" id="17">
+      <mxCell style="filledArrowConnector" parent="16" source="2" target="14" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Rect label="Оплата счета" href="" id="79">
+      <mxCell style="fillColor=white;rounded=1;fontSize=14;" parent="16" vertex="1">
+        <mxGeometry x="60" y="440" width="140" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Shape label="" href="" id="81">
+      <mxCell style="rhombus;fillColor=white;strokeColor=white;" parent="16" vertex="1">
+        <mxGeometry x="100" y="540" width="60" height="60" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Connector label="[Счет оплачен]" href="" id="82">
+      <mxCell style="filledArrowConnector;fontSize=12;" parent="16" source="79" target="81" edge="1">
+        <mxGeometry x="-0.0014" y="50" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Container label="Менеджер" href="" id="26">
+      <mxCell style="swimlane;strokeColor=black;fontSize=14;" parent="1" vertex="1" connectable="0">
+        <mxGeometry x="390" y="40" width="270" height="830" as="geometry">
+          <mxRectangle x="460" y="40" width="90" height="23" as="alternateBounds" />
+        </mxGeometry>
+      </mxCell>
+    </Container>
+    <Shape label="" href="" id="3">
+      <mxCell style="doubleEllipse;fillColor=white;rounded=0;gradientColor=white;strokeColor=black;" parent="26" vertex="1">
+        <mxGeometry x="115" y="760" width="40" height="40" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Rect label="Определение&#xa;наличия товаров" href="" id="70">
+      <mxCell style="fillColor=white;rounded=1;fontSize=14;" parent="26" vertex="1">
+        <mxGeometry x="45" y="140" width="180" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Shape label="" href="" id="73">
+      <mxCell style="rhombus;fillColor=white;strokeColor=white;" parent="26" vertex="1">
+        <mxGeometry x="105" y="240" width="60" height="60" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Connector label="[Поставка возможна]" href="" id="74">
+      <mxCell style="filledArrowConnector;fontSize=12;" parent="26" source="70" target="73" edge="1">
+        <mxGeometry x="-0.0021" y="65" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Rect label="Создание заказа" href="" id="75">
+      <mxCell style="fillColor=white;rounded=1;fontSize=14;" parent="26" vertex="1">
+        <mxGeometry x="45" y="360" width="180" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="[Да]" href="" id="76">
+      <mxCell style="filledArrowConnector;fontSize=12;" parent="26" source="73" target="75" edge="1">
+        <mxGeometry x="0.0021" y="27" relative="1" as="geometry">
+          <mxPoint x="-2" y="-10" as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Rect label="Отмена заказа" href="" id="96">
+      <mxCell style="fillColor=white;rounded=1;fontSize=14;" parent="26" vertex="1">
+        <mxGeometry x="45" y="670" width="180" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="" href="" id="98">
+      <mxCell style="filledArrowConnector" parent="26" source="96" target="3" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="[Нет]" href="" id="100">
+      <mxCell style="filledArrowConnector;fontSize=12;" parent="26" source="73" target="3" edge="1">
+        <mxGeometry x="-0.876" y="-20" relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="-240" y="540" />
+          </Array>
+          <mxPoint x="1" as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Container label="Бухгалтер" href="" id="35">
+      <mxCell style="swimlane;strokeColor=black;fontSize=14;" parent="1" vertex="1" connectable="0">
+        <mxGeometry x="660" y="40" width="270" height="830" as="geometry" />
+      </mxCell>
+    </Container>
+    <Rect label="Оформление отчета" href="" id="77">
+      <mxCell style="fillColor=white;rounded=1;fontSize=14;" parent="35" vertex="1">
+        <mxGeometry x="45" y="360" width="180" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Rect label="Выписка накладной" href="" id="85">
+      <mxCell style="fillColor=white;rounded=1;fontSize=14;" parent="35" vertex="1">
+        <mxGeometry x="45" y="550" width="180" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Rect label="Возврат денег" href="" id="94">
+      <mxCell style="fillColor=white;rounded=1;fontSize=14;" parent="35" vertex="1">
+        <mxGeometry x="45" y="620" width="180" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Container label="Кладовщик" href="" id="61">
+      <mxCell style="swimlane;strokeColor=black;fontSize=14;" parent="1" vertex="1" connectable="0">
+        <mxGeometry x="930" y="40" width="270" height="830" as="geometry" />
+      </mxCell>
+    </Container>
+    <Rect label="Сборка" href="" id="87">
+      <mxCell style="fillColor=white;rounded=1;fontSize=14;" parent="61" vertex="1">
+        <mxGeometry x="87.5" y="550" width="95" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Rect label="Отгрузка" href="" id="89">
+      <mxCell style="fillColor=white;rounded=1;fontSize=14;" parent="61" vertex="1">
+        <mxGeometry x="87.5" y="650" width="95" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="" href="" id="90">
+      <mxCell style="filledArrowConnector" parent="61" source="87" target="89" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="72">
+      <mxCell style="filledArrowConnector" parent="1" source="14" target="70" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="78">
+      <mxCell style="filledArrowConnector" parent="1" source="75" target="77" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="80">
+      <mxCell style="filledArrowConnector" parent="1" source="77" target="79" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="795" y="470" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="[Оплачен в срок]" href="" id="86">
+      <mxCell style="filledArrowConnector;fontSize=12;" parent="1" source="81" target="85" edge="1">
+        <mxGeometry x="-0.0004" y="10" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="88">
+      <mxCell style="filledArrowConnector" parent="1" source="85" target="87" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="91">
+      <mxCell style="filledArrowConnector" parent="1" source="89" target="3" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="1065" y="770" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="[Оплачен позже]" href="" id="95">
+      <mxCell style="filledArrowConnector;fontSize=12;" parent="1" source="81" target="94" edge="1">
+        <mxGeometry x="-0.0095" y="10" relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="250" y="680" />
+          </Array>
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="97">
+      <mxCell style="filledArrowConnector" parent="1" source="94" target="96" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="790" y="730" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Connector label="[Нет]" href="" id="99">
+      <mxCell style="filledArrowConnector;fontSize=12;" parent="1" source="81" target="96" edge="1">
+        <mxGeometry x="-0.8621" y="-10" relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="170" y="660" />
+          </Array>
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+  </root>
+</mxGraphModel>

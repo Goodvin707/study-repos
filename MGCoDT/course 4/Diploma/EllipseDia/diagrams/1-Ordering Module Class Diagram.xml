@@ -1,0 +1,154 @@
+<mxGraphModel>
+  <root>
+    <Diagram label="Ordering Module Class Diagram" href="" id="0">
+      <mxCell />
+    </Diagram>
+    <Layer label="Default Layer" id="1">
+      <mxCell parent="0" />
+    </Layer>
+    <Group label="Customer" href="" id="60">
+      <mxCell style="group;fontSize=12;fillColor=#d0b5ff;" parent="1" vertex="1">
+        <mxGeometry x="180" y="40" width="120" height="130" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="57">
+      <mxCell style="hline;shadow=0;" parent="60" vertex="1">
+        <mxGeometry y="20" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="- name : String&#xa;- address" href="" id="62">
+      <mxCell style="text" parent="60" vertex="1">
+        <mxGeometry y="30" width="80" height="30" as="geometry" />
+      </mxCell>
+    </Text>
+    <Shape label="" href="" id="63">
+      <mxCell style="hline;shadow=0;" parent="60" vertex="1">
+        <mxGeometry y="90" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Group label="Order" href="" id="64">
+      <mxCell style="group;fontSize=12;fillColor=#ffb05e;" parent="1" vertex="1">
+        <mxGeometry x="430" y="20" width="120" height="170" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="65">
+      <mxCell style="hline;shadow=0;" parent="64" vertex="1">
+        <mxGeometry y="20" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="" href="" id="67">
+      <mxCell style="hline;shadow=0;" parent="64" vertex="1">
+        <mxGeometry y="90" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="- date : Date&#xa;- status : String" href="" id="68">
+      <mxCell style="text" parent="64" vertex="1">
+        <mxGeometry y="30" width="90" height="30" as="geometry" />
+      </mxCell>
+    </Text>
+    <Text label="+ calcSubTotal()&#xa;+ calcTax()&#xa;+ calcTotal()&#xa;+ calcTotalWeight()" href="" id="69">
+      <mxCell style="text" parent="64" vertex="1">
+        <mxGeometry y="100" width="110" height="60" as="geometry" />
+      </mxCell>
+    </Text>
+    <Connector label="" href="" id="75">
+      <mxCell parent="1" source="60" target="64" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Group label="OrderDetails" href="" id="76">
+      <mxCell style="group;fontSize=12;fillColor=#abffa0;" parent="1" vertex="1">
+        <mxGeometry x="680" y="20" width="120" height="170" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="77">
+      <mxCell style="hline;shadow=0;" parent="76" vertex="1">
+        <mxGeometry y="20" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="" href="" id="78">
+      <mxCell style="hline;shadow=0;" parent="76" vertex="1">
+        <mxGeometry y="90" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="- quantity&#xa;- taxStatus : String" href="" id="79">
+      <mxCell style="text" parent="76" vertex="1">
+        <mxGeometry y="30" width="100" height="30" as="geometry" />
+      </mxCell>
+    </Text>
+    <Text label="+ calcSubTotal()&#xa;+ calcTax()&#xa;+ calcTotalWeight()" href="" id="80">
+      <mxCell style="text" parent="76" vertex="1">
+        <mxGeometry y="100" width="110" height="50" as="geometry" />
+      </mxCell>
+    </Text>
+    <Connector label="" href="" id="81">
+      <mxCell style="aggregationConnector" parent="1" source="76" target="64" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Group label="Payment" href="" id="87">
+      <mxCell style="group;fontSize=12;" parent="1" vertex="1">
+        <mxGeometry x="680" y="240" width="120" height="110" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="88">
+      <mxCell style="hline;shadow=0;" parent="87" vertex="1">
+        <mxGeometry y="20" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="- amount : Integer" href="" id="89">
+      <mxCell style="text" parent="87" vertex="1">
+        <mxGeometry y="30" width="100" height="20" as="geometry" />
+      </mxCell>
+    </Text>
+    <Group label="Cash" href="" id="91">
+      <mxCell style="group;fontSize=12;" parent="1" vertex="1">
+        <mxGeometry x="920" y="135" width="120" height="110" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="92">
+      <mxCell style="hline;shadow=0;" parent="91" vertex="1">
+        <mxGeometry y="20" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="- amount : Integer" href="" id="93">
+      <mxCell style="text" parent="91" vertex="1">
+        <mxGeometry y="30" width="100" height="20" as="geometry" />
+      </mxCell>
+    </Text>
+    <Connector label="" href="" id="97">
+      <mxCell style="notFilledArrowConnector" parent="1" source="91" target="87" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Group label="Card" href="" id="98">
+      <mxCell style="group;fontSize=12;" parent="1" vertex="1">
+        <mxGeometry x="920" y="315" width="120" height="140" as="geometry" />
+      </mxCell>
+    </Group>
+    <Shape label="" href="" id="99">
+      <mxCell style="hline;shadow=0;" parent="98" vertex="1">
+        <mxGeometry y="20" width="120" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="- amount : Integer&#xa;- cardNumber : Long" href="" id="100">
+      <mxCell style="text" parent="98" vertex="1">
+        <mxGeometry y="30" width="120" height="30" as="geometry" />
+      </mxCell>
+    </Text>
+    <Connector label="" href="" id="101">
+      <mxCell style="notFilledArrowConnector" parent="1" source="98" target="87" edge="1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Connector label="" href="" id="103">
+      <mxCell parent="1" source="87" target="64" edge="1">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="490" y="300" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+  </root>
+</mxGraphModel>

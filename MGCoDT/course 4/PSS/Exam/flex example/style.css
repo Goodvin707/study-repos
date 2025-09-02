@@ -1,0 +1,13 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: rgb(207, 211, 175);
+    max-width: 500px;
+}
+
+.box {
+    font-size: 22pt;
+    background-color: #e89d84;
+    border: 4px double rgb(25, 80, 134);
+}

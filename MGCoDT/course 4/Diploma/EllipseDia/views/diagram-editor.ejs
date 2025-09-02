@@ -1,0 +1,98 @@
+<html>
+
+<head>
+	<title>Diagram Editor</title>
+	<link rel="icon" href="html-pages/img/favicon.ico">
+	<link rel="stylesheet" href="styles/diagram-editor-style.css" type="text/css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript">
+		var mxBasePath = 'scripts/mxgraph-4.2.2/javascript/src';
+
+		var urlParams = (function (url) {
+			var result = new Object();
+			var params = window.location.search.slice(1).split('&');
+
+			for (var i = 0; i < params.length; i++) {
+				idx = params[i].indexOf('=');
+
+				if (idx > 0) {
+					result[params[i].substring(0, idx)] = params[i].substring(idx + 1);
+				}
+			}
+
+			return result;
+		})(window.location.href);
+
+		var mxLanguage = urlParams['lang'];
+	</script>
+	<script type="text/javascript" src="/scripts/mxgraph-4.2.2/javascript/src/js/mxClient.js"></script>
+	<script type="text/javascript" src="/scripts/mxgraph-4.2.2/javascript/examples/editors/js/app.js"></script>
+	<script type="text/javascript" src="/scripts/diagram-editor-script.js"></script>
+</head>
+
+<body onload="createEditor('config/diagrameditor.xml');">
+	<div id="page">
+		<div id="header">
+			<div id="headerimg">
+				<a id="logo" href="/" target="_blank"></a>
+				<h2 id="title">EllipseDia</h2>
+			</div>
+			<a id="accLink" href="/account">
+				<%=username || 'Авторизоваться' %>
+			</a>
+			<a id="helpLink" href="/help" target="_blank">
+				Справка
+			</a>
+		</div>
+		<div id="mainActions" onmousedown="return false">
+		</div>
+		<div id="selectActions" onmousedown="return false">
+		</div>
+		<table border="0">
+			<tr>
+				<td id="toolbar" valign="top" onmousedown="return false">
+					<!-- Панель инструментов -->
+				</td>
+				<td id="graphCell" valign="top">
+					<div id="graph">
+						<!-- Диаграмма -->
+						<center id="splash">
+							<img src="images/loading.gif">
+						</center>
+					</div>
+					<textarea id="xml" spellcheck="false"></textarea>
+				</td>
+				<td></td>
+			</tr>
+		</table>
+		<div id="sourceSwitcher">
+			<!-- <input id="source" type="checkbox" />Код диаграммы -->
+			<input class="custom-checkbox" id="source" type="checkbox" name="color-1" value="Код диаграммы">
+			<label for="source">Код диаграммы</label>
+		</div>
+		<div id="colorSwitcher">
+			<input class="custom-checkbox" id="color" type="checkbox" name="color-1" value="Подбор цвета">
+			<label for="color">Подбор цвета</label>
+		</div>
+		<div id="zoomActions" onmousedown="return false">
+		</div>
+		<div id="username">
+			<%=username %>
+		</div>
+		<% if (diagramMarkdown) { %>
+			<textarea id="diagramMarkdown"><%=diagramMarkdown %></textarea>
+			<% } %>
+	</div>
+
+	<div id="colorDialog" style="position: absolute; top: calc(100vh - 200px); left: calc(100vw - 360px); text-align: left; display: none;" onmousedown="return false">
+		<div class="color-picker"></div>
+		<br>
+		<button class="copyCodeButton" onclick="copyColorCode('rgb')">Копировать RGB</button>
+		<button class="copyCodeButton" onclick="copyColorCode('hsl')">Копировать HSL</button>
+		<button class="copyCodeButton" onclick="copyColorCode('hex')">Копировать HEX</button>
+	</div>
+
+	<script type="text/javascript" src="/scripts/color-picker-script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Anchors example for mxGraph</title>
+        <script type="text/javascript">
+            mxBasePath = "mxgraph-4.2.2/javascript/src";
+        </script>
+        <script type="text/javascript" src="mxgraph-4.2.2/javascript/src/src/js/mxClient.js"></script>
+        <script type="text/javascript">
+            mxGraph.prototype.getAllConnectionConstraints = function (terminal, source) {
+                if (terminal != null && terminal.shape != null) {
+                    if (terminal.shape.stencil != null) {
+                        if (terminal.shape.stencil.constraints != null) {
+                            return terminal.shape.stencil.constraints;
+                        }
+                    } else if (terminal.shape.constraints != null) {
+                        return terminal.shape.constraints;
+                    }
+                }
+
+                return null;
+            };
+
+            mxShape.prototype.constraints = [
+                new mxConnectionConstraint(new mxPoint(0.25, 0), true),
+                new mxConnectionConstraint(new mxPoint(0.5, 0), true),
+                new mxConnectionConstraint(new mxPoint(0.75, 0), true),
+                new mxConnectionConstraint(new mxPoint(0, 0.25), true),
+                new mxConnectionConstraint(new mxPoint(0, 0.5), true),
+                new mxConnectionConstraint(new mxPoint(0, 0.75), true),
+                new mxConnectionConstraint(new mxPoint(1, 0.25), true),
+                new mxConnectionConstraint(new mxPoint(1, 0.5), true),
+                new mxConnectionConstraint(new mxPoint(1, 0.75), true),
+                new mxConnectionConstraint(new mxPoint(0.25, 1), true),
+                new mxConnectionConstraint(new mxPoint(0.5, 1), true),
+                new mxConnectionConstraint(new mxPoint(0.75, 1), true),
+            ];
+
+            mxPolyline.prototype.constraints = null;
+            function main(container) {
+                if (!mxClient.isBrowserSupported()) {
+                    mxUtils.error("Browser is not supported!", 200, false);
+                } else {
+                    mxEvent.disableContextMenu(container);
+                    var graph = new mxGraph(container);
+                    graph.setConnectable(true);
+                    graph.connectionHandler.createEdgeState = function (me) {
+                        var edge = graph.createEdge(null, null, null, null, null);
+
+                        return new mxCellState(this.graph.view, edge, this.graph.getCellStyle(edge));
+                    };
+                    graph.getStylesheet().getDefaultEdgeStyle()["edgeStyle"] = "orthogonalEdgeStyle";
+                    new mxRubberband(graph);
+
+                    var parent = graph.getDefaultParent();
+                    graph.getModel().beginUpdate();
+                    try {
+                        var v1 = graph.insertVertex(parent, null, "Hello,", 20, 20, 80, 30);
+                        var v2 = graph.insertVertex(parent, null, "World!", 200, 150, 80, 30);
+                        var e1 = graph.insertEdge(parent, null, "", v1, v2);
+                    } finally {
+                        graph.getModel().endUpdate();
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body onload="main(document.getElementById('graphContainer'))">
+        <div id="graphContainer" style="position: relative; overflow: hidden; width: 321px; height: 241px; background: url('editors/images/grid.gif'); cursor: default"></div>
+    </body>
+</html>

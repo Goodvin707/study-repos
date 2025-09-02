@@ -1,0 +1,11 @@
+alreadyConnected=Узлы уже соединены
+containsValidationErrors=Содержит ошибки валидации
+updatingDocument=Обновление документа. Пожалуйста, подождите...
+updatingSelection=Обновление выбора. Пожалуйста, подождите...
+collapse-expand=Свернуть/Развернуть
+doubleClickOrientation=Двойное нажатие для смены ориентации
+close=Закрыть
+error=Ошибка
+done=Готово
+cancel=Отмета
+ok=ОК

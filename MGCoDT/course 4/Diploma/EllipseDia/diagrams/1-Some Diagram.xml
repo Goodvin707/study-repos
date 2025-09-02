@@ -1,0 +1,150 @@
+<mxGraphModel>
+  <root>
+    <Diagram label="Some Diagram" href="" id="0">
+      <mxCell />
+    </Diagram>
+    <Layer label="Default Layer" id="1">
+      <mxCell parent="0" />
+    </Layer>
+    <Text label="Text" href="" id="2">
+      <mxCell style="text;fontSize=20;" parent="1" vertex="1">
+        <mxGeometry x="130" y="30" width="40" height="30" as="geometry" />
+      </mxCell>
+    </Text>
+    <Container label="Swimlane" href="" id="3">
+      <mxCell style="swimlane;strokeColor=black;" parent="1" vertex="1" connectable="0">
+        <mxGeometry x="10" y="100" width="200" height="200" as="geometry" />
+      </mxCell>
+    </Container>
+    <Rect label="Rectangle" href="" id="4">
+      <mxCell parent="1" vertex="1">
+        <mxGeometry x="280" y="25" width="80" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Roundrect label="Rounded" href="" id="6">
+      <mxCell style="rounded" parent="1" vertex="1">
+        <mxGeometry x="420" y="25" width="80" height="40" as="geometry" />
+      </mxCell>
+    </Roundrect>
+    <Shape label="Ellipse" href="" id="8">
+      <mxCell style="ellipse;strokeColor=red;" parent="1" vertex="1">
+        <mxGeometry x="580" y="15" width="60" height="60" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="DoubleEllipse" href="" id="9">
+      <mxCell style="doubleEllipse;strokeColor=blue;" parent="1" vertex="1">
+        <mxGeometry x="710" width="90" height="90" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="Rhombus" href="" id="10">
+      <mxCell style="rhombus" parent="1" vertex="1">
+        <mxGeometry x="285" y="130" width="70" height="70" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="Triangle" href="" id="11">
+      <mxCell style="triangle" parent="1" vertex="1">
+        <mxGeometry x="430" y="130" width="60" height="70" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="Hexagon" href="" id="12">
+      <mxCell style="hexagon" parent="1" vertex="1">
+        <mxGeometry x="570" y="135" width="80" height="60" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="&#xa;Actor" href="" id="13">
+      <mxCell style="actor" parent="1" vertex="1">
+        <mxGeometry x="727.5" y="125" width="55" height="70" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="Cylinder" href="" id="14">
+      <mxCell style="cylinder" parent="1" vertex="1">
+        <mxGeometry x="430" y="240" width="60" height="60" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Shape label="" href="" id="15">
+      <mxCell style="hline" parent="1" vertex="1">
+        <mxGeometry x="580" y="265" width="60" height="10" as="geometry" />
+      </mxCell>
+    </Shape>
+    <Text label="hline" href="" id="16">
+      <mxCell style="text;fontSize=18;" parent="1" vertex="1">
+        <mxGeometry x="585" y="275" width="50" height="30" as="geometry" />
+      </mxCell>
+    </Text>
+    <Rect label="" href="" id="17">
+      <mxCell style="strokeColor=black;" vertex="1" parent="1">
+        <mxGeometry x="900" y="20" width="80" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Rect label="" href="" id="18">
+      <mxCell style="strokeColor=black;" vertex="1" parent="1">
+        <mxGeometry x="1260" y="-40" width="80" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="" href="" id="19">
+      <mxCell edge="1" parent="1" source="17" target="18">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </Connector>
+    <Rect label="" href="" id="20">
+      <mxCell style="strokeColor=black;" vertex="1" parent="1">
+        <mxGeometry x="1260" y="30" width="80" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="FilledArrowConnector" href="" id="21">
+      <mxCell style="filledArrowConnector" edge="1" parent="1" source="17" target="20">
+        <mxGeometry x="0.4483" y="10" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Rect label="" href="" id="22">
+      <mxCell style="strokeColor=black;" vertex="1" parent="1">
+        <mxGeometry x="1260" y="105" width="80" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="NotFilledArrowConnector" href="" id="23">
+      <mxCell style="notFilledArrowConnector" edge="1" parent="1" source="17" target="22">
+        <mxGeometry x="0.6164" y="15" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Rect label="" href="" id="24">
+      <mxCell style="strokeColor=black;" vertex="1" parent="1">
+        <mxGeometry x="1260" y="185" width="80" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="DashedConnector" href="" id="25">
+      <mxCell style="dashedConnector" edge="1" parent="1" source="17" target="24">
+        <mxGeometry x="0.6404" y="15" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Rect label="" href="" id="26">
+      <mxCell style="strokeColor=black;" vertex="1" parent="1">
+        <mxGeometry x="1260" y="260" width="80" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="AggregationConnector" href="" id="27">
+      <mxCell style="aggregationConnector" edge="1" parent="1" source="17" target="26">
+        <mxGeometry x="0.6923" y="10" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+    <Rect label="" href="" id="28">
+      <mxCell style="strokeColor=black;" vertex="1" parent="1">
+        <mxGeometry x="1260" y="335" width="80" height="40" as="geometry" />
+      </mxCell>
+    </Rect>
+    <Connector label="CompositionConnector" href="" id="29">
+      <mxCell style="compositionConnector" edge="1" parent="1" source="17" target="28">
+        <mxGeometry x="0.7311" y="15" relative="1" as="geometry">
+          <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+    </Connector>
+  </root>
+</mxGraphModel>
