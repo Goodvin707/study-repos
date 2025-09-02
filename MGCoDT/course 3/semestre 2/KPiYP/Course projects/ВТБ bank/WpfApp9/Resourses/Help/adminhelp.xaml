@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp9.Resourses.Help.adminhelp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9.Resourses.Help"
+        mc:Ignorable="d"
+Title="Help" Height="788" Width="1207" ResizeMode="NoResize">
+    <Grid>
+        <Grid x:Name="grid" >
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFA0C6FF" Offset="0"/>
+                    <GradientStop Color="#FF76A0DE" Offset="0.262"/>
+                    <GradientStop Color="#FF568AD6" Offset="0.548"/>
+                    <GradientStop Color="#FF2F6FCE" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Image Margin="21,10,0,0" Source="/asd004345-3kb_enl.jpg" Stretch="Fill" HorizontalAlignment="Left" Width="886" Height="761" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="927,37,0,0" TextWrapping="Wrap" Text="1. Главное меню" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Bahnschrift SemiBold" FontSize="14" Height="60" Width="255"/>
+            <TextBlock HorizontalAlignment="Left" Margin="927,102,0,0" TextWrapping="Wrap" Text="2. Дополнительное меню перехода между данными" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Bahnschrift SemiBold" FontSize="14" Height="60" Width="255"/>
+            <TextBlock HorizontalAlignment="Left" Margin="927,167,0,0" TextWrapping="Wrap" Text="3. Рабочее поле" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Bahnschrift SemiBold" FontSize="14" Height="60" Width="255"/>
+            <TextBlock HorizontalAlignment="Left" Margin="927,227,0,0" TextWrapping="Wrap" Text="4. Фильтры выводимой на рабоую обрасть информации" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Bahnschrift SemiBold" FontSize="14" Height="60" Width="255"/>
+            <TextBlock HorizontalAlignment="Left" Margin="927,292,0,0" TextWrapping="Wrap" Text="5. Поиск записи по критериям" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Bahnschrift SemiBold" FontSize="14" Height="60" Width="255"/>
+            <TextBlock HorizontalAlignment="Left" Margin="927,352,0,0" TextWrapping="Wrap" Text="6. Выход их учетной записи" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Bahnschrift SemiBold" FontSize="14" Height="60" Width="255"/>
+        </Grid>
+    </Grid>
+</Window>

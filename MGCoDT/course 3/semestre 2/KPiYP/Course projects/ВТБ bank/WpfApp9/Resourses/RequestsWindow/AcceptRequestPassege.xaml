@@ -1,0 +1,49 @@
+﻿<Window x:Class="WpfApp9.AcceptRequestPassege"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9"
+        mc:Ignorable="d"
+        Title="AcceptRequestPassege" Height="497" Width="527" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen" Background="#FFF5F8FF">
+    <Grid>
+        <Grid HorizontalAlignment="Center" Height="44" VerticalAlignment="Top" Width="528"  MouseDown="WindowMove">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0B2A74" Offset="0"/>
+                    <GradientStop Color="#FF305790" Offset="0.499"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Image x:Name="closeapp" Margin="482,3,17,12" MaxHeight="29" MaxWidth="29" Source="/Resourses/Images/5968a2c8f2ed115d40bbe123.png" MouseDown="AppClose" MouseEnter="Up" Stretch="Fill" MouseLeave="Down"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="270" Foreground="White" FontSize="14" Height="24"><Run Text="Подтверждение заявок на вынос"/></TextBlock>
+
+        </Grid>
+        <GroupBox Header="Информация о текущей заявке" Margin="10,49,10,192" BorderBrush="#FF0D2D76" FontSize="14">
+            <Grid>
+                <GroupBox Header="Инициатор:" Margin="81,10,268,60">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Center"/>
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Грузчик:" Margin="266,10,83,60">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Center"/>
+                    </Grid>
+                </GroupBox>
+                <TextBlock HorizontalAlignment="Left" Margin="10,175,0,0" TextWrapping="Wrap" Text="[Место прохода]" VerticalAlignment="Top"/>
+                <TextBlock HorizontalAlignment="Left" Margin="219,202,0,0" TextWrapping="Wrap" Text="[Дата и время создания заявки]" VerticalAlignment="Top"/>
+            </Grid>
+        </GroupBox>
+        <Button Content="Одобрить" HorizontalAlignment="Left" Margin="59,330,0,0" VerticalAlignment="Top" Height="27" Width="130"/>
+        <Button Content="Отклонить" HorizontalAlignment="Left" Margin="326,330,0,0" VerticalAlignment="Top" Height="27" Width="130"/>
+        <Button Content="Следующая" HorizontalAlignment="Left" Margin="431,432,0,0" VerticalAlignment="Top"/>
+        <Button Content="Предидущая" HorizontalAlignment="Left" Margin="27,432,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="117,434,0,0" TextWrapping="Wrap" Text="[Фамилия И.О. запрашивает разрешение на вынос...    ]" VerticalAlignment="Top" Height="20" Width="309"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,471,0,0" TextWrapping="Wrap" Text="[1 из n]" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

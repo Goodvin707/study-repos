@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfApp9.Resourses.MessageWinfow.Find"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9.Resourses.MessageWinfow"
+        mc:Ignorable="d"
+         Title="SaveWE" Height="179" Width="675" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid Background="#FFE2E2E2" Margin="0,-2,0,-10" Height="204" VerticalAlignment="Top">
+        <Grid Height="40" VerticalAlignment="Top">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0B2A74" Offset="0"/>
+                    <GradientStop Color="#FF305790" Offset="0.499"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Поиск записи" VerticalAlignment="Center" Width="100" Foreground="White" FontWeight="Bold" Height="20" FontSize="14"  />
+            <Image x:Name="closeapp" Margin="636,5,10,10" MaxHeight="29" MaxWidth="29" Source="/WpfApp9;component/Resourses/Images/5968a2c8f2ed115d40bbe123.png" MouseDown="AppClose" MouseEnter="Up" Stretch="Fill" MouseLeave="Down"/>
+        </Grid>
+        <TextBox x:Name="SurnameRec" Style="{StaticResource placeHolder}" Tag="Фамилия:" HorizontalAlignment="Left" Height="23" Margin="12,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="NameRec" Style="{StaticResource placeHolder}" Tag="Имя:" HorizontalAlignment="Left" Height="23" Margin="137,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="PatronymivRec" Style="{StaticResource placeHolder}" Tag="Отчество:" HorizontalAlignment="Left" Height="23" Margin="262,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-1.742,2.522"/>
+        <TextBox x:Name="Reason" Style="{StaticResource placeHolder}" Tag="Основание:" HorizontalAlignment="Left" Height="23" Margin="12,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="370" RenderTransformOrigin="-1.742,2.522"/>
+        <TextBox x:Name="Date" Style="{StaticResource placeHolder}" Tag="Дата выдачи:" HorizontalAlignment="Left" Height="23" Margin="421,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-1.742,2.522" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="DateReturn" Style="{StaticResource placeHolder}" Tag="Дата сдачи:" HorizontalAlignment="Left" Height="23" Margin="545,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-1.742,2.522"/>
+        <TextBox x:Name="SurnameGiv" Style="{StaticResource placeHolder}" Tag="Фамилия:" HorizontalAlignment="Left" Height="23" Margin="12,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="NameGiv" Style="{StaticResource placeHolder}" Tag="Имя:" HorizontalAlignment="Left" Height="23" Margin="137,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="PatrinymicGiv" Style="{StaticResource placeHolder}" Tag="Отчество:" HorizontalAlignment="Left" Height="23" Margin="262,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-1.742,2.522"/>
+        <TextBox x:Name="PassNum" Style="{StaticResource placeHolder}" Tag="Номер пропуска:" HorizontalAlignment="Left" Height="23" Margin="421,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244" RenderTransformOrigin="-1.742,2.522"/>
+        <Button Click="Button_Click" Content="Найти похожие записи" HorizontalAlignment="Left" Margin="421,143,0,0" VerticalAlignment="Top" Width="244" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="12,44,0,0" TextWrapping="Wrap" Text="Получивший пропуск" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="12,127,0,0" TextWrapping="Wrap" Text="Сдавший пропуск" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A415D74-F005-48AE-8173-43A8D497C0AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Polyclinic</RootNamespace>
+    <AssemblyName>Polyclinic</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hospital_4331.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DialogForms\AddPaidServise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddPaidServise.Designer.cs">
+      <DependentUpon>AddPaidServise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddSpec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddSpec.Designer.cs">
+      <DependentUpon>AddSpec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Autorize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autorize.Designer.cs">
+      <DependentUpon>Autorize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddVrach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddVrach.Designer.cs">
+      <DependentUpon>AddVrach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\DeleleRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\DeleleRow.Designer.cs">
+      <DependentUpon>DeleleRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddUslugy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddUslugy.Designer.cs">
+      <DependentUpon>AddUslugy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForms\HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\SendOnEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\SendOnEmail.Designer.cs">
+      <DependentUpon>SendOnEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForms\MyZapisy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\MyZapisy.Designer.cs">
+      <DependentUpon>MyZapisy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForms\PaidServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\PaidServices.Designer.cs">
+      <DependentUpon>PaidServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForms\Priem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\Priem.Designer.cs">
+      <DependentUpon>Priem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreLoad.Designer.cs">
+      <DependentUpon>PreLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForms\Species.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\Species.Designer.cs">
+      <DependentUpon>Species.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="MenuForms\UsersControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\UsersControl.Designer.cs">
+      <DependentUpon>UsersControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForms\Uslugy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\Uslugy.Designer.cs">
+      <DependentUpon>Uslugy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForms\Vrachi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\Vrachi.Designer.cs">
+      <DependentUpon>Vrachi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForms\Zapisatsya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\Zapisatsya.Designer.cs">
+      <DependentUpon>Zapisatsya.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DialogForms\AddPaidServise.resx">
+      <DependentUpon>AddPaidServise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddSpec.resx">
+      <DependentUpon>AddSpec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autorize.resx">
+      <DependentUpon>Autorize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddUslugy.resx">
+      <DependentUpon>AddUslugy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddVrach.resx">
+      <DependentUpon>AddVrach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\DeleleRow.resx">
+      <DependentUpon>DeleleRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\SendOnEmail.resx">
+      <DependentUpon>SendOnEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\MyZapisy.resx">
+      <DependentUpon>MyZapisy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\PaidServices.resx">
+      <DependentUpon>PaidServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\Priem.resx">
+      <DependentUpon>Priem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreLoad.resx">
+      <DependentUpon>PreLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\Species.resx">
+      <DependentUpon>Species.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\UsersControl.resx">
+      <DependentUpon>UsersControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\Uslugy.resx">
+      <DependentUpon>Uslugy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\Vrachi.resx">
+      <DependentUpon>Vrachi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\Zapisatsya.resx">
+      <DependentUpon>Zapisatsya.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hospital_4331.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

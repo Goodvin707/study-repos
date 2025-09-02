@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp9.CreateRequestPassage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9"
+        mc:Ignorable="d"
+        Title="CreateRequestPassage" Height="497" Width="543" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFF5F8FF">
+        <Grid HorizontalAlignment="Center" Height="44" VerticalAlignment="Top" Width="544"  MouseDown="WindowMove" >
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0B2A74" Offset="0"/>
+                    <GradientStop Color="#FF305790" Offset="0.499"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Image x:Name="closeapp" Margin="482,3,17,12" MaxHeight="29" MaxWidth="29" Source="/Resourses/Images/5968a2c8f2ed115d40bbe123.png" MouseDown="AppClose" MouseEnter="Up" Stretch="Fill" MouseLeave="Down"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Создание заявки на допуск сотрудника" VerticalAlignment="Center" Width="302" Foreground="White" FontSize="14"/>
+
+        </Grid>
+        <GroupBox Header="Последние отправленнве  заявки" HorizontalAlignment="Center" Height="134" Margin="0,49,0,0" VerticalAlignment="Top" Width="508" BorderBrush="#FF0C2B74">
+            <DataGrid HorizontalAlignment="Left" Height="102" Margin="0,10,-2,-1" VerticalAlignment="Top" Width="498"/>
+        </GroupBox>
+        <GroupBox Header="ФИО Инициатора" HorizontalAlignment="Left" Height="145" Margin="10,188,0,0" VerticalAlignment="Top" Width="181" BorderBrush="#FF0E2D76" FontSize="14">
+            <Grid HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="169" Margin="0,0,-2,-5">
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Фамилия" VerticalAlignment="Top" Width="120"  />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="10,38,0,0" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Имя" VerticalAlignment="Top" Width="120" />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="10,66,0,0" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Отчество" VerticalAlignment="Top" Width="120" />
+                <CheckBox Content="Авто заполнение" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" Width="149"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="ФИО Посетителя" HorizontalAlignment="Left" Height="145" Margin="212,188,0,0" VerticalAlignment="Top" Width="149" BorderBrush="#FF0E2D76" FontSize="14">
+            <Grid HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="136" Margin="0,0,-2,-2">
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Фамилия" VerticalAlignment="Top" Width="120" />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="10,38,0,0" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Имя" VerticalAlignment="Top" Width="120" />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="10,66,0,0" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Отчество" VerticalAlignment="Top" Width="120" />
+                <ComboBox HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" Width="120" Height="21"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="ФИО Руководителя" HorizontalAlignment="Left" Height="149" Margin="10,338,0,0" VerticalAlignment="Top" Width="181" BorderBrush="#FF0E2D76" FontSize="14">
+            <Grid HorizontalAlignment="Left" Height="124" VerticalAlignment="Center" Width="171">
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Фамилия" VerticalAlignment="Top" Width="120" />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="10,38,0,0" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Имя" VerticalAlignment="Top" Width="120" />
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="10,66,0,0" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Отчество" VerticalAlignment="Top" Width="120" />
+                <ComboBox HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" Width="120" Height="21"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Дата и время" HorizontalAlignment="Left" Height="145" Margin="380,188,0,0" VerticalAlignment="Top" Width="146" BorderBrush="#FF0E2D76" FontSize="14">
+            <Grid HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="136" Margin="0,0,-2,-2">
+                <DatePicker HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.128,0.165" Width="116" />
+                <TextBox HorizontalAlignment="Center" Margin="0,42,0,0" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Время" VerticalAlignment="Top" Width="116" />
+            </Grid>
+        </GroupBox>
+        <TextBox HorizontalAlignment="Left" Margin="212,350,0,0" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Место прохода" VerticalAlignment="Top" Width="314" FontSize="14" />
+        <Button Click="Create" Content="Согласовать и отправить на исполнение" HorizontalAlignment="Left" Margin="245,462,0,0" VerticalAlignment="Top" Width="288" Height="25" FontSize="14"/>
+        <ComboBox HorizontalAlignment="Left" Margin="352,376,0,0" VerticalAlignment="Top" Width="174" Height="23" FontSize="14"/>
+
+    </Grid>
+</Window>

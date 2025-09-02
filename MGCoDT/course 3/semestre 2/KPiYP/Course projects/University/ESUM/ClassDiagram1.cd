@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ESUM.ColorPackage">
+    <Position X="49.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAkAAAAACAAAggAAAAAAAAAAAQAAAAAABAAAAAE=</HashCode>
+      <FileName>AdditionalClasses\ColorPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.DoubleBufferedDataGridView">
+    <Position X="53" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>AdditionalClasses\DoubleBufferedDataGridView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.User">
+    <Position X="47.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAQAgAAEAA=</HashCode>
+      <FileName>AdditionalClasses\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.Autorise">
+    <Position X="20.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AGAAAQABACAAABEAAACBAAACAAAYAAAAEGAgAAEAEAg=</HashCode>
+      <FileName>Autorise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddAspra">
+    <Position X="43" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABASAACAAAACAAAYAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddAspra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddDipl">
+    <Position X="32.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABAQAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddDipl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddDiscipline">
+    <Position X="41" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddDiscipline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddDocskayaOrKandskaya">
+    <Position X="43" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABASAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddDocskayaOrKandskaya.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddFacult">
+    <Position X="43" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddFacult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddGroup">
+    <Position X="45" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABAQAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddKafedra">
+    <Position X="36.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABAQAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddKafedra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddLoad">
+    <Position X="34.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABAQAACAAAACAAAYAAACAGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddLoad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddMonitoring">
+    <Position X="39" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABASAACAAAACAAAYAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddMonitoring.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddPlan">
+    <Position X="36.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABAQAACAAAACAAAYAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddPoruch">
+    <Position X="45" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABAQAACAAAACAAAYAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddPoruch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddPrepod">
+    <Position X="32.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAACAAABASAACAAABCAAAYAAACEGAAAAAAAAI=</HashCode>
+      <FileName>DialogForms\AddPrepod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddSciDirection">
+    <Position X="41" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABAQAACAAAACAAAYAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddSciDirection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddScienceTema">
+    <Position X="39" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABAQAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\AddScienceTema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddStud">
+    <Position X="34.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAACAAABASAACAAABCAAAYAAACEGAAAAEAAAI=</HashCode>
+      <FileName>DialogForms\AddStud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.AddUser">
+    <Position X="41" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAACAAABAAAACAAABCAIAYAAAAEGAAAAAAEAA=</HashCode>
+      <FileName>DialogForms\AddUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.DeleteRow">
+    <Position X="36.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAYAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>DialogForms\DeleteRow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.Exporter">
+    <Position X="51.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAEAAAAAAAAAAAABAIAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Export\Exporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.SendOnEmail">
+    <Position X="13.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>Export\SendOnEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.MainWindow">
+    <Position X="28.25" Y="3.75" Width="3.5" />
+    <Members>
+      <Field Name="abouMenu" Hidden="true" />
+      <Field Name="addMenu" Hidden="true" />
+      <Field Name="AddToolStripBtn" Hidden="true" />
+      <Field Name="BottomToolStripPanel" Hidden="true" />
+      <Field Name="changeUser" Hidden="true" />
+      <Field Name="checkBox1" Hidden="true" />
+      <Field Name="closeAllTabsMenu" Hidden="true" />
+      <Field Name="colorPackage" Hidden="true" />
+      <Field Name="comboBox1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connectString" Hidden="true" />
+      <Field Name="ContentPanel" Hidden="true" />
+      <Field Name="contextMenuStrip1" Hidden="true" />
+      <Field Name="createReport" Hidden="true" />
+      <Field Name="dataGrid" Hidden="true" />
+      <Field Name="deleteMenu" Hidden="true" />
+      <Field Name="DeleteToolStripBtn" Hidden="true" />
+      <Field Name="editMenu" Hidden="true" />
+      <Field Name="EditToolStripBtn" Hidden="true" />
+      <Field Name="empt" Hidden="true" />
+      <Field Name="exitMenu" Hidden="true" />
+      <Field Name="fieldIndex" Hidden="true" />
+      <Field Name="fileMenu" Hidden="true" />
+      <Field Name="helpMenu" Hidden="true" />
+      <Field Name="helpToolStripButton" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="LeftToolStripPanel" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="myConnection" Hidden="true" />
+      <Field Name="myProfileMenu" Hidden="true" />
+      <Field Name="myProfileToolStrip" Hidden="true" />
+      <Field Name="nodes" Hidden="true" />
+      <Field Name="nodesExpanded" Hidden="true" />
+      <Field Name="PropertyPanel" Hidden="true" />
+      <Field Name="reportOnMail" Hidden="true" />
+      <Field Name="reportOnPrint" Hidden="true" />
+      <Field Name="reportToExcel" Hidden="true" />
+      <Field Name="reportToTXT" Hidden="true" />
+      <Field Name="reportToWord" Hidden="true" />
+      <Field Name="resultForPrint" Hidden="true" />
+      <Field Name="RightToolStripPanel" Hidden="true" />
+      <Field Name="settingsMenu" Hidden="true" />
+      <Field Name="splitContainer1" Hidden="true" />
+      <Field Name="splitContainer2" Hidden="true" />
+      <Field Name="statNodePath" Hidden="true" />
+      <Field Name="statSelected" Hidden="true" />
+      <Field Name="statusStrip1" Hidden="true" />
+      <Field Name="tabControl1" Hidden="true" />
+      <Field Name="tableMenu" Hidden="true" />
+      <Field Name="tabNames" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Field Name="toolStrip1" Hidden="true" />
+      <Field Name="toolStripMenuItem1" Hidden="true" />
+      <Field Name="toolStripMenuItem2" Hidden="true" />
+      <Field Name="toolStripMenuItem3" Hidden="true" />
+      <Field Name="toolStripMenuItem4" Hidden="true" />
+      <Field Name="toolStripMenuItem6" Hidden="true" />
+      <Field Name="toolStripOnEmail" Hidden="true" />
+      <Field Name="toolStripOnExcel" Hidden="true" />
+      <Field Name="toolStripOnTxt" Hidden="true" />
+      <Field Name="toolStripOnWord" Hidden="true" />
+      <Field Name="toolStripPrint" Hidden="true" />
+      <Field Name="toolStripSeparator2" Hidden="true" />
+      <Field Name="toolStripSeparator3" Hidden="true" />
+      <Field Name="toolStripSeparator4" Hidden="true" />
+      <Field Name="toolStripSeparator6" Hidden="true" />
+      <Field Name="toolStripSeparator8" Hidden="true" />
+      <Field Name="TopToolStripPanel" Hidden="true" />
+      <Field Name="treeView1" Hidden="true" />
+      <Field Name="userHelpMenu" Hidden="true" />
+      <Field Name="usersMenu" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>T2YiCqyBNPF6JZUSEmC1IISXCIjMEWhBEwAIAB0JLEc=</HashCode>
+      <FileName>MainWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.MyProfile">
+    <Position X="18.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAABACAAABEAAACAAABDAIAYAAAAEGAAAAEAEAA=</HashCode>
+      <FileName>MenuForms\MyProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.Settings">
+    <Position X="15.75" Y="3.75" Width="2.25" />
+    <NestedTypes>
+      <Enum Name="ESUM.Settings.AppStyle" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MenuForms\Settings.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAACAAAAEAAACAAMACAAAAAEAAACAAAABAAAI=</HashCode>
+      <FileName>MenuForms\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.UserControl">
+    <Position X="25.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEgAAghBACAAAAEwAACAAEESQIgAoAACECABEAAAAAI=</HashCode>
+      <FileName>MenuForms\UserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.Program" Collapsed="true">
+    <Position X="47.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.Registration">
+    <Position X="23.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AGAAAQhBECAAABEAAACAAABSAIAYAAAAEGAgAAEAEAg=</HashCode>
+      <FileName>Registration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.Properties.Resources" Collapsed="true">
+    <Position X="47.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESUM.Properties.Settings" Collapsed="true">
+    <Position X="49.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="29" Y="2" Width="2" />
+    <NestedTypes>
+      <Class Name="System.Windows.Forms.Form.ControlCollection" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,563 @@
+﻿<Window x:Class="WpfApp9.Administrator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9"
+        mc:Ignorable="d"
+        Title="Администратор" MinHeight="768" Height="768" Width="1024" MinWidth="900" BorderBrush="#FF103078" ResizeMode="CanResize" WindowStartupLocation="CenterScreen" MouseDown="Window_MouseDown" Loaded="Window_Loaded">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="White"/>
+            <GradientStop Color="#FF2F6FCE" Offset="1"/>
+            <GradientStop Color="White" Offset="0"/>
+            <GradientStop Color="White" Offset="0"/>
+            <GradientStop Color="#FF2F6FCE" Offset="0.67"/>
+            <GradientStop Color="#FF4B82D4" Offset="0.143"/>
+            <GradientStop Color="#FF3271CE" Offset="0.231"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Window.CommandBindings>
+        <CommandBinding Command="local:SpeedCommandsAdministrator.Opn" Executed="Ctrl1Executed"/>
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Command="local:SpeedCommandsAdministrator.Opn" Key="B" Modifiers="Ctrl"/>
+    </Window.InputBindings>
+    <Grid>
+        <Grid HorizontalAlignment="Left" Width="292" Background="#FF2F6FCE">
+            <Button x:Name="adminbutton1" Content="Создать пользователя" HorizontalAlignment="Center" Margin="0,145,0,0" VerticalAlignment="Top" Width="228" Height="48" Foreground="White" FontSize="14" FontWeight="Normal" Background="#FF568CE6" BorderBrush="{x:Null}" LostFocus="Button_LostFocus" GotFocus="SelectMaimMenuButton" Click="SelectmenuButton" FontStyle="Normal" FontFamily="Bahnschrift" />
+            <Button x:Name="adminbutton4" Content="База данных" HorizontalAlignment="Center" Margin="0,210,0,0" VerticalAlignment="Top" Width="228" Height="48" Foreground="White" FontSize="14" FontWeight="Normal" Background="#FF568CE6" BorderBrush="{x:Null}" LostFocus="Button_LostFocus" GotFocus="SelectMaimMenuButton" Click="SelectmenuButton" FontFamily="Bahnschrift"/>
+            <Button x:Name="adminbutton5" Content="Удаление пользователя" HorizontalAlignment="Center" Margin="0,274,0,0" VerticalAlignment="Top" Width="228" Height="48" Foreground="White" FontSize="14" FontWeight="Normal" Background="#FF568CE6" BorderBrush="{x:Null}" LostFocus="Button_LostFocus" GotFocus="SelectMaimMenuButton" Click="SelectmenuButton" FontFamily="Bahnschrift"/>
+            <Image Margin="10,0,250,10" Source="/pngwing.com (1).png" Stretch="Fill" MouseDown="Image_MouseDown" Height="32" VerticalAlignment="Bottom"/>
+            <Image Margin="48,0,215,10" Source="/pngwing.com (2).png" Stretch="Fill" MouseDown="Image_MouseDown_1" Height="32" VerticalAlignment="Bottom"/>
+        </Grid>
+
+        <Grid x:Name="gr1_CreateAccount" Margin="292,92,0,0" Visibility="Hidden" Background="White">
+            <Grid x:Name="CreateAccountGrid" HorizontalAlignment="Left" Height="594" VerticalAlignment="Top" Width="610">
+                <GroupBox Header="Регистрация пользователя" HorizontalAlignment="Left" Height="175" Margin="55,52,0,0" VerticalAlignment="Top" Width="488" FontSize="14" BorderBrush="#FF305790">
+                    <Grid HorizontalAlignment="Left" Height="152" VerticalAlignment="Top" Width="478">
+                        <TextBox TextChanged="password_TextChanged" x:Name="password" Visibility="Hidden" HorizontalAlignment="Left" Height="22" Margin="10,102,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="254" FontSize="13" />
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" FontSize="16"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,77,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" FontSize="14"/>
+                        <TextBox TextChanged="Login_TextChanged" x:Name="Login" HorizontalAlignment="Left" Height="22" Margin="10,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="254"/>
+                        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top" Width="254" PasswordChar="*" Height="22" FontSize="16" PasswordChanged="passwordBox_PasswordChanged"/>
+                        <CheckBox x:Name="PasswordVis" Content="Показать пароль" HorizontalAlignment="Left" Margin="280,106,0,0" VerticalAlignment="Top" Click="PasswordVisable"/>
+                        <TextBlock Visibility="Hidden" x:Name="ChLogin" HorizontalAlignment="Left" Margin="269,34,0,0" TextWrapping="Wrap" Text="Логином уже зарегистрирован или не соответсвуем формату( более 6 и менее 20 символов, начинается с а-Я a-Z)" VerticalAlignment="Top" Width="199" FontSize="9" Foreground="Red"/>
+                        <TextBlock Visibility="Hidden" x:Name="ChPassword" HorizontalAlignment="Left" Margin="10,129,0,0" TextWrapping="Wrap" Text="Не верный пароль" VerticalAlignment="Top" Width="254" FontSize="9" Background="White" Foreground="Red"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Песональные данные" HorizontalAlignment="Left" Height="270" Margin="55,278,0,0" VerticalAlignment="Top" Width="488" FontSize="14" BorderBrush="#FF305790">
+                    <Grid HorizontalAlignment="Left" Height="245" VerticalAlignment="Top" Width="478" Margin="0,0,-2,-2">
+                        <TextBlock Visibility="Hidden" x:Name="ChFIO" HorizontalAlignment="Left" Margin="10,199,0,0" TextWrapping="Wrap" Text="Указана не корректная персональная информация" VerticalAlignment="Top" Width="199" FontSize="9" Foreground="Red"/>
+
+                        <TextBlock HorizontalAlignment="Left" Margin="10,26,0,0" TextWrapping="Wrap" Text="Должность" VerticalAlignment="Top"/>
+                        <ComboBox SelectedIndex="5" Name="Post" HorizontalAlignment="Left" Margin="96,26,0,0" VerticalAlignment="Top" Width="372">
+                            <ComboBoxItem Content="Начальник управления по обеспечению безопасности" />
+                            <ComboBoxItem Content="Начальник отдела режима и защиты объектов"/>
+                            <ComboBoxItem Content="Системный администратор"/>
+                            <ComboBoxItem Content="Главный специалист"/>
+                            <ComboBoxItem Content="Ведущий специалист"/>
+                            <ComboBoxItem Content="Специалист"/>
+                        </ComboBox>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,81,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top"/>
+                        <TextBox TextChanged="FioCh" x:Name="Surname" HorizontalAlignment="Left" Height="23" Margin="96,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="9,121,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top"/>
+                        <TextBox TextChanged="FioCh" x:Name="Name" HorizontalAlignment="Left" Height="23" Margin="95,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="9,161,0,0" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top"/>
+                        <TextBox TextChanged="FioCh" x:Name="Patronymic" HorizontalAlignment="Left" Height="23" Margin="95,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316"/>
+                    </Grid>
+                </GroupBox>
+                <Button Content="Создать пользопателя" HorizontalAlignment="Left" Margin="278,562,0,0" VerticalAlignment="Top" Width="265" Background="#FF2562BB" Foreground="White" BorderBrush="#FF0F3C7E" Height="32" FontSize="14" FontWeight="Bold" Click="CreateAccount"/>
+            </Grid>
+
+        </Grid>
+        <Grid x:Name="gr2_AccountSettings" Margin="292,92,0,0" Visibility="Hidden" Height="676" VerticalAlignment="Top" Background="White">
+
+        </Grid>
+        <Grid Background="White" x:Name="gr3_AllHistory" Margin="292,92,0,0" Visibility="Hidden">
+            <DataGrid Margin="10,10,204,10"/>
+            <Grid Height="496" Margin="0,10,6,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="193">
+                <GroupBox Header="Фильтры" Margin="0,0,4,146" FontSize="14" HorizontalAlignment="Right" Width="189" BorderBrush="#FF0C2C75">
+                    <Grid HorizontalAlignment="Left" Height="325" VerticalAlignment="Center" Width="179">
+                        <Button Content="Применить фильтр" HorizontalAlignment="Center" Margin="0,298,0,0" VerticalAlignment="Top" Width="160" Height="22" FontSize="12"/>
+
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67"><Run Text="Давность"/><Run Text=":"/></TextBlock>
+                        <ComboBox Margin="10,34,10,0" VerticalAlignment="Top" FontSize="12">
+                            <ComboBoxItem Content="За последний день"/>
+                            <ComboBoxItem Content="За последнюю неделю"/>
+                            <ComboBoxItem Content="За последний месяц"/>
+                            <ComboBoxItem Content="За последний квартал"/>
+                            <ComboBoxItem Content="За последний год"/>
+                        </ComboBox>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"><Run Text="Действия пользователя"/><Run Text=":"/></TextBlock>
+                        <ComboBox Margin="10,86,10,0" VerticalAlignment="Top" FontSize="12">
+                            <ComboBoxItem Content="Начальник управления по обеспечению безопасности" />
+                            <ComboBoxItem Content="Начальник отдела режима и защиты информации"/>
+                            <ComboBoxItem Content="Системный администратор"/>
+                            <ComboBoxItem Content="Главный специалист"/>
+                            <ComboBoxItem Content="Ведущий специалист"/>
+                            <ComboBoxItem Content="Специалист"/>
+                        </ComboBox>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"><Run Text="Отображать"/><Run Text=":"/></TextBlock>
+                        <CheckBox Content="Логин" HorizontalAlignment="Left" Margin="29,141,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Фамилия" HorizontalAlignment="Left" Margin="29,164,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Имя" HorizontalAlignment="Left" Margin="29,187,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Отчество" HorizontalAlignment="Left" Margin="29,210,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Дата" HorizontalAlignment="Left" Margin="29,233,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Событие" HorizontalAlignment="Left" Margin="29,256,0,0" VerticalAlignment="Top"/>
+                    </Grid>
+                </GroupBox>
+                <TextBox x:Name="Search" Margin="0,0,37,117" TextWrapping="Wrap" Style="{StaticResource placeHolder}" Tag="Поиск:"  HorizontalAlignment="Right" Width="155" Height="24" VerticalAlignment="Bottom" FontSize="14" />
+                <Button Content="Х" Margin="0,0,7,117" HorizontalAlignment="Right" Width="25" Height="24" VerticalAlignment="Bottom"/>
+            </Grid>
+
+        </Grid>
+        <Grid x:Name="gr4_DataBase" Margin="292,92,0,0" Visibility="Visible">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4D83D4"/>
+                    <GradientStop Color="#FF2F6FCE" Offset="1"/>
+                    <GradientStop Color="#FF3473CF" Offset="0.178"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TabControl>
+                <TabItem Header="Заявка на допуск сотрудника Банка" FontSize="14" Loaded="TabItem_Loaded_2" GotFocus="TabItem_GotFocus">
+                    <Grid Background="White">
+                        <DataGrid x:Name="WorkerPassRequestDG" IsReadOnly="True" AutoGenerateColumns="False" Margin="0,0,229,0" >
+                            <DataGrid.Columns>
+                                <DataGridTextColumn x:Name="WorkRequestNameRCol" Header="Номер заявки" Binding="{Binding Path=RequestNumber}"/>
+                                <DataGridTextColumn x:Name="WorkRequestSurnameCol" Header="Фамилия инициатора" Binding="{Binding Path=SurnameCreator}"/>
+                                <DataGridTextColumn x:Name="WorkRequestNameCol" Header="Имя инициатора" Binding="{Binding Path=NameCreator}"/>
+                                <DataGridTextColumn x:Name="WorkRequestPatronyminCol" Header="Отчество инициатора" Binding="{Binding Path=PatronymicCreator}"/>
+                                <DataGridTextColumn x:Name="WorkRequestLeadSurnameCol" Header="Фамилия руководителя" Binding="{Binding Path=LeadSurnam}"/>
+                                <DataGridTextColumn x:Name="WorkRequestLeadNameCol" Header="Имя руководителя" Binding="{Binding Path=LeadName}"/>
+                                <DataGridTextColumn x:Name="WorkRequestLeadPatronymicCol" Header="Отчество руководителя" Binding="{Binding Path=LeadPatronymic}"/>
+                                <DataGridTextColumn x:Name="WorkRequestRomNumCol" Header="Номер кабинета" Binding="{Binding Path=RoomNumber}"/>
+                                <DataGridTextColumn x:Name="WorkRequestReasonCol" Header="Обоснование" Binding="{Binding Path=Reason}"/>
+                                <DataGridTextColumn x:Name="WorkRequestStartCol" Header="Дата начала работы" Binding="{Binding Path=StartDateWork}"/>
+                                <DataGridTextColumn x:Name="WorkRequestAdresPassCol" Header="Место прохода" Binding="{Binding Path=AdressPass}"/>
+                                <DataGridTextColumn x:Name="WorkRequestEndDateCol" Header="Дата конца работы" Binding="{Binding Path=EndDateWork}"/>
+                                <DataGridTextColumn x:Name="WorkRequestCreatDateCol" Header="Дата создания" Binding="{Binding Path=Date}"/>
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                        <GroupBox Header="Редакция" Height="137" Margin="0,470,0,0" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="224" >
+                            <Grid HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="204" Margin="0,0,-2,0">
+                                <Button Content="Удалить запись" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="184" Click="ButtonRemoveWorkerVisit_Click" ContextMenuOpening="Button_ContextMenuOpening"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="Фильтр" Height="475" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="224">
+
+                            <Grid HorizontalAlignment="Left" Height="449" Margin="0,0,-2,-2" VerticalAlignment="Top" Width="204">
+                                <Button Content="Применить фильтр" HorizontalAlignment="Center" Margin="0,419,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_4" ContextMenuClosing="Button_ContextMenuClosing"/>
+
+                                <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Давность:" VerticalAlignment="Top"/>
+                                <ComboBox x:Name="WorkerVisitRequestCB" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="157">
+                                    <ComboBoxItem Content="За последний день"/>
+                                    <ComboBoxItem Content="За последнюю неделю"/>
+                                    <ComboBoxItem Content="За последний месяц"/>
+                                    <ComboBoxItem Content="За последний год"/>
+                                </ComboBox>
+                                <TextBlock HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" Text="Стольбцы:" VerticalAlignment="Top"/>
+                                <CheckBox x:Name="WorkRequestNameR" Content="Номер заявки" HorizontalAlignment="Left" Margin="18,123,0,0" VerticalAlignment="Top" FontSize="14" Unchecked="WorkRequestRomNum_Unchecked" Checked="WorkRequestRomNum_Checked"/>
+                                <CheckBox x:Name="WorkRequestFIOcreator" Content="ФИО инициатора" HorizontalAlignment="Left" Margin="18,143,0,0" VerticalAlignment="Top" FontSize="14" Unchecked="WorkRequestRomNum_Unchecked" Checked="WorkRequestRomNum_Checked"/>
+                                <CheckBox x:Name="WorkRequestReason" Content="Обоснование доступа" HorizontalAlignment="Left" Margin="18,183,0,0" VerticalAlignment="Top" FontSize="14" Unchecked="WorkRequestRomNum_Unchecked" Checked="WorkRequestRomNum_Checked"/>
+                                <CheckBox x:Name="WorkRequestCreatDate" Content="Дата и время создания" HorizontalAlignment="Left" Margin="18,203,0,0" VerticalAlignment="Top" FontSize="14" Unchecked="WorkRequestRomNum_Unchecked" Checked="WorkRequestRomNum_Checked"/>
+                                <CheckBox x:Name="WorkRequestStart" Content="Дата начала работы" HorizontalAlignment="Left" Margin="18,243,0,0" VerticalAlignment="Top" FontSize="14" Unchecked="WorkRequestRomNum_Unchecked" Checked="WorkRequestRomNum_Checked"/>
+                                <CheckBox x:Name="WorkRequestEndDate" Content="Дата окончания работы" HorizontalAlignment="Left" Margin="18,263,0,0" VerticalAlignment="Top" FontSize="14" Unchecked="WorkRequestRomNum_Unchecked" Checked="WorkRequestRomNum_Checked"/>
+                                <CheckBox x:Name="WorkRequestLeadFIO" Content="ФИО руководителя" HorizontalAlignment="Left" Margin="18,163,0,0" VerticalAlignment="Top" FontSize="14" Unchecked="WorkRequestRomNum_Unchecked" Checked="WorkRequestRomNum_Checked" />
+                                <CheckBox x:Name="WorkRequestRomNum" Content="Номер помощения" HorizontalAlignment="Left" Margin="18,223,0,0" VerticalAlignment="Top" FontSize="14" Unchecked="WorkRequestRomNum_Unchecked" Checked="WorkRequestRomNum_Checked" />
+                                <CheckBox x:Name="WorkRequestAdressPass" Content="Место прохода" HorizontalAlignment="Left" Margin="18,283,0,0" VerticalAlignment="Top" FontSize="14" Unchecked="WorkRequestRomNum_Unchecked" Checked="WorkRequestRomNum_Checked"/>
+                                <RadioButton x:Name="selectAllWorkerVisFilt" IsChecked="True" Content="Все" HorizontalAlignment="Left" Margin="139,106,0,0" VerticalAlignment="Top" Width="53" Checked="selectAllWorkerVisFilt_Checked"/>
+
+                            </Grid>
+                        </GroupBox>
+
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Заявка на допуск посетителя" FontSize="14" Loaded="TabItem_Loaded_1" GotFocus="TabItem_GotFocus_4">
+                    <Grid>
+                        <DataGrid IsReadOnly="True" AutoGenerateColumns="False" x:Name="VisitorPassRequestDG" Margin="0,0,229,0">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn x:Name="VisRequestNameRCol" Header="Номер заявки" Binding="{Binding Path=RequestNumber}"/>
+                                <DataGridTextColumn x:Name="VisRequestSurnameCol" Header="Фамилия инициатора" Binding="{Binding Path=SurnameCreator}"/>
+                                <DataGridTextColumn x:Name="VisRequestNameCol" Header="Имя инициатора" Binding="{Binding Path=NameCreator}"/>
+                                <DataGridTextColumn x:Name="VisRequestPatronyminCol" Header="Отчество инициатора" Binding="{Binding Path=PatronymicCreator}"/>
+                                <DataGridTextColumn x:Name="VisRequestLeadSurnameCol" Header="Фамилия руководителя" Binding="{Binding Path=LeadSurnam}"/>
+                                <DataGridTextColumn x:Name="VisRequestLeadNameCol" Header="Имя руководителя" Binding="{Binding Path=LeadName}"/>
+                                <DataGridTextColumn x:Name="VisRequestLeadPatronymicCol" Header="Отчество руководителя" Binding="{Binding Path=LeadPatronymic}"/>
+                                <DataGridTextColumn x:Name="VisRequestVisSurnameCol" Header="Фамилия посетителя" Binding="{Binding Path=VisitorSurname}"/>
+                                <DataGridTextColumn x:Name="VisRequestVisNameCol" Header="Имя посетителя" Binding="{Binding Path=VisitorName}"/>
+                                <DataGridTextColumn x:Name="VisRequestVisPatronymicCol" Header="Отчество посетителя" Binding="{Binding Path=VisitorPatronymic}"/>
+                                <DataGridTextColumn x:Name="VisRequestReasonCol" Header="Обоснование" Binding="{Binding Path=Reason}"/>
+                                <DataGridTextColumn x:Name="VisRequestStartCol" Header="Дата и время входа" Binding="{Binding Path=VisitDateWork}"/>
+                                <DataGridTextColumn x:Name="VisRequestAdresPassCol" Header="Место прохода" Binding="{Binding Path=AdressPass}"/>
+                                <DataGridTextColumn x:Name="VisRequestEndDateCol" Header="Дата и время выхода" Binding="{Binding Path=LeaveDateWork}"/>
+                                <DataGridTextColumn x:Name="VisRequestCreatDateCol" Header="Дата и время создания" Binding="{Binding Path=Date}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <GroupBox Header="Редакция" Height="137" Margin="0,470,0,0" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="224">
+                            <Grid HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="204" Margin="0,0,-2,0">
+                                <Button Content="Удалить запись" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="184" Click="ButtonRemoveVisitorVisit_Click"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="Фильтр" Height="475" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="224">
+
+                            <Grid HorizontalAlignment="Left" Height="449" Margin="0,0,-2,-2" VerticalAlignment="Top" Width="204">
+                                <Button Content="Применить фильтр" HorizontalAlignment="Center" Margin="0,419,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_3"/>
+
+                                <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Давность:" VerticalAlignment="Top"/>
+                                <ComboBox x:Name="SelectDatePassRequestVisDG" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="157">
+                                    <ComboBoxItem Content="За последний день"/>
+                                    <ComboBoxItem Content="За последнюю неделю"/>
+                                    <ComboBoxItem Content="За последний месяц"/>
+                                    <ComboBoxItem Content="За последний год"/>
+                                </ComboBox>
+                                <TextBlock HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" Text="Стольбцы:" VerticalAlignment="Top"/>
+                                <CheckBox x:Name="VisRequestName" Content="Номер заявки" HorizontalAlignment="Left" Margin="18,123,0,0" VerticalAlignment="Top" FontSize="14" Checked="VisRequestCreate_Checked" Unchecked="VisRequestCreate_Unchecked"/>
+                                <CheckBox x:Name="VisRequestFIOcreatort" Content="ФИО инициатора" HorizontalAlignment="Left" Margin="18,143,0,0" VerticalAlignment="Top" FontSize="14" Checked="VisRequestCreate_Checked" Unchecked="VisRequestCreate_Unchecked"/>
+                                <CheckBox x:Name="VisRequestNed" Content="Место прохода" HorizontalAlignment="Left" Margin="18,183,0,0" VerticalAlignment="Top" FontSize="14" Checked="VisRequestCreate_Checked" Unchecked="VisRequestCreate_Unchecked"/>
+                                <CheckBox x:Name="VisRequestDateVis" Content="Дата и время прибытия" HorizontalAlignment="Left" Margin="18,242,0,0" VerticalAlignment="Top" FontSize="14" Checked="VisRequestCreate_Checked" Unchecked="VisRequestCreate_Unchecked"/>
+                                <CheckBox x:Name="VisRequestDateLeave" Content="Дата и время убытия" HorizontalAlignment="Left" Margin="18,262,0,0" VerticalAlignment="Top" FontSize="14" Checked="VisRequestCreate_Checked" Unchecked="VisRequestCreate_Unchecked"/>
+                                <CheckBox x:Name="VisRequestFIOlead" Content="ФИО руководителя" HorizontalAlignment="Left" Margin="18,163,0,0" VerticalAlignment="Top" FontSize="14" Checked="VisRequestCreate_Checked" Unchecked="VisRequestCreate_Unchecked"/>
+                                <CheckBox x:Name="VisRequestFIOVisitor" Content="ФИО посетителя" HorizontalAlignment="Left" Margin="18,223,0,0" VerticalAlignment="Top" FontSize="14" Checked="VisRequestCreate_Checked" Unchecked="VisRequestCreate_Unchecked"/>
+                                <CheckBox x:Name="VisRequestReason" Content="Обоснование доступа" HorizontalAlignment="Left" Margin="18,203,0,0" VerticalAlignment="Top" FontSize="14" Checked="VisRequestCreate_Checked" Unchecked="VisRequestCreate_Unchecked"/>
+                                <CheckBox x:Name="VisRequestCreate" Content="Дата и время создания" HorizontalAlignment="Left" Margin="18,282,0,0" VerticalAlignment="Top" FontSize="14" Checked="VisRequestCreate_Checked" Unchecked="VisRequestCreate_Unchecked"/>
+                                <RadioButton IsChecked="True" x:Name="SelectAllVisRequest" Content="Все" HorizontalAlignment="Left" Margin="139,106,0,0" VerticalAlignment="Top" Width="53" Checked="SelectAllVisRequest_Checked"/>
+
+                            </Grid>
+                        </GroupBox>
+
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Заявка на вынос" FontSize="14" GotFocus="TabItem_GotFocus_5">
+                    <Grid>
+                        <DataGrid x:Name="TakeOutRequestDG" Margin="0,0,229,0" IsReadOnly="True" AutoGenerateColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn x:Name="TKRequesNameCol" Header="Номер заявки" Binding="{Binding Path=RequestNumber}"/>
+                                <DataGridTextColumn x:Name="TKRequesSurnameCreatorCol" Header="Фамилия инициатора" Binding="{Binding Path=SurnameRecipient}"/>
+                                <DataGridTextColumn x:Name="TKRequesNameCreatorCol" Header="Имя инициатора" Binding="{Binding Path=NameRecipient}"/>
+                                <DataGridTextColumn x:Name="TKRequesPatronymicCreatorCol" Header="Отчество инициатора" Binding="{Binding Path=PatronymicRecipient}"/>
+                                <DataGridTextColumn x:Name="TKRequesDateCreateCol" Header="Дата и время создания" Binding="{Binding Path=Date}"/>
+                                <DataGridTextColumn x:Name="TKRequesSurnameTakerCol" Header="Фамилия лица осущ-го вынос" Binding="{Binding Path=SunamTaker}"/>
+                                <DataGridTextColumn x:Name="TKRequesNameTakerCol" Header="Имя лица осущ-го вынос" Binding="{Binding Path=NameTaker}"/>
+                                <DataGridTextColumn x:Name="TKRequesPatronymicTakerCol" Header="Отчество лица осущ-го вынос" Binding="{Binding Path=PatronymicTaker}"/>
+                                <DataGridTextColumn x:Name="TKRequesPassCol" Header="Место выноса" Binding="{Binding Path=AdressPass}"/>
+                                <DataGridTextColumn x:Name="TKRequesItemNameCol" Header="Наименование" Binding="{Binding Path=ItemName}"/>
+                                <DataGridTextColumn x:Name="TKRequesCountCol" Header="Количество" Binding="{Binding Path=Count}"/>
+                                <DataGridTextColumn x:Name="TKRequesReasonCol" Header="Обоснование выноса" Binding="{Binding Path=Reason}"/>
+                                <DataGridTextColumn x:Name="TKRequesNameOrgCol" Header="Название организации" Binding="{Binding Path=OrganizationName}"/>
+                                <DataGridTextColumn x:Name="TKRequesAdressDeliCol" Header="Адрес доставки" Binding="{Binding Path=AdressDelivery}"/>
+                                <DataGridTextColumn x:Name="TKRequesNameSiresNumberCol" Header="Серийный номер" Binding="{Binding Path=ModelNumber}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <GroupBox Header="Редакция" Height="137" Margin="0,470,0,0" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="224">
+                            <Grid HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="204" Margin="0,0,-2,0">
+                                <Button Content="Удалить запись" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="184" Click="ButtonRemoveTakeOutReuest_Click"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="Фильтр" Height="475" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="224">
+
+                            <Grid HorizontalAlignment="Left" Height="449" Margin="0,0,-2,-2" VerticalAlignment="Top" Width="204">
+                                <Button Content="Применить фильтр" HorizontalAlignment="Center" Margin="0,419,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_5"/>
+
+                                <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Давность:" VerticalAlignment="Top"/>
+                                <ComboBox x:Name="SelectTKDateCB" SelectedIndex="3" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="157">
+                                    <ComboBoxItem Content="За последний день"/>
+                                    <ComboBoxItem Content="За последнюю неделю"/>
+                                    <ComboBoxItem Content="За последний месяц"/>
+                                    <ComboBoxItem Content="За последний год"/>
+                                </ComboBox>
+                                <TextBlock HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" Text="Стольбцы:" VerticalAlignment="Top"/>
+                                <CheckBox x:Name="TKRequesName" Content="Номер заявки" HorizontalAlignment="Left" Margin="18,123,0,0" VerticalAlignment="Top" Checked="TKRequesName_Checked" Unchecked="TKRequesName_Unchecked"/>
+                                <CheckBox x:Name="TKRequesFIOCreator" Content="ФИО инициатора" HorizontalAlignment="Left" Margin="18,143,0,0" VerticalAlignment="Top" Checked="TKRequesName_Checked" Unchecked="TKRequesName_Unchecked"/>
+                                <CheckBox x:Name="TKRequesDateCreate" Content="Дата и время выноса" HorizontalAlignment="Left" Margin="18,166,0,0" VerticalAlignment="Top" Checked="TKRequesName_Checked" Unchecked="TKRequesName_Unchecked"/>
+                                <CheckBox x:Name="TKRequesAdressDeli" Content="Адрес доставки" HorizontalAlignment="Left" Margin="18,189,0,0" VerticalAlignment="Top" Checked="TKRequesName_Checked" Unchecked="TKRequesName_Unchecked"/>
+                                <CheckBox x:Name="TKRequesFIOTaker" Content="ФИО лица осущ-го вынос" HorizontalAlignment="Left" Margin="18,212,0,0" VerticalAlignment="Top" Checked="TKRequesName_Checked" Unchecked="TKRequesName_Unchecked"/>
+                                <CheckBox x:Name="TKRequesPass" Content="Место выноса" HorizontalAlignment="Left" Margin="18,232,0,0" VerticalAlignment="Top" Checked="TKRequesName_Checked" Unchecked="TKRequesName_Unchecked"/>
+                                <CheckBox x:Name="TKRequesCount" Content="Количество" HorizontalAlignment="Left" Margin="18,252,0,0" VerticalAlignment="Top" Checked="TKRequesName_Checked" Unchecked="TKRequesName_Unchecked"/>
+                                <CheckBox x:Name="TKRequesReason" Content="Обоснование выноса" HorizontalAlignment="Left" Margin="18,272,0,0" VerticalAlignment="Top" Checked="TKRequesName_Checked" Unchecked="TKRequesName_Unchecked"/>
+                                <CheckBox x:Name="TKRequesNameOrg" Content="Название организации" HorizontalAlignment="Center" Margin="0,315,0,0" VerticalAlignment="Top" Checked="TKRequesName_Checked" Unchecked="TKRequesName_Unchecked"/>
+                                <CheckBox x:Name="TKRequesNameSiresNumber" Content="Серийный номер" HorizontalAlignment="Left" Margin="18,292,0,0" VerticalAlignment="Top" Checked="TKRequesName_Checked" Unchecked="TKRequesName_Unchecked"/>
+                                <CheckBox x:Name="TKRequesItemName" Content="Наименование" HorizontalAlignment="Left" Margin="18,338,0,0" VerticalAlignment="Top" Checked="TKRequesName_Checked" Unchecked="TKRequesName_Unchecked"/>
+
+                                <RadioButton x:Name="SelectAllTKFilter" IsChecked="True" Checked="SelectAllTKFilter_Checked" Content="Все" HorizontalAlignment="Left" Margin="139,106,0,0" VerticalAlignment="Top" Width="53"/>
+
+                            </Grid>
+                        </GroupBox>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Заявка на выдачу запасного ключа" FontSize="14" GotFocus="TabItem_GotFocus_1">
+                    <Grid>
+                        <DataGrid x:Name="TempKeyRequestDG" Margin="0,0,229,0" IsReadOnly="True" AutoGenerateColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn x:Name="TempKPassCol" Header="Номер ключа" Binding="{Binding Path=Key}"/>
+                                <DataGridTextColumn x:Name="TempKSurnameCreatorCol" Header="Фамилия получателя" Binding="{Binding Path=SurnameRecipient}"/>
+                                <DataGridTextColumn x:Name="TempKNameCreatorCol" Header="Имя получателя" Binding="{Binding Path=NameRecipient}"/>
+                                <DataGridTextColumn x:Name="TempKPatronymicCreatorCol" Header="Отчество получателя" Binding="{Binding Path=PatronymicRecipient}"/>
+                                <DataGridTextColumn x:Name="TempKDateCol" Header="Дата и время выдачи" Binding="{Binding Path=Date}"/>
+                                <DataGridTextColumn x:Name="TempKSurnaeTakerCol" Header="Фамилия сдавшего" Binding="{Binding Path=SunamGiver}"/>
+                                <DataGridTextColumn x:Name="TempKNameTakerCol" Header="Имя сдавшего" Binding="{Binding Path=NameGiver}"/>
+                                <DataGridTextColumn x:Name="TempKPatronymicTakerCol" Header="Отчество сдавшего" Binding="{Binding Path=PatronymicGiver}"/>
+                                <DataGridTextColumn x:Name="TempKDateReturnCol" Header="Дата и время сдачи" Binding="{Binding Path=DateReturn}"/>
+                                <DataGridTextColumn x:Name="TempKReasonPassCol" Header="Обоснование" Binding="{Binding Path=Reason}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <GroupBox Header="Фильтр" Height="470" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="224" Background="White">
+                            <Grid HorizontalAlignment="Left" Height="449" VerticalAlignment="Top" Width="214">
+                                <Button Content="Применить фильтр" HorizontalAlignment="Center" Margin="0,419,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_2"/>
+
+                                <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Давность:" VerticalAlignment="Top"/>
+                                <ComboBox SelectedIndex="3" x:Name="SelectDateTampKeyCB" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="157">
+                                    <ComboBoxItem Content="За последний день"/>
+                                    <ComboBoxItem Content="За последнюю неделю"/>
+                                    <ComboBoxItem Content="За последний месяц"/>
+                                    <ComboBoxItem Content="За последний год"/>
+                                </ComboBox>
+                                <TextBlock HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" Text="Стольбцы:" VerticalAlignment="Top"/>
+                                <CheckBox x:Name="TempKPass" Content="Номер заявки" HorizontalAlignment="Left" Margin="18,123,0,0" VerticalAlignment="Top" Checked="TempKPass_Checked" Unchecked="TempKPass_Unchecked"/>
+                                <CheckBox x:Name="TempKSurnameCreator" Content="Фамилия получателя" HorizontalAlignment="Left" Margin="18,143,0,0" VerticalAlignment="Top" Checked="TempKPass_Checked" Unchecked="TempKPass_Unchecked"/>
+                                <CheckBox x:Name="TempKNameCreator" Content="Имя получателя" HorizontalAlignment="Left" Margin="18,163,0,0" VerticalAlignment="Top" Checked="TempKPass_Checked" Unchecked="TempKPass_Unchecked"/>
+                                <CheckBox x:Name="TempKPatronymicCreator" Content="Отчество получателя" HorizontalAlignment="Left" Margin="18,183,0,0" VerticalAlignment="Top" Checked="TempKPass_Checked" Unchecked="TempKPass_Unchecked"/>
+                                <CheckBox x:Name="TempKReasonPass" Content="Основание" HorizontalAlignment="Left" Margin="18,203,0,0" VerticalAlignment="Top" Checked="TempKPass_Checked" Unchecked="TempKPass_Unchecked"/>
+                                <CheckBox x:Name="TempKNameTaker" Content="Имя сдашвего" HorizontalAlignment="Left" Margin="18,223,0,0" VerticalAlignment="Top" Checked="TempKPass_Checked" Unchecked="TempKPass_Unchecked"/>
+                                <CheckBox x:Name="TempKSurnaeTaker" Content="Фамилия сдашвего" HorizontalAlignment="Left" Margin="18,243,0,0" VerticalAlignment="Top" Checked="TempKPass_Checked" Unchecked="TempKPass_Unchecked"/>
+                                <CheckBox x:Name="TempKPatronymicTaker" Content="Отчество сдашвего" HorizontalAlignment="Left" Margin="18,263,0,0" VerticalAlignment="Top" Checked="TempKPass_Checked" Unchecked="TempKPass_Unchecked"/>
+                                <CheckBox x:Name="TempKDate" Content="Дата и время выдачи ключа" HorizontalAlignment="Left" Margin="18,286,0,0" VerticalAlignment="Top" Checked="TempKPass_Checked" Unchecked="TempKPass_Unchecked" FontSize="13"/>
+                                <CheckBox x:Name="TempKDateReturn" Content="Дата и время сдачи ключа" HorizontalAlignment="Left" Margin="18,309,0,0" VerticalAlignment="Top" Checked="TempKPass_Checked" Unchecked="TempKPass_Unchecked" Width="193" FontSize="13"/>
+                                <RadioButton IsChecked="True" x:Name="SelectAllTempKey" Content="Все" HorizontalAlignment="Left" Margin="139,106,0,0" VerticalAlignment="Top" Width="53" Checked="SelectAllTempKey_Checked"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="Редакция" Height="137" Margin="0,470,0,0" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="224" Background="White">
+                            <Grid HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="204" Margin="0,0,-2,0">
+                                <Button Content="Удалить запись" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="184" Click="ButtonRemoveTempKey_Click"/>
+                            </Grid>
+                        </GroupBox>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Заявка на выдачу временного пропуска" FontSize="14" Loaded="TabItem_Loaded" GotFocus="TabItem_GotFocus_2">
+                    <Grid>
+                        <DataGrid HorizontalScrollBarVisibility="Auto" x:Name="TempPassRequestDG" IsReadOnly="True" AutoGenerateColumns="False" Margin="0,0,229,0">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn x:Name="TempPPassCol" Header="Пропуск" Binding="{Binding Path=Pass}"/>
+                                <DataGridTextColumn x:Name="TempPSurnameCreatorCol" Header="Фамилия получателя" Binding="{Binding Path=SurnameRecipient}"/>
+                                <DataGridTextColumn x:Name="TempPNameCreatorCol" Header="Имя получателя" Binding="{Binding Path=NameRecipient}"/>
+                                <DataGridTextColumn x:Name="TempPPatronymicCreatorCol" Header="Отчество получателя" Binding="{Binding Path=PatronymicRecipient}"/>
+                                <DataGridTextColumn x:Name="TempPDateCol" Header="Дата и время выдачи" Binding="{Binding Path=Date}"/>
+                                <DataGridTextColumn x:Name="TempPSurnaeTakerCol" Header="Фамилия сдавшего" Binding="{Binding Path=SunamGiver}"/>
+                                <DataGridTextColumn x:Name="TempPNameTakerCol" Header="Имя сдавшего" Binding="{Binding Path=NameGiver}"/>
+                                <DataGridTextColumn x:Name="TempPPatronymicTakerCol" Header="Отчество сдавшего" Binding="{Binding Path=PatronymicGiver}"/>
+                                <DataGridTextColumn x:Name="TempPDateReturnCol" Header="Дата и время сдачи" Binding="{Binding Path=DateReturn}"/>
+                                <DataGridTextColumn x:Name="TempPReasonPassCol" Header="Обоснование" Binding="{Binding Path=Reason}"/>
+
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <GroupBox Header="Фильтр" Height="470" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="224">
+                            <Grid HorizontalAlignment="Left" Height="449" VerticalAlignment="Top" Width="214">
+                                <Button Content="Применить фильтр" HorizontalAlignment="Center" Margin="0,419,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_1"/>
+
+                                <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Давность:" VerticalAlignment="Top"/>
+                                <ComboBox x:Name="TempPDateCB" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="157">
+                                    <ComboBoxItem Content="За последний день"/>
+                                    <ComboBoxItem Content="За последнюю неделю"/>
+                                    <ComboBoxItem Content="За последний месяц"/>
+                                    <ComboBoxItem Content="За последний год"/>
+                                </ComboBox>
+                                <TextBlock HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" Text="Стольбцы:" VerticalAlignment="Top"/>
+                                <CheckBox x:Name="TempPPass" Content="Номер пропуска" HorizontalAlignment="Left" Margin="18,123,0,0" VerticalAlignment="Top" Checked="selectTempPass_Checked" Unchecked="selectTempPass_Unchecked"/>
+                                <CheckBox x:Name="TempPSurnameCreator" Content="Фамилия получателя" HorizontalAlignment="Left" Margin="18,143,0,0" VerticalAlignment="Top" Checked="selectTempPass_Checked" Unchecked="selectTempPass_Unchecked"/>
+                                <CheckBox x:Name="TempPNameCreator" Content="Имя получателя" HorizontalAlignment="Left" Margin="18,163,0,0" VerticalAlignment="Top" Checked="selectTempPass_Checked" Unchecked="selectTempPass_Unchecked"/>
+                                <CheckBox x:Name="TempPPatronymicCreator" Content="Отчество получателя" HorizontalAlignment="Left" Margin="18,183,0,0" VerticalAlignment="Top" Checked="selectTempPass_Checked" Unchecked="selectTempPass_Unchecked"/>
+                                <CheckBox x:Name="TempPReasonPass" Content="Основание" HorizontalAlignment="Left" Margin="18,203,0,0" VerticalAlignment="Top" Checked="selectTempPass_Checked" Unchecked="selectTempPass_Unchecked"/>
+                                <CheckBox x:Name="TempPNameTaker" Content="Имя сдашвего" HorizontalAlignment="Left" Margin="18,222,0,0" VerticalAlignment="Top" Checked="selectTempPass_Checked" Unchecked="selectTempPass_Unchecked"/>
+                                <CheckBox x:Name="TempPSurnaeTaker" Content="Фамилия сдашвего" HorizontalAlignment="Left" Margin="18,242,0,0" VerticalAlignment="Top" Checked="selectTempPass_Checked" Unchecked="selectTempPass_Unchecked"/>
+                                <CheckBox x:Name="TempPPatronymicTaker" Content="Отчество сдашвего" HorizontalAlignment="Left" Margin="18,262,0,0" VerticalAlignment="Top" Checked="selectTempPass_Checked" Unchecked="selectTempPass_Unchecked"/>
+                                <CheckBox x:Name="TempPDate" Content="Дата и время выдачи пропуска" HorizontalAlignment="Left" Margin="18,285,0,0" VerticalAlignment="Top" Checked="selectTempPass_Checked" Unchecked="selectTempPass_Unchecked" FontSize="12"/>
+                                <CheckBox x:Name="TempPDateReturn" Content="Дата и время сдачи пропуска" HorizontalAlignment="Left" Margin="18,305,0,0" VerticalAlignment="Top" Checked="selectTempPass_Checked" Unchecked="selectTempPass_Unchecked" FontSize="12"/>
+                                <RadioButton IsChecked="True" x:Name="selectAllTempPassFilt" Content="Все" HorizontalAlignment="Left" Margin="139,106,0,0" VerticalAlignment="Top" Width="53" Checked="selectAllTempPassFilt_Checked"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="Редакция" Height="137" Margin="0,470,0,0" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="224">
+                            <Grid HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="204" Margin="0,0,-2,0">
+                                <Button Content="Удалить запись" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="184" Click="ButtonRemoveTempPass_Click"/>
+                            </Grid>
+                        </GroupBox>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Аккаунты" FontSize="14" MouseDown="TabItem_MouseDown" GotFocus="TabItem_GotFocus_3">
+                    <Grid>
+                        <DataGrid IsReadOnly="True" Name="AccountsDG" Margin="0,0,229,0" Loaded="AccountsDG_Loaded" AutoGenerateColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn x:Name="LoginColAcc" Header="Логин" Binding="{Binding Path=Login}"/>
+                                <DataGridTextColumn x:Name="NameColAcc" Header="Имя" Binding="{Binding Path=Name}"/>
+                                <DataGridTextColumn x:Name="SurnameColAcc" Header="Фамилия" Binding="{Binding Path=Surname}" />
+                                <DataGridTextColumn x:Name="PatronymicColAcc" Header="Отчество" Binding="{Binding Path=Patronymic}"/>
+                                <DataGridTextColumn x:Name="DateColAcc" Header="Дата регистрации" Binding="{Binding Path=Date}"/>
+                                <DataGridTextColumn x:Name="TimeColAcc" Header="Время регистрации" Binding="{Binding Path=Time}"/>
+                                <DataGridTextColumn x:Name="PostColAcc" Header="Должность" Binding="{Binding Path=Post}"/>
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                        <GroupBox Header="Фильтр" Height="470" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="224">
+                            <Grid HorizontalAlignment="Left" Height="449" Margin="0,0,-2,-2" VerticalAlignment="Top" Width="204">
+                                <Button Content="Применить фильтр" HorizontalAlignment="Center" Margin="0,419,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click"/>
+
+                                <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Должность:" VerticalAlignment="Top"/>
+                                <ComboBox x:Name="PostAcc" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="157" SelectionChanged="PostAcc_SelectionChanged">
+                                    <ComboBoxItem Content="Начальник управления по обеспечению безопасности" />
+                                    <ComboBoxItem Content="Начальник отдела режима и защиты объектов"/>
+                                    <ComboBoxItem Content="Системный администратор"/>
+                                    <ComboBoxItem Content="Главный специалист"/>
+                                    <ComboBoxItem Content="Ведущий специалист"/>
+                                    <ComboBoxItem Content="Специалист"/>
+                                    <ComboBoxItem Content="Все"/>
+                                </ComboBox>
+                                <TextBlock HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" Text="Стольбцы:" VerticalAlignment="Top"/>
+                                <CheckBox x:Name="loginAcc" Content="Логин" HorizontalAlignment="Left" Margin="17,126,0,0" VerticalAlignment="Top" Unchecked="selectAcc_Unchecked"  Checked="selectAcc_Checked"/>
+                                <CheckBox x:Name="DateRegAcc" Content="Дата регистрации" HorizontalAlignment="Left" Margin="17,149,0,0" VerticalAlignment="Top"  Unchecked="selectAcc_Unchecked"  Checked="selectAcc_Checked"/>
+                                <CheckBox x:Name="TimeRegAcc" Content="Время регистрации" HorizontalAlignment="Left" Margin="17,172,0,0" VerticalAlignment="Top"  Unchecked="selectAcc_Unchecked"  Checked="selectAcc_Checked"/>
+                                <CheckBox x:Name="SurnameAcc" Content="Фамилия владельца" HorizontalAlignment="Left" Margin="17,195,0,0" VerticalAlignment="Top"  Unchecked="selectAcc_Unchecked"  Checked="selectAcc_Checked"/>
+                                <CheckBox x:Name="NameAcc" Content="Имя владельца" HorizontalAlignment="Left" Margin="17,218,0,0" VerticalAlignment="Top"  Unchecked="selectAcc_Unchecked"  Checked="selectAcc_Checked"/>
+                                <CheckBox x:Name="PatronymicAcc" Content="Отчество владельца" HorizontalAlignment="Left" Margin="17,241,0,0" VerticalAlignment="Top" Unchecked="selectAcc_Unchecked"  Checked="selectAcc_Checked"/>
+                                <CheckBox x:Name="PostAccc" Content="Должность" HorizontalAlignment="Left" Margin="17,264,0,0" VerticalAlignment="Top" Unchecked="selectAcc_Unchecked"  Checked="selectAcc_Checked"/>
+
+                                <RadioButton x:Name="selectAllAcc" Content="Все" HorizontalAlignment="Left" Margin="139,106,0,0" VerticalAlignment="Top" Width="53" IsChecked="True" Checked="selectAllAcc_Checked" />
+                            </Grid>
+                        </GroupBox>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+
+        </Grid>
+        <Grid x:Name="gr5_DeleteAccount" Margin="292,92,0,0" Visibility="Hidden" Background="White">
+            <Grid>
+                <DataGrid IsReadOnly="True" Name="AccountsDG2" Margin="0,0,229,0" Loaded="AccountsDG_Loaded" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn x:Name="LoginColAcc2" Header="Логин" Binding="{Binding Path=Login}"/>
+                        <DataGridTextColumn x:Name="NameColAcc2" Header="Имя" Binding="{Binding Path=Name}"/>
+                        <DataGridTextColumn x:Name="SurnameColAcc2" Header="Фамилия" Binding="{Binding Path=Surname}" />
+                        <DataGridTextColumn x:Name="PatronymicColAcc2" Header="Отчество" Binding="{Binding Path=Patronymic}"/>
+                        <DataGridTextColumn x:Name="DateColAcc2" Header="Дата регистрации" Binding="{Binding Path=Date}"/>
+                        <DataGridTextColumn x:Name="TimeColAcc2" Header="Время регистрации" Binding="{Binding Path=Time}"/>
+                        <DataGridTextColumn x:Name="PostColAcc2" Header="Должность" Binding="{Binding Path=Post}"/>
+                    </DataGrid.Columns>
+
+                </DataGrid>
+                <GroupBox Header="Фильтр" Height="470" Margin="0,0,10,0" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="214">
+                    <Grid HorizontalAlignment="Left" Height="449" Margin="0,0,-2,-2" VerticalAlignment="Top" Width="204">
+                        <Button Content="Применить фильтр" HorizontalAlignment="Center" Margin="0,419,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click2"/>
+
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Должность:" VerticalAlignment="Top"/>
+                        <ComboBox SelectedIndex="6" x:Name="PostAcc2" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="157" SelectionChanged="PostAcc_SelectionChanged">
+                            <ComboBoxItem Content="Начальник управления по обеспечению безопасности" />
+                            <ComboBoxItem Content="Начальник отдела режима и защиты объектов"/>
+                            <ComboBoxItem Content="Системный администратор"/>
+                            <ComboBoxItem Content="Главный специалист"/>
+                            <ComboBoxItem Content="Ведущий специалист"/>
+                            <ComboBoxItem Content="Специалист"/>
+                            <ComboBoxItem Content="Все"/>
+                        </ComboBox>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" Text="Стольбцы:" VerticalAlignment="Top"/>
+                        <CheckBox x:Name="loginAcc2" Content="Логин" HorizontalAlignment="Left" Margin="17,126,0,0" VerticalAlignment="Top" Unchecked="selectAcc_Unchecked2"  Checked="selectAcc_Checked2"/>
+                        <CheckBox x:Name="DateRegAcc2" Content="Дата регистрации" HorizontalAlignment="Left" Margin="17,149,0,0" VerticalAlignment="Top"  Unchecked="selectAcc_Unchecked2"  Checked="selectAcc_Checked2"/>
+                        <CheckBox x:Name="TimeRegAcc2" Content="Время регистрации" HorizontalAlignment="Left" Margin="17,172,0,0" VerticalAlignment="Top"  Unchecked="selectAcc_Unchecked2"  Checked="selectAcc_Checked2"/>
+                        <CheckBox x:Name="SurnameAcc2" Content="Фамилия владельца" HorizontalAlignment="Left" Margin="17,195,0,0" VerticalAlignment="Top"  Unchecked="selectAcc_Unchecked2"  Checked="selectAcc_Checked2"/>
+                        <CheckBox x:Name="NameAcc2" Content="Имя владельца" HorizontalAlignment="Left" Margin="17,218,0,0" VerticalAlignment="Top"  Unchecked="selectAcc_Unchecked2"  Checked="selectAcc_Checked2"/>
+                        <CheckBox x:Name="PatronymicAcc2" Content="Отчество владельца" HorizontalAlignment="Left" Margin="17,241,0,0" VerticalAlignment="Top" Unchecked="selectAcc_Unchecked2"  Checked="selectAcc_Checked2"/>
+                        <CheckBox x:Name="PostAccc2" Content="Должность" HorizontalAlignment="Left" Margin="17,264,0,0" VerticalAlignment="Top" Unchecked="selectAcc_Unchecked2"  Checked="selectAcc_Checked2"/>
+
+                        <RadioButton x:Name="selectAllAcc2" Content="Все" HorizontalAlignment="Left" Margin="139,106,0,0" VerticalAlignment="Top" Width="53" IsChecked="True" Checked="selectAllAcc_Checked2" />
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Редакция" Height="148" Margin="0,470,10,0" VerticalAlignment="Top" BorderBrush="#FF0C2C75" HorizontalAlignment="Right" Width="214">
+                    <Grid HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="204" Margin="0,0,-2,0">
+                        <Button Content="Удалить запись" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_8"/>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </Grid>
+        <Grid x:Name="gr6_Message" Margin="292,92,0,0" Visibility="Hidden" Background="White">
+            <Grid Margin="0,14,0,0">
+                <GroupBox Header="Каналы" FontSize="14" Margin="10,0,0,0" BorderBrush="#FF123279" HorizontalAlignment="Left" Width="356" Height="255" VerticalAlignment="Top">
+                    <Grid>
+                        <Button Content="Главный канал" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="323"/>
+
+                        <Button Content="Начальник отдела - Охранник предприятия" Margin="10,197,11,0" Height="22" VerticalAlignment="Top"/>
+                        <Button Content="Начальник отдела - Весь отдел" Margin="10,154,10,0" Height="22" VerticalAlignment="Top"/>
+                        <Button Content="Начальник управления - Начальник отдела" Height="22" Margin="11,114,11,0" VerticalAlignment="Top"/>
+                        <Button Content="Начальник управления - Весь отдел" Height="22" Margin="11,73,10,0" VerticalAlignment="Top" />
+
+                        <TextBlock HorizontalAlignment="Left" Margin="11,49,0,0" TextWrapping="Wrap" Text="Другие:" VerticalAlignment="Top" Width="74"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Сообщения" FontSize="14" Margin="10,260,0,0" BorderBrush="#FF123279" HorizontalAlignment="Left" Width="356" Height="115" VerticalAlignment="Top">
+                    <Grid>
+                        <Button Content="Открыть личные сообщения" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="324"/>
+                        <Button Content="Написать личное сообщение" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" Width="324"/>
+
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Информация" FontSize="14" Margin="10,380,0,0" BorderBrush="#FF123279" HorizontalAlignment="Left" Width="356" Height="272" VerticalAlignment="Top">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Left" Margin="134,20,0,0" TextWrapping="Wrap" Text="Особо важное сообщение" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="134,44,0,0" TextWrapping="Wrap" Text="Не прочитанное сообщение" VerticalAlignment="Top" Width="200"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="134,68,0,0" TextWrapping="Wrap" Text="Получено личное сообщение" VerticalAlignment="Top" Width="200"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="134,92,0,0" TextWrapping="Wrap" Text="Сообщение отправлено" VerticalAlignment="Top" Width="200"/>
+                        <TextBlock HorizontalAlignment="Center" Margin="0,130,0,0" TextWrapping="Wrap" Text="Сведения о чем либо" VerticalAlignment="Top" Width="324" Height="114"/>
+                    </Grid>
+                </GroupBox>
+                <Grid Margin="371,10,10,0" Background="#FFE4E4E4" Height="642" VerticalAlignment="Top">
+                    <Grid Background="#FFFBFBFB" Margin="10,29,10,39"/>
+                    <TextBlock Margin="0,5,0,0" TextWrapping="Wrap" Text="[название канала]" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="14"/>
+                    <TextBox Margin="10,0,0,7" TextWrapping="Wrap" MaxWidth="500" Style="{StaticResource placeHolder}" Tag="Написать сообщение" FontSize="14" Height="27" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="271"/>
+                    <Button Content="&gt;&gt;" Margin="286,0,0,7" Height="27" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="55"/>
+                </Grid>
+            </Grid>
+
+        </Grid>
+        <Grid x:Name="gr7_TelephoneNumbers" Margin="292,92,0,0" Visibility="Hidden" Background="White">
+
+        </Grid>
+
+        <Grid x:Name="grid"  Height="140" VerticalAlignment="Top" Width="292" HorizontalAlignment="Left" MouseDown="WindowMove">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFA0C6FF" Offset="0"/>
+                    <GradientStop Color="#FF76A0DE" Offset="0.262"/>
+                    <GradientStop Color="#FF568AD6" Offset="0.548"/>
+                    <GradientStop Color="#FF2F6FCE" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Image x:Name="vtbIcon" MaxWidth="186" MaxHeight="68" Source="/Resourses/Images/index.png"  HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="Fill" StretchDirection="Both" Margin="30,19,0,0" Opacity="0.9" />
+        </Grid>
+        <Grid Panel.ZIndex="2"  x:Name="gr5_Messenger" Background="White" Margin="292,92,0,0" Visibility="Hidden" >
+        </Grid>
+        <Grid Margin="292,0,0,0" Height="92" VerticalAlignment="Top">
+            <Grid MinWidth="366"  Panel.ZIndex="3" x:Name="mainpanelSesurityGuard" MouseDown="WindowMove" Height="140" VerticalAlignment="Top">
+                <Grid.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFA0C6FF" Offset="0"/>
+                        <GradientStop Color="#FF76A0DE" Offset="0.262"/>
+                        <GradientStop Color="#FF568AD6" Offset="0.548"/>
+                        <GradientStop Color="#FF2F6FCE" Offset="1"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <Button Content="Сменить пользователя" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="265" Background="#FF2562BB" Foreground="White" Height="32" FontSize="14" FontWeight="Bold" Click="LogOut" FontFamily="Bahnschrift" BorderBrush="{x:Null}"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,22,0,0" TextWrapping="Wrap" Text="Должность: " VerticalAlignment="Top" FontSize="17" Foreground="White" FontWeight="Bold" FontFamily="Bahnschrift">
+                    <TextBlock.Effect>
+                        <DropShadowEffect/>
+                    </TextBlock.Effect>
+                </TextBlock>
+                <TextBlock Margin="110,22,10,0" TextWrapping="Wrap" Text="Системный администратор" VerticalAlignment="Top" FontSize="17" Foreground="White" FontWeight="Bold" FontFamily="Bahnschrift">
+                    <TextBlock.Effect>
+                        <DropShadowEffect/>
+                    </TextBlock.Effect>
+                </TextBlock>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp9.Resourses.MessageWinfow.Disclaimer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9.Resourses.MessageWinfow"
+        mc:Ignorable="d"
+        Title="Disclaimer" Height="349" Width="390" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="73" VerticalAlignment="Top" Width="390" MouseDown="MouseMove">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0B2A74" Offset="0"/>
+                    <GradientStop Color="#FF305790" Offset="0.499"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Информация перед использованием" VerticalAlignment="Center" Width="258" Foreground="White" FontSize="14" FontWeight="Bold"  />
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="370"><Run Text="        "/><Run Text="Данное программное обеспечение предоставлено в "/><Run Text="а"/><Run Text="льфа"/><Run Text=" версии"/><Run Text=". Некоторые фунции приложения могут быть отключены или находится в"/><Run Text=" стадии"/><Run Text=" разработк"/><Run Text="и"/><Run Text="."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="370"><Run Text="        "/><Run Text="В случае возникновения программных сбоев, ошибок в  вычислениях"/><Run Text=" или нарушении бизнес логики,"/><Run Text=" про"/><Run Text="с"/><Run Text="ьба сообщить о"/><Run Text="б"/><Run Text=" этом по "/><Run Text="а"/><Run Text="дресу:    "/><Run Text="SoftpulRazrab@gmail.com" FontStyle="Italic" TextDecorations="Underline" /><Run Text=" "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="370"><Run Text="        "/><Run Text="Внести предложение в разработку данного ПО можно также по адресу указанному выше."/><Run Text=" "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="58" Margin="10,253,0,0" TextWrapping="Wrap" Text="Вызвать форму для подготовки отчета об обноружении неисправностей или внесении предложений можно сочетанием клавиш " VerticalAlignment="Top" Width="370" />
+        <TextBlock HorizontalAlignment="Left" Margin="63,284,0,0" TextWrapping="Wrap" Text="Ctrl + B" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" RenderTransformOrigin="0.385,0.242"/>
+        <Button Content="ОК" HorizontalAlignment="Left" Margin="158,319,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>

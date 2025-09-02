@@ -1,0 +1,217 @@
+C:\Users\Goodvin\source\repos\ESUM\ESUM\bin\Debug\ESUM.exe.config
+C:\Users\Goodvin\source\repos\ESUM\ESUM\bin\Debug\ESUM.exe
+C:\Users\Goodvin\source\repos\ESUM\ESUM\bin\Debug\ESUM.pdb
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.csproj.AssemblyReference.cache
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.Properties.Resources.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.csproj.GenerateResource.cache
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.exe
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.pdb
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\КПиЯП\КП\ESUM\ESUM\ESUM\bin\Debug\ESUM.exe.config
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\КПиЯП\КП\ESUM\ESUM\ESUM\bin\Debug\ESUM.exe
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\КПиЯП\КП\ESUM\ESUM\ESUM\bin\Debug\ESUM.pdb
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\КПиЯП\КП\ESUM\ESUM\ESUM\obj\Debug\ESUM.csproj.AssemblyReference.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\КПиЯП\КП\ESUM\ESUM\ESUM\obj\Debug\ESUM.csproj.SuggestedBindingRedirects.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\КПиЯП\КП\ESUM\ESUM\ESUM\obj\Debug\ESUM.Form1.resources
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\КПиЯП\КП\ESUM\ESUM\ESUM\obj\Debug\ESUM.Properties.Resources.resources
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\КПиЯП\КП\ESUM\ESUM\ESUM\obj\Debug\ESUM.csproj.GenerateResource.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\КПиЯП\КП\ESUM\ESUM\ESUM\obj\Debug\ESUM.csproj.CoreCompileInputs.cache
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\КПиЯП\КП\ESUM\ESUM\ESUM\obj\Debug\ESUM.exe
+C:\Users\minsk\Desktop\Work\3-й курс\Subjects\2-й семестр\КПиЯП\КП\ESUM\ESUM\ESUM\obj\Debug\ESUM.pdb
+C:\Users\Goodvin\source\repos\ESUM\ESUM\ESUM\bin\Debug\ESUM.exe.config
+C:\Users\Goodvin\source\repos\ESUM\ESUM\ESUM\bin\Debug\ESUM.exe
+C:\Users\Goodvin\source\repos\ESUM\ESUM\ESUM\bin\Debug\ESUM.pdb
+C:\Users\Goodvin\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.csproj.AssemblyReference.cache
+C:\Users\Goodvin\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.Form1.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.Properties.Resources.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.csproj.GenerateResource.cache
+C:\Users\Goodvin\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.exe
+C:\Users\Goodvin\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.pdb
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\bin\Debug\ESUM.exe.config
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\bin\Debug\ESUM.exe
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\bin\Debug\ESUM.pdb
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.csproj.AssemblyReference.cache
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.csproj.SuggestedBindingRedirects.cache
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.Properties.Resources.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.csproj.GenerateResource.cache
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.csproj.CoreCompileInputs.cache
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.exe
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.pdb
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.AddFacult.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.MainWindow.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.AddKafedra.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.AddDiscipline.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.AddDocskayaOrKandskaya.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.AddAspra.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\ESUM\obj\Debug\ESUM.AddScienceTema.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddAspra.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddDiscipline.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddDocskayaOrKandskaya.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddFacult.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddKafedra.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddSciDirection.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddScienceTema.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.MainWindow.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddGroup.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddPrepod.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddLoad.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddDipl.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddPlan.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddStud.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddMonitoring.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddPoruch.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.Autorise.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.csproj.ResolveComReference.cache
+C:\Users\minsk\source\repos\ESUM\ESUM\bin\Debug\ESUM.exe.config
+C:\Users\minsk\source\repos\ESUM\ESUM\bin\Debug\ESUM.exe
+C:\Users\minsk\source\repos\ESUM\ESUM\bin\Debug\ESUM.pdb
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.csproj.AssemblyReference.cache
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.csproj.SuggestedBindingRedirects.cache
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.csproj.ResolveComReference.cache
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddAspra.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddDipl.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddDiscipline.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddDocskayaOrKandskaya.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddFacult.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddGroup.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddKafedra.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddLoad.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddMonitoring.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddPlan.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddPrepod.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddSciDirection.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddScienceTema.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddStud.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddPoruch.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.Autorise.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.MainWindow.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.Properties.Resources.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.csproj.GenerateResource.cache
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.csproj.CoreCompileInputs.cache
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.exe
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.pdb
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.SendOnEmail.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.SendOnEmail.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.Registration.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.Registration.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.UserControl.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.UserControl.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.DeleteRow.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddUser.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.AddUser.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.DeleteRow.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.Settings.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.Settings.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.MyProfile.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.MyProfile.resources
+C:\Users\Goodvin\source\repos\ESUM\ESUM\obj\Debug\ESUM.Preload.resources
+G:\На диске\PRG\ESUM\bin\Debug\ESUM.exe.config
+G:\На диске\PRG\ESUM\bin\Debug\ESUM.exe
+G:\На диске\PRG\ESUM\bin\Debug\ESUM.pdb
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.AssemblyReference.cache
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.SuggestedBindingRedirects.cache
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.ResolveComReference.cache
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddUser.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.DeleteRow.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddAspra.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddDipl.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddDiscipline.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddDocskayaOrKandskaya.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddFacult.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddGroup.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddKafedra.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddLoad.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddMonitoring.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddPlan.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddPrepod.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddSciDirection.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddScienceTema.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddStud.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.AddPoruch.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.Autorise.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.MainWindow.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.MyProfile.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.Preload.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.Properties.Resources.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.Registration.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.SendOnEmail.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.Settings.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.UserControl.resources
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.GenerateResource.cache
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.CoreCompileInputs.cache
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.exe
+G:\На диске\PRG\ESUM\obj\Debug\ESUM.pdb
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\bin\Debug\ESUM.exe.config
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\bin\Debug\ESUM.exe
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\bin\Debug\ESUM.pdb
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.AssemblyReference.cache
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.ResolveComReference.cache
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddUser.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.DeleteRow.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddAspra.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddDipl.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddDiscipline.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddDocskayaOrKandskaya.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddFacult.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddGroup.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddKafedra.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddLoad.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddMonitoring.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddPlan.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddPrepod.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddSciDirection.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddScienceTema.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddStud.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddPoruch.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.Autorise.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.MainWindow.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.MyProfile.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.Preload.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.Properties.Resources.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.Registration.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.SendOnEmail.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.Settings.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.UserControl.resources
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.GenerateResource.cache
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.CoreCompileInputs.cache
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.exe
+D:\profiles\Sush_45\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.pdb
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\bin\Debug\ESUM.exe.config
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\bin\Debug\ESUM.exe
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\bin\Debug\ESUM.pdb
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.AssemblyReference.cache
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.ResolveComReference.cache
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddUser.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.DeleteRow.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddAspra.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddDipl.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddDiscipline.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddDocskayaOrKandskaya.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddFacult.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddGroup.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddKafedra.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddLoad.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddMonitoring.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddPlan.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddPrepod.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddSciDirection.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddScienceTema.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddStud.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.AddPoruch.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.Autorise.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.MainWindow.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.MyProfile.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.Preload.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.Properties.Resources.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.Registration.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.SendOnEmail.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.Settings.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.UserControl.resources
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.GenerateResource.cache
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.exe
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.pdb
+C:\Users\Goodvin\Downloads\Для ПК\На диске\PRG\ESUM\obj\Debug\ESUM.Chart.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.Chart.resources
+C:\Users\minsk\source\repos\ESUM\ESUM\obj\Debug\ESUM.Preload.resources

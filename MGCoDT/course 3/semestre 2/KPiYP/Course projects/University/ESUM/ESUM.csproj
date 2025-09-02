@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA3248E3-77F4-48FB-979F-809407A07F1C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ESUM</RootNamespace>
+    <AssemblyName>ESUM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>37887small.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdditionalClasses\ColorPackage.cs" />
+    <Compile Include="MenuForms\Chart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\Chart.Designer.cs">
+      <DependentUpon>Chart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\DeleteRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\DeleteRow.Designer.cs">
+      <DependentUpon>DeleteRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddAspra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddAspra.Designer.cs">
+      <DependentUpon>AddAspra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddDipl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddDipl.Designer.cs">
+      <DependentUpon>AddDipl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddDiscipline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddDiscipline.Designer.cs">
+      <DependentUpon>AddDiscipline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddDocskayaOrKandskaya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddDocskayaOrKandskaya.Designer.cs">
+      <DependentUpon>AddDocskayaOrKandskaya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddFacult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddFacult.Designer.cs">
+      <DependentUpon>AddFacult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddGroup.Designer.cs">
+      <DependentUpon>AddGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddKafedra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddKafedra.Designer.cs">
+      <DependentUpon>AddKafedra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddLoad.Designer.cs">
+      <DependentUpon>AddLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddMonitoring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddMonitoring.Designer.cs">
+      <DependentUpon>AddMonitoring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddPlan.Designer.cs">
+      <DependentUpon>AddPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddPrepod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddPrepod.Designer.cs">
+      <DependentUpon>AddPrepod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddSciDirection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddSciDirection.Designer.cs">
+      <DependentUpon>AddSciDirection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddScienceTema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddScienceTema.Designer.cs">
+      <DependentUpon>AddScienceTema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddStud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddStud.Designer.cs">
+      <DependentUpon>AddStud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogForms\AddPoruch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogForms\AddPoruch.Designer.cs">
+      <DependentUpon>AddPoruch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Autorise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autorise.Designer.cs">
+      <DependentUpon>Autorise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdditionalClasses\DoubleBufferedDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Export\Exporter.cs" />
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForms\MyProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\MyProfile.Designer.cs">
+      <DependentUpon>MyProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preload.Designer.cs">
+      <DependentUpon>Preload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Export\SendOnEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Export\SendOnEmail.Designer.cs">
+      <DependentUpon>SendOnEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdditionalClasses\User.cs" />
+    <Compile Include="MenuForms\UserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\UserControl.Designer.cs">
+      <DependentUpon>UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdditionalClasses\Users.cs" />
+    <EmbeddedResource Include="MenuForms\Chart.resx">
+      <DependentUpon>Chart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\DeleteRow.resx">
+      <DependentUpon>DeleteRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddAspra.resx">
+      <DependentUpon>AddAspra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddDipl.resx">
+      <DependentUpon>AddDipl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddDiscipline.resx">
+      <DependentUpon>AddDiscipline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddDocskayaOrKandskaya.resx">
+      <DependentUpon>AddDocskayaOrKandskaya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddFacult.resx">
+      <DependentUpon>AddFacult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddGroup.resx">
+      <DependentUpon>AddGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddKafedra.resx">
+      <DependentUpon>AddKafedra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddLoad.resx">
+      <DependentUpon>AddLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddMonitoring.resx">
+      <DependentUpon>AddMonitoring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddPlan.resx">
+      <DependentUpon>AddPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddPrepod.resx">
+      <DependentUpon>AddPrepod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddSciDirection.resx">
+      <DependentUpon>AddSciDirection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddScienceTema.resx">
+      <DependentUpon>AddScienceTema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddStud.resx">
+      <DependentUpon>AddStud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogForms\AddPoruch.resx">
+      <DependentUpon>AddPoruch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autorise.resx">
+      <DependentUpon>Autorise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\MyProfile.resx">
+      <DependentUpon>MyProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preload.resx">
+      <DependentUpon>Preload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Export\SendOnEmail.resx">
+      <DependentUpon>SendOnEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\UserControl.resx">
+      <DependentUpon>UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="37887small.ico" />
+    <Content Include="Images\Icons\37887small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

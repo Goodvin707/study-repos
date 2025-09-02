@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6C83E13-0444-4432-9C71-405281101E90}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WpfApp9</RootNamespace>
+    <AssemblyName>WpfApp9</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>pixeltrue-icons-security-3.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="BusinesLogic\MainInfo\PersonalInformation\Account.cs" />
+    <Compile Include="BusinesLogic\MainInfo\PersonalInformation\LogInPerson.cs" />
+    <Compile Include="BusinesLogic\MainInfo\PersonalInformation\TakeoutRequest.cs" />
+    <Compile Include="BusinesLogic\MainInfo\PersonalInformation\TempKey.cs" />
+    <Compile Include="BusinesLogic\MainInfo\PersonalInformation\TempPass.cs" />
+    <Compile Include="BusinesLogic\MainInfo\PersonalInformation\VisitorPassRequest.cs" />
+    <Compile Include="BusinesLogic\MainInfo\PersonalInformation\WorkerPassRequest.cs" />
+    <Compile Include="Resourses\BugReport\BugReport.xaml.cs">
+      <DependentUpon>BugReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\Help\about.xaml.cs">
+      <DependentUpon>about.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\Help\adminhelp.xaml.cs">
+      <DependentUpon>adminhelp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\Help\Exporthelp.xaml.cs">
+      <DependentUpon>Exporthelp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\Help\HKhelpxaml.xaml.cs">
+      <DependentUpon>HKhelpxaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MainWindows\leadingSecialist.xaml.cs">
+      <DependentUpon>leadingSecialist.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MainWindows\ChiefSpecialist.xaml.cs">
+      <DependentUpon>ChiefSpecialist.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MessageWinfow\Disclaimer.xaml.cs">
+      <DependentUpon>Disclaimer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MessageWinfow\Find.xaml.cs">
+      <DependentUpon>Find.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MessageWinfow\Find2.xaml.cs">
+      <DependentUpon>Find2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MessageWinfow\FindTakeOutReq.xaml.cs">
+      <DependentUpon>FindTakeOutReq.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MessageWinfow\FindVisitorPass.xaml.cs">
+      <DependentUpon>FindVisitorPass.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MessageWinfow\FindWorkerPass.xaml.cs">
+      <DependentUpon>FindWorkerPass.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MessageWinfow\Help.xaml.cs">
+      <DependentUpon>Help.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MessageWinfow\InPrograss.xaml.cs">
+      <DependentUpon>InPrograss.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MessageWinfow\SaveWE.xaml.cs">
+      <DependentUpon>SaveWE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\RequestsWindow\CreateRequestPassagWorker.xaml.cs">
+      <DependentUpon>CreateRequestPassagWorker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\RequestsWindow\FindeString.cs" />
+    <Compile Include="Resourses\RequestsWindow\GiveTempKey.xaml.cs">
+      <DependentUpon>GiveTempKey.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\RequestsWindow\GiveTempPass.xaml.cs">
+      <DependentUpon>GiveTempPass.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\RequestsWindow\TakeTampKey.xaml.cs">
+      <DependentUpon>TakeTampKey.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\RequestsWindow\TakeTempPass.xaml.cs">
+      <DependentUpon>TakeTempPass.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MainWindows\SpeedCommands.cs" />
+    <Page Include="Resourses\BugReport\BugReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\Help\about.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\Help\adminhelp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\Help\Exporthelp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\Help\HKhelpxaml.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MainWindows\leadingSecialist.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resourses\MainWindows\ChiefSpecialist.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resourses\MessageWinfow\AcceMess.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MessageWinfow\Disclaimer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MessageWinfow\Find.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MessageWinfow\Find2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MessageWinfow\FindTakeOutReq.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MessageWinfow\FindVisitorPass.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MessageWinfow\FindWorkerPass.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MessageWinfow\Help.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MessageWinfow\InPrograss.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MessageWinfow\SaveWE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\RequestsWindow\AcceptRequestPassege.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\RequestsWindow\AcceptRequestTakeOut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MainWindows\Administrator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\RequestsWindow\CreateRequestPassagWorker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resourses\RequestsWindow\CreateRequestTakeout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MainWindows\HeadDepartament.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MainWindows\HeadSecurityDepartament.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\MainWindows\SecurityGuard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="mainwindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Resourses\MessageWinfow\AcceMess.xaml.cs">
+      <DependentUpon>AcceMess.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\RequestsWindow\AcceptRequestPassege.xaml.cs">
+      <DependentUpon>AcceptRequestPassege.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\RequestsWindow\AcceptRequestTakeOut.xaml.cs">
+      <DependentUpon>AcceptRequestTakeOut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MainWindows\Administrator.xaml.cs">
+      <DependentUpon>Administrator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\RequestsWindow\CreateRequestTakeout.xaml.cs">
+      <DependentUpon>CreateRequestTakeout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MainWindows\HeadDepartament.xaml.cs">
+      <DependentUpon>HeadDepartament.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resourses\MainWindows\HeadSecurityDepartament.xaml.cs">
+      <DependentUpon>HeadSecurityDepartament.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TempLogic\NewAccountInformation.cs" />
+    <Compile Include="Resourses\MainWindows\SecurityGuard.xaml.cs">
+      <DependentUpon>SecurityGuard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mainwindow.xaml.cs">
+      <DependentUpon>mainwindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Resourses\RequestsWindow\GiveTempKey.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\RequestsWindow\GiveTempPass.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\RequestsWindow\TakeTampKey.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resourses\RequestsWindow\TakeTempPass.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resourses\Images\index.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resourses\Images\5968a2c8f2ed115d40bbe123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resourses\Images\Maximaz .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resourses\Images\Minimaz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resourses\Images\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BusinesLogic\MainInfo\Request\" />
+    <Folder Include="LocalDataBase\" />
+    <Folder Include="Resourses\MainWindows\Filters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Office2013CustomActionsLib">
+      <Guid>{AB4D3FA3-21B9-443C-886E-FC4A417D3E4D}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VSTOEE100">
+      <Guid>{AAB9C2AA-6036-4AE1-A41C-A40AB7F39520}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pixeltrue-icons-security-1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pixeltrue-icons-security-3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="Resourses\Images\pixel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="HK1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pngw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="HKk2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pngwing.com %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="HK3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="asd004345-3kb_enl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pngwing.com %282%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

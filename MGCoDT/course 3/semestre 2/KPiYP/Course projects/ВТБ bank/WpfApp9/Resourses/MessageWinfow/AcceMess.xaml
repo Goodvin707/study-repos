@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfApp9.AcceMess"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9"
+        mc:Ignorable="d"
+        Title="AcceMess" Height="294" Width="378" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid Background="#FFE2E2E2">
+        <Grid HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="378" MouseDown="WindowMove">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0B2A74" Offset="0"/>
+                    <GradientStop Color="#FF305790" Offset="0.499"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Вы действителдьно хотите создать пользователя?" VerticalAlignment="Top" Width="325" Foreground="White" FontSize="14"/>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="25,58,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,82,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,106,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,130,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,154,0,0" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,182,0,0" TextWrapping="Wrap" Text="Должность" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="Login" HorizontalAlignment="Left" Margin="152,62,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="Password" HorizontalAlignment="Left" Margin="152,86,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="Surname" HorizontalAlignment="Left" Margin="152,110,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="name" HorizontalAlignment="Left" Margin="152,134,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="Petronymic" HorizontalAlignment="Left" Margin="152,158,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="Post" HorizontalAlignment="Left" Margin="152,182,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" FontSize="14"/>
+        <Button Content="Подтвердить" HorizontalAlignment="Left" Margin="25,258,0,0" VerticalAlignment="Top" Width="145" Background="#FF2562BB" Foreground="White" BorderBrush="#FF0F3C7E" Height="26" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="209,258,0,0" VerticalAlignment="Top" Width="145" Background="#FF2562BB" Foreground="White" BorderBrush="#FF0F3C7E" Height="26" FontWeight="Bold" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

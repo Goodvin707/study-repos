@@ -1,0 +1,49 @@
+﻿<Window x:Class="WpfApp9.Resourses.MessageWinfow.FindTakeOutReq"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9.Resourses.MessageWinfow"
+        mc:Ignorable="d"
+        Title="SaveWE" Height="286" Width="656" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid Background="#FFE2E2E2" Margin="0,-2,0,0" Height="288" VerticalAlignment="Top">
+        <Grid Height="45" VerticalAlignment="Top">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0B2A74" Offset="0"/>
+                    <GradientStop Color="#FF305790" Offset="0.499"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Поиск записи" VerticalAlignment="Center" Width="100" Foreground="White" FontWeight="Bold" Height="24" FontSize="14"  />
+            <Image x:Name="closeapp" Margin="610,5,8,10" MaxHeight="29" MaxWidth="29" Source="/WpfApp9;component/Resourses/Images/5968a2c8f2ed115d40bbe123.png" MouseDown="AppClose" MouseEnter="Up" Stretch="Fill" MouseLeave="Down"/>
+        </Grid>
+        <TextBox x:Name="SurnameRec" Style="{StaticResource placeHolder}" Tag="Фамилия" HorizontalAlignment="Left" Height="23" Margin="17,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="NameRec" Style="{StaticResource placeHolder}" Tag="Имя" HorizontalAlignment="Left" Height="23" Margin="142,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="PatronymivRec" Style="{StaticResource placeHolder}" Tag="Отчество" HorizontalAlignment="Left" Height="23" Margin="267,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-1.742,2.522"/>
+        <TextBox x:Name="Adress" Style="{StaticResource placeHolder}" Tag="Адрес доставки" HorizontalAlignment="Left" Height="23" Margin="17,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" RenderTransformOrigin="-1.742,2.522"/>
+        <TextBox x:Name="Item" Style="{StaticResource placeHolder}" Tag="Наименование" HorizontalAlignment="Left" Height="23" Margin="17,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ItemCount" Style="{StaticResource placeHolder}" Tag="Количество" HorizontalAlignment="Left" Height="23" Margin="142,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ItemNumber" Style="{StaticResource placeHolder}" Tag="Серийный номер" HorizontalAlignment="Left" Height="23" Margin="267,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-1.742,2.522"/>
+        <Button Click="Button_Click" Content="Найти похожие записи" HorizontalAlignment="Left" Margin="404,234,0,0" VerticalAlignment="Top" Width="198" Height="24" RenderTransformOrigin="0.427,0.594"/>
+        <TextBlock HorizontalAlignment="Left" Margin="17,52,0,0" TextWrapping="Wrap" Text="Инициатор" VerticalAlignment="Top"/>
+        <TextBox x:Name="TakerSurname" Style="{StaticResource placeHolder}" Tag="Фамилия:" HorizontalAlignment="Left" Height="23" Margin="17,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TakerName" Style="{StaticResource placeHolder}" Tag="Имя:" HorizontalAlignment="Left" Height="23" Margin="142,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TakerPatronymic" Style="{StaticResource placeHolder}" Tag="Отчество" HorizontalAlignment="Left" Height="23" Margin="267,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-1.742,2.522"/>
+        <TextBlock HorizontalAlignment="Left" Margin="17,90,0,0" TextWrapping="Wrap" Text="Осуществляющий вынос" VerticalAlignment="Top"/>
+        <TextBox x:Name="Reason" Style="{StaticResource placeHolder}" Tag="Обоснование" HorizontalAlignment="Left" Height="23" Margin="17,235,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="370" RenderTransformOrigin="-1.742,2.522"/>
+        <TextBox TextChanged="NextSmm" x:Name="DateWork_dd" Style="{StaticResource placeHolder}" Tag="дд" HorizontalAlignment="Left" Height="22" Margin="404,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="32" RenderTransformOrigin="-1.742,2.522" />
+        <TextBlock HorizontalAlignment="Left" Margin="405,53,0,0" TextWrapping="Wrap" Text="Дата выноса" VerticalAlignment="Top"/>
+        <TextBox TextChanged="NextSyyyy" x:Name="DateWork_mm" Style="{StaticResource placeHolder}" Tag="мм" HorizontalAlignment="Left" Height="22" Margin="436,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="32" RenderTransformOrigin="-1.742,2.522"/>
+        <TextBox TextChanged="NextShh" x:Name="DateWork_yyyy" Style="{StaticResource placeHolder}" Tag="гггг" HorizontalAlignment="Left" Height="22" Margin="468,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="32" RenderTransformOrigin="-1.742,2.522" />
+        <TextBox TextChanged="NextSm" x:Name="TimeWork_hh" Style="{StaticResource placeHolder}" Tag="чч" HorizontalAlignment="Left" Height="22" Margin="537,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="32" RenderTransformOrigin="-1.742,2.522"/>
+        <TextBlock HorizontalAlignment="Left" Margin="538,53,0,0" TextWrapping="Wrap" Text="Время выноса" VerticalAlignment="Top"/>
+        <TextBox x:Name="TimeWork_mm" Style="{StaticResource placeHolder}" Tag="мм" HorizontalAlignment="Left" Height="22" Margin="569,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="32" RenderTransformOrigin="-1.742,2.522"/>
+        <ComboBox x:Name="Pass" HorizontalAlignment="Left" Margin="200,194,0,0" VerticalAlignment="Top" Width="185" Height="23">
+            <ComboBoxItem Content="Московская 14"/>
+            <ComboBoxItem Content="Фабрициуса 9"/>
+            <ComboBoxItem Content=""/>
+        </ComboBox>
+        <TextBox x:Name="PatrinymicLead_Copy2" Style="{StaticResource placeHolder}" Tag="Наименование организации" HorizontalAlignment="Left" Height="22" Margin="404,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="197" RenderTransformOrigin="-1.742,2.522"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApp9.Resourses.BugReport.BugReport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9.Resourses.BugReport"
+        mc:Ignorable="d"
+        Title="BugReport" Height="450" Width="370.238" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="370" MouseDown="MouseMove">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0B2A74" Offset="0"/>
+                    <GradientStop Color="#FF305790" Offset="0.499"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Обратная связь с разработчиком" VerticalAlignment="Center" Width="236" Foreground="White" FontSize="14" FontWeight="Bold"/>
+        </Grid>
+        <TabControl HorizontalAlignment="Left" Height="399" Margin="0,51,0,0" VerticalAlignment="Top" Width="370">
+            <TabItem Header="Отчет об ошибках">
+                <Grid Background="#FFE5E5E5">
+                    <Grid HorizontalAlignment="Left" Height="351" Margin="10,10,0,0" VerticalAlignment="Top" Width="344" Background="White">
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Подробное описание проблемы" VerticalAlignment="Top"/>
+                        <TextBox x:Name="repornA" HorizontalAlignment="Left" Height="157" Margin="10,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334"/>
+                        <Image x:Name="imgReport" HorizontalAlignment="Left" Height="100" Margin="123,193,0,0" VerticalAlignment="Top" Width="211"/>
+                        <Button Content="Загрузить фото" HorizontalAlignment="Left" Margin="10,193,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_1"/>
+                        <Button Content="Отправить" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="192" Margin="76,0,76,33" Click="Button_ClickA"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="17,218,0,0" TextWrapping="Wrap" Text="(не обязательно)" VerticalAlignment="Top"/>
+                        <Button Content="Отмена" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="192" Margin="76,0,76,8" Click="Button_ClickC"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Предложение к разработке">
+                <Grid HorizontalAlignment="Left" Height="351" Margin="10,10,0,0" VerticalAlignment="Top" Width="344" Background="White">
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Подробное описание предложения к разработке" VerticalAlignment="Top"/>
+                    <TextBox x:Name="reportB" HorizontalAlignment="Left" Height="157" Margin="10,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334"/>
+                    <Image x:Name="imgReport2" HorizontalAlignment="Left" Height="100" Margin="123,193,0,0" VerticalAlignment="Top" Width="211"/>
+                    <Button Content="Загрузить фото" HorizontalAlignment="Left" Margin="10,193,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_1"/>
+                    <Button Content="Отправить" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="192" Margin="76,0,76,33" Click="Button_ClickB"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="17,218,0,0" TextWrapping="Wrap" Text="(не обязательно)" VerticalAlignment="Top"/>
+                    <Button Content="Отмена" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="192" Margin="76,0,76,8" Click="Button_ClickC"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
