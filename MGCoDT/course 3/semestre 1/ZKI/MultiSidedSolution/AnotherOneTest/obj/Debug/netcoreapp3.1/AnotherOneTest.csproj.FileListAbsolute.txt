@@ -1,0 +1,14 @@
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\bin\Debug\netcoreapp3.1\AnotherOneTest.exe
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\bin\Debug\netcoreapp3.1\AnotherOneTest.deps.json
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\bin\Debug\netcoreapp3.1\AnotherOneTest.runtimeconfig.json
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\bin\Debug\netcoreapp3.1\AnotherOneTest.runtimeconfig.dev.json
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\bin\Debug\netcoreapp3.1\AnotherOneTest.dll
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\bin\Debug\netcoreapp3.1\AnotherOneTest.pdb
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\obj\Debug\netcoreapp3.1\AnotherOneTest.csproj.AssemblyReference.cache
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\obj\Debug\netcoreapp3.1\AnotherOneTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\obj\Debug\netcoreapp3.1\AnotherOneTest.AssemblyInfoInputs.cache
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\obj\Debug\netcoreapp3.1\AnotherOneTest.AssemblyInfo.cs
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\obj\Debug\netcoreapp3.1\AnotherOneTest.csproj.CoreCompileInputs.cache
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\obj\Debug\netcoreapp3.1\AnotherOneTest.dll
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\obj\Debug\netcoreapp3.1\AnotherOneTest.pdb
+C:\Users\Goodvin\source\repos\MultiSidedSolution\AnotherOneTest\obj\Debug\netcoreapp3.1\AnotherOneTest.genruntimeconfig.cache
