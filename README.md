@@ -2,27 +2,27 @@
 
 ## Topological structure of repository.
 MGCoDT
-├───course 2
-│   ├───JavaScript
-│   ├───Mаth
-│   ├───OAiP
-│   ├───Python
-│   └───TRPO
-├───course 3
-│   ├───semestre 1
-│   │   ├───KPiYP
-│   │   ├───Test PO
-│   │   ├───TRPO
-│   │   ├───UPP
-│   │   └───ZKI
-│   └───semestre 2
-│       ├───BD
-│       ├───Java
-│       ├───KPiYP
-│       ├───PSS
-│       ├───RPO
-│       ├───UPP
-│       └───UPVP
-└───course 4
-├─────KS
-└─────PSS
+1. course 2
++ JavaScript
++ Mаth
++ OAiP
++ Python
++ TRPO
+
+2. course 3
++ KPiYP
++ Test PO
++ TRPO
++ UPP
++ ZKI
++ BD
++ Java
++ KPiYP
++ PSS
++ RPO
++ UPP
++ UPVP
+
+3. course 4
++ KS
++ PSS
