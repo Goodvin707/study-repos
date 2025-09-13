@@ -1,8 +1,10 @@
 # Structuring still in proggres...
 
 # Topological structure of repository.
-MGCoDT
-## Courses
+
+## BSUIR semesters
+
+## MGCoDT courses
 Course short name --- Course full name in Russian
 ### 2
 + JavaScript --- JavaScript
