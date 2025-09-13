@@ -1,15 +1,16 @@
 # Structuring still in proggres...
 
-## Topological structure of repository.
+# Topological structure of repository.
 MGCoDT
-1. course 2
+## Courses
+### 2
 + JavaScript
 + Mаth
 + OAiP
 + Python
 + TRPO
 
-2. course 3
+### 3
 + KPiYP
 + Test PO
 + TRPO
@@ -23,6 +24,6 @@ MGCoDT
 + UPP
 + UPVP
 
-3. course 4
+#### 4
 + KS
 + PSS
