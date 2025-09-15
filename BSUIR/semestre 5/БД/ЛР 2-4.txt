@@ -1,0 +1,96 @@
+Книги (Books)
+book_id (PK) - уникальный идентификатор книги
+title - название книги
+isbn - международный стандартный номер книги
+publication_year - год публикации
+publisher_id (FK) - издательство
+page_count - количество страниц
+description - описание книги
+cover_image - обложка книги
+available_copies - количество доступных экземпляров
+
+Авторы (Authors)
+author_id (PK) - уникальный идентификатор автора
+first_name - имя автора
+last_name - фамилия автора
+birth_date - дата рождения
+death_date - дата смерти (если applicable)
+biography - биография
+
+Издательства (Publishers)
+publisher_id (PK) - уникальный идентификатор издательства
+name - название издательства
+address - адрес
+phone - телефон
+email - электронная почта
+
+Читатели (Users)
+user_id (PK) - уникальный идентификатор пользователя
+first_name - имя
+last_name - фамилия
+email - электронная почта
+phone - телефон
+address - адрес
+registration_date - дата регистрации
+membership_expiry - дата окончания членства
+
+Жанры (Genres)
+genre_id (PK) - уникальный идентификатор жанра
+name - название жанра
+description - описание жанра
+
+Выдачи книг (Loans)
+loan_id (PK) - уникальный идентификатор выдачи
+book_id (FK) - книга
+user_id (FK) - пользователь
+loan_date - дата выдачи
+due_date - срок возврата
+return_date - фактическая дата возврата
+status - статус (активна, возвращена, просрочена)
+fine_amount - сумма штрафа (если applicable)
+
+
+Связующие таблицы (многие-ко-многим)
+Книги-Авторы (Book_Authors)
+book_id (FK) - книга
+author_id (FK) - автор
+primary_author - является ли основным автором (булево)
+
+Книги-Жанры (Book_Genres)
+book_id (FK) - книга
+genre_id (FK) - жанр
+
+
+
+Дополнительные таблицы
+
+Резервации (Reservations)
+reservation_id (PK) - уникальный идентификатор резервации
+book_id (FK) - книга
+user_id (FK) - пользователь
+reservation_date - дата резервации
+expiration_date - дата истечения резервации
+status - статус (активна, выполнена, отменена)
+
+Штрафы (Fines)
+fine_id (PK) - уникальный идентификатор штрафа
+loan_id (FK) - связанная выдача
+user_id (FK) - пользователь
+amount - сумма штрафа
+issue_date - дата начисления
+payment_date - дата оплаты
+status - статус (неоплачен, оплачен)
+
+Отзывы (Reviews)
+review_id (PK) - уникальный идентификатор отзыва
+book_id (FK) - книга
+user_id (FK) - пользователь
+rating - оценка (1-5)
+review_text - текст отзыва
+review_date - дата отзыва
+
+Рекомендуется создать индексы для:
+Часто используемых полей поиска (название книги, имя автора)
+Внешних ключей
+Поля статуса в таблицах Loans и Reservations
+Дат в таблицах Loans и Reservations для эффективного поиска по датам
