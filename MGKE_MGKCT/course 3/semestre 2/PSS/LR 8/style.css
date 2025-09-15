@@ -1,0 +1,119 @@
+grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    animation: anim 4s 3;
+}
+.grid-container > .grid-item {
+    border: 1px black solid;
+}
+.grid-item > div {
+    height: 200px;
+    width: 200px;
+    background-color: #ffff;
+    transition: 2s linear;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+.square:hover {
+    background-color: #ff0000;
+}
+.square1 {
+    color: #ffff;
+}
+.square1:hover {
+    transition: 2s linear;
+    color: #000000;
+}
+.grid-item > .progress-bar {
+    display: block;
+    background: red;
+    width: 0%;
+    height: 20px;
+    animation: progress-bar-anim 5s linear infinite;
+}
+
+@keyframes progress-bar-anim {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+.grid-item > .inifinit-color {
+    animation: change-color 5s linear infinite alternate-reverse;
+}
+.grid-item > .move-div {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    animation: move-block 8s linear infinite,
+        change-color 5s linear infinite alternate-reverse;
+}
+.grid-item > .move-div1 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    animation: move-block1 4s infinite;
+}
+@keyframes move-block1 {
+    0% {
+        margin-left: 0px;
+        background-color: red;
+    }
+    50% {
+        margin-left: 75px;
+        background-color: purple;
+    }
+    100% {
+        margin-left: 150px;
+        background-color: blue;
+    }
+}
+
+@keyframes move-block {
+    0% {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    25% {
+        margin-left: 150px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    50% {
+        margin-left: 150px;
+        margin-top: 150px;
+        margin-bottom: 0px;
+    }
+    75% {
+        margin-left: 0px;
+        margin-top: 150px;
+        margin-bottom: 0px;
+    }
+    100% {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+@keyframes change-color {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+@keyframes anim {
+    0% {
+        margin-left: 3px;
+    }
+    100% {
+        margin-left: 500px;
+    }
+}

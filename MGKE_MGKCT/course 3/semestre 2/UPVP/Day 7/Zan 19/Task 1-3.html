@@ -1,0 +1,148 @@
+<html>
+     <head>
+          <link href="..\..\jquery-ui.min.css" rel="stylesheet" type="text/css" />
+          <link href="..\jquery-ui.min.css" rel="stylesheet" type="text/css" />
+          <link href="jquery-ui.min.css" rel="stylesheet" type="text/css" />
+          <script src="..\..\jquery-3.6.0.js"></script>
+          <script src="..\jquery-3.6.0.js"></script>
+          <script src="jquery-3.6.0.js"></script>
+          <script src="..\..\jquery-ui.min.js"></script>
+          <script src="..\jquery-ui.min.js"></script>
+          <script src="jquery-ui.min.js"></script>
+          <style type="text/css">
+               #el1,
+               #el2,
+               #el3 {
+                    border-style: solid;
+                    border-width: 1px;
+                    height: 180px;
+                    width: 200px;
+               }
+               #head {
+                    text-align: center;
+                    color: white;
+                    border-style: solid;
+                    border-color: #049797;
+                    background-color: #049797;
+               }
+               #cont {
+                    padding: 8px;
+               }
+               #el2 {
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+               }
+               #el3 {
+                    position: absolute;
+                    top: 0px;
+                    left: 260px;
+               }
+               #drop1 {
+                    border: 1px solid;
+                    position: absolute;
+                    top: 270px;
+                    left: 0px;
+                    height: 180px;
+                    width: 200px;
+                    text-align: center;
+                    font-size: 25px;
+               }
+               #drop2 {
+                    border: 1px solid;
+                    position: absolute;
+                    top: 270px;
+                    left: 260px;
+                    height: 180px;
+                    width: 200px;
+                    text-align: center;
+                    font-size: 25px;
+               }
+               #sort1 {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    width: 40%;
+               }
+               #sort1 li {
+                    margin: 2px;
+                    padding: 0.4em;
+                    border-style: solid;
+                    border-width: 1px;
+                    height: 18px;
+               }
+               #wrap1 {
+                    position: relative;
+               }
+          </style>
+          <script type="text/javascript">
+               $(document).ready(function () {
+                    $("#el1").resizable();
+                    $("#el1").draggable();
+
+                    $("#sort1").sortable();
+
+                    $("#el2").draggable({ stack: "#drop1" });
+                    $("#el3").draggable({ stack: "#drop1" });
+
+                    $("#drop1").droppable({
+                         accept: "#el2, #el3",
+                         drop: function (event, ui) {
+                              if (ui.draggable.attr("id") == "el2") $("#el2").css("visibility", "hidden");
+                              else $("#el3").css("visibility", "hidden");
+
+                              $("#drop1").css("background-color", "green");
+                         },
+                    });
+
+                    $("#drop2").droppable({
+                         accept: "#el3",
+                         drop: function () {
+                              $("#el3").css("visibility", "hidden");
+                              $("#drop2").css("background-color", "green");
+                         },
+                    });
+               });
+          </script>
+     </head>
+     <body>
+          <p>
+               <b>1. Сделайте элемент с id=el1 перетаскиваемым и растягиваемым.</b>
+          </p>
+          <div style="min-height: 230px">
+               <div id="el1" class="ui-corner-all">
+                    <div id="head">Окно <b>el1</b></div>
+                    <p id="cont">Данное окно можно перетаскивать и растягивать.</p>
+               </div>
+          </div>
+          <hr />
+          <p>
+               <b>2. Сделайте список с id=sort1 сортируемым и затем расставьте элементы этого списка в правильном порядке.</b>
+          </p>
+          <ul id="sort1">
+               <li>Второй пункт списка</li>
+               <li>Третий пункт списка</li>
+               <li>Первый пункт списка</li>
+               <li>Пятый пункт списка</li>
+               <li>Четвертый пункт списка</li>
+               <li>Седьмой пункт списка</li>
+               <li>Шестой пункт списка</li>
+          </ul>
+          <hr />
+          <p>
+               <b>3. Сделайте элементы с id=el2 и id=el3 перетаскиваемыми. После этого сделайте так, чтобы первая область (c id=drop1) принимала оба элемента, а вторая (c id=drop2) только элемент с id=el3. После того, как элемент будет перетащен в принимающую его область перетаскиваемый элемент должен стать невидимым, а цвет фона области должен измениться на зеленый.</b>
+          </p>
+          <div id="wrap1">
+               <div id="el2" class="ui-corner-all">
+                    <div id="head">Окно <b>el2</b></div>
+                    <p id="cont">Данное окно можно перетаскивать мышкой.</p>
+               </div>
+               <div id="el3" class="ui-corner-all">
+                    <div id="head">Окно <b>el3</b></div>
+                    <p id="cont">Данное окно можно перетаскивать мышкой.</p>
+               </div>
+               <div id="drop1">Область 1</div>
+               <div id="drop2">Область 2</div>
+          </div>
+     </body>
+</html>

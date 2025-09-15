@@ -1,0 +1,30 @@
+header {
+    width: 90%;
+    background-color: rgb(108, 165, 70);
+    margin: auto;
+    height: 15%;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+}
+aside {
+    margin-left: 5%;
+    position: fixed;
+    width: 10%;
+    height: 600px;
+    background: rgba(120, 200, 150, 0.7);
+}
+.div-center {
+    width: auto;
+    height: min-content;
+    margin-left: 17%;
+    background-color: rgb(129, 22, 22);
+}
+footer {
+    padding-top: 1%;
+    background-color: aqua;
+    width: auto;
+    margin-left: 17%;
+    margin-top: 5%;
+    height: 15%;
+    border-radius: 20px 20px 0px 0px;
+}

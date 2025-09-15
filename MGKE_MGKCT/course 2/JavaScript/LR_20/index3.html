@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 20</title>
+    </head>
+    <body>
+        <!-- Задание 4: Даны два инпута, абзац и ссылка. Пусть в инпуты вводятся числа. Сделайте так, чтобы по клику на ссылку в абзац записалась сумма введенных чисел. -->
+        <input type="text" />
+        <input type="text" />
+        <p id="p">Сумма</p>
+        <a href="http://google.com" id="elem">Cсылка (не в Сибирь)</a>
+        <script>
+            let p = document.getElementById("p");
+            let elem = document.querySelector("#elem");
+            elem.addEventListener("click", function (event) {
+                event.preventDefault();
+            });
+        </script>
+    </body>
+</html>

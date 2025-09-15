@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 22</title>
+    </head>
+    <body>
+        <!-- Задание 1: На странице разместить кнопку, при нажатии на которую запускается таймер, вывод сделать в документ. Так же добавить кнопки, которые будут останавливать таймер и отчищать его. -->
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <textarea name="" id="textarea" cols="5" rows="2"></textarea>
+        <script>
+            let start = document.querySelector("#start");
+            let stop = document.querySelector("#stop");
+            let textarea = document.querySelector("#textarea");
+            let timerId;
+            start.addEventListener("click", function () {
+                let i = 0;
+                timerId = setInterval(function () {
+                    textarea.value = i;
+                    i++;
+                }, 1000);
+            });
+            stop.addEventListener("click", function () {
+                clearInterval(timerId);
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 19</title>
+    </head>
+    <body>
+        <!-- Задание 11: Даны инпуты. Сделайте так, чтобы каждый инпут хранил историю своих изменений. Каждый инпут свою. Изменением считается событие onchange. История должна хранится в замыкании. Над каждым инпутом должны быть стрелочки назад и вперед, с помощью которых можно передвигаться по истории. -->
+        <button class="f_back">←</button>
+        <button class="f_front">→</button><br />
+        <input type="text" value="" id="0" /><br /><br />
+
+        <button class="f_back">←</button>
+        <button class="f_front">→</button><br />
+        <input type="text" value="" id="1" /><br /><br />
+
+        <button class="f_back">←</button>
+        <button class="f_front">→</button><br />
+        <input type="text" value="" id="2" /><br /><br />
+        <script>
+            var inp = document.getElementsByTagName("input");
+            var f_back = document.getElementsByClassName("f_back");
+            var f_front = document.getElementsByClassName("f_front");
+            for (var i = 0; i < inp.length; i++) {
+                func(inp[i]);
+            }
+            function func(txt) {
+                var arr = [];
+                var current;
+                var num = txt.id;
+                txt.onchange = function () {
+                    arr.push(this.value);
+                    current = arr.length - 1;
+                };
+
+                f_front[num].onclick = function () {
+                    current++;
+                    txt.value = arr[current % arr.length];
+                };
+                f_back[num].onclick = function () {
+                    current--;
+                    if (current == -1) {
+                        current = arr.length - 1;
+                    }
+                    txt.value = arr[current % arr.length];
+                };
+            }
+        </script>
+    </body>
+</html>

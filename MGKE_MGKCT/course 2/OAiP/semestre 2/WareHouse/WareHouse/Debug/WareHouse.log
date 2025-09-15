@@ -1,0 +1,13 @@
+﻿  Logic.cpp
+c:\users\minsk\source\repos\warehouse\warehouse\logic.cpp(51): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\minsk\source\repos\warehouse\warehouse\logic.cpp(83): warning C4018: <: несоответствие типов со знаком и без знака
+  Order.cpp
+  Supplier.cpp
+  WareHouse.cpp
+c:\users\minsk\source\repos\warehouse\warehouse\warehouse.cpp(19): warning C4838: преобразование из "int" в "SHORT" требует сужающего преобразования
+c:\users\minsk\source\repos\warehouse\warehouse\warehouse.cpp(39): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\minsk\source\repos\warehouse\warehouse\warehouse.cpp(268): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\minsk\source\repos\warehouse\warehouse\warehouse.cpp(279): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\minsk\source\repos\warehouse\warehouse\warehouse.cpp(283): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  WareHouse.vcxproj -> C:\Users\minsk\source\repos\WareHouse\Debug\WareHouse.exe

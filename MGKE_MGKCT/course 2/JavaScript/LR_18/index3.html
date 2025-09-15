@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 18</title>
+    </head>
+    <body>
+        <!-- Задание 3: Дана кнопка. По нажатию на эту кнопку узнайте, есть ли у окна браузера вертикальная прокрутка. -->
+        <button onclick="func()">Button</button>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed tenetur natus veniam expedita exercitationem a molestias corrupti obcaecati consequuntur harum excepturi quam, ut amet, provident ipsum nulla architecto eveniet iusto?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aut incidunt atque beatae odio minus harum sint quibusdam cumque dolorum doloremque laborum delectus perspiciatis facilis ipsam, tempora provident quae voluptatem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magnam tenetur amet eligendi quam distinctio corporis repellendus nobis, labore sint voluptas neque, velit consectetur accusantium quos! Laborum dolore eum facilis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed tenetur natus veniam expedita exercitationem a molestias corrupti obcaecati consequuntur harum excepturi quam, ut amet, provident ipsum nulla architecto eveniet iusto?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aut incidunt atque beatae odio minus harum sint quibusdam cumque dolorum doloremque laborum delectus perspiciatis facilis ipsam, tempora provident quae voluptatem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magnam tenetur amet eligendi quam distinctio corporis repellendus nobis, labore sint voluptas neque, velit consectetur accusantium quos! Laborum dolore eum facilis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed tenetur natus veniam expedita exercitationem a molestias corrupti obcaecati consequuntur harum excepturi quam, ut amet, provident ipsum nulla architecto eveniet iusto?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magnam tenetur amet eligendi quam distinctio corporis repellendus nobis, labore sint voluptas neque, velit consectetur accusantium quos! Laborum dolore eum facilis.</p>
+        <script>
+            function func() {
+                wy = window.pageYOffset;
+                window.scrollTo(0, 50);
+                if (wy == window.pageYOffset) {
+                    alert("Прокрутки нет");
+                } else {
+                    alert("Прокрутка есть");
+                }
+            }
+        </script>
+    </body>
+</html>

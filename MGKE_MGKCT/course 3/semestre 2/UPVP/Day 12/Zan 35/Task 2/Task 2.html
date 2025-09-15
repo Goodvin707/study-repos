@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Задание 2</title>
+        <script src="..\..\..\jquery-3.6.0.js"></script>
+        <script src="..\..\jquery-3.6.0.js"></script>
+        <script src="..\jquery-3.6.0.js"></script>
+        <script src="jquery-3.6.0.js"></script>
+        <link rel="stylesheet" href="..\..\..\Bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="..\..\Bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="..\Bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
+        <script src="..\..\..\Bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="..\..\Bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="..\Bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+        <style>
+            .navbar {
+                background: #2b2a29;
+                margin-top: -30px;
+            }
+            .nav-link,
+            .navbar-brand {
+                color: #f4f4f4;
+                cursor: pointer;
+            }
+            .nav-link {
+                margin-right: 1em !important;
+                color: gray;
+            }
+            .nav-link:hover {
+                background: #f4f4f4;
+                color: #3f1586;
+            }
+        </style>
+        <script>
+            $(document).ready(function () {
+                $(".header").height($(window).height());
+
+                $("#n1").click(function () {
+                    if (!$("#n1").hasClass("active")) {
+                        $("#mu").addClass("active show");
+                        $("#muv").removeClass("active show");
+                        $("#mh").removeClass("active show");
+
+                        $("#nn1").addClass("active show");
+                        $("#nn2").removeClass("active show");
+                        $("#nn3").removeClass("active show");
+                    }
+                });
+
+                $("#n2").click(function () {
+                    if (!$("#n2").hasClass("active")) {
+                        $("#mu").removeClass("active show");
+                        $("#muv").addClass("active show");
+                        $("#mh").removeClass("active show");
+
+                        $("#nn1").removeClass("active show");
+                        $("#nn2").addClass("active show");
+                        $("#nn3").removeClass("active show");
+                    }
+                });
+
+                $("#n3").click(function () {
+                    if (!$("#n3").hasClass("active")) {
+                        $("#mu").removeClass("active show");
+                        $("#muv").removeClass("active show");
+                        $("#mh").addClass("active show");
+
+                        $("#nn1").removeClass("active show");
+                        $("#nn2").removeClass("active show");
+                        $("#nn3").addClass("active show");
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 style="text-align: center">Моя первая страница</h1>
+            <p style="text-align: center">"Девизы для дурачков"</p>
+        </div>
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <a class="navbar-brand" href="#">Обо мне</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-4">
+                    <li class="nav-item">
+                        <a id="n1" class="nav-link" href="#mu">Моя учеба</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="n2" class="nav-link" href="#muv">Мои увлечения</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="n3" class="nav-link" href="#mh">Мой дом</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Обо мне</h3>
+                    <p><b>Фото</b></p>
+                    <div style="width: 300px; height: 200px; background-color: #3f1586; color: rgb(164, 192, 237); text-align: center">Для фоточки</div>
+                    <p>Меня зовут. Я учусь, и т.д.</p>
+
+                    <h3>Ссылки:</h3>
+                    <ul class="nav nav-pills flex-column" role="tablist">
+                        <li class="nav-item">
+                            <a id="nn1" class="nav-link active" data-toggle="pill" href="#mu">Моя учеба</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nn2" class="nav-link" data-toggle="pill" href="#muv">Мои увлечения</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nn3" class="nav-link" data-toggle="pill" href="#mh">Мой дом</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Дата</h3>
+                    <p><b>Текущая дата</b></p>
+                    <div style="border-radius: 220px/150px; width: 300px; height: 200px; background-color: #3f1586; color: rgb(164, 192, 237); text-align: center">Для фоточки</div>
+                    <p>Мой план на сегодня</p>
+                    <p>Сегодня я...</p>
+                    <h3>Фотогалерея</h3>
+
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Images/1.jpg" alt="Nesvizh Castle" width="700" height="500" />
+                                <div class="carousel-caption">
+                                    <h3>Nesvizh Castle</h3>
+                                    <p>Not cheap, but beautiful</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/2.jpeg" alt="Historical Museum on Red Ploshad'" width="700" height="500" />
+                                <div class="carousel-caption">
+                                    <h3>Historical Museum</h3>
+                                    <p>Moscow</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/3.jpg" width="700" height="500" />
+                                <div class="carousel-caption">
+                                    <h3>Somewhere in Yanka Kupala Park</h3>
+                                    <p>Minsk</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/4.jpg" width="700" height="500" />
+                                <div class="carousel-caption">
+                                    <h3>Near from Minsk</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/5.jpeg" width="700" height="500" />
+                                <div class="carousel-caption">
+                                    <h3>St. Basil's Cathedral</h3>
+                                    <p>Moscow</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/6.jpeg" width="700" height="500" />
+                                <div class="carousel-caption">
+                                    <h3>Moscow City</h3>
+                                    <p>Russia</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/12.jpg" width="700" height="500" />
+                                <div class="carousel-caption">
+                                    <h3>Cabinet 7XX</h3>
+                                    <p>MGKE</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content">
+                <div id="mu" class="container tab-pane active">
+                    <br />
+                    <h2 style="text-align: center">Моя учеба</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h4>Описание учебы</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum magnam provident qui sed optio ad et ut rerum accusamus iure, atque in animi blanditiis distinctio, quibusdam delectus omnis commodi aperiam.</p>
+                                <h4>Инструменты которые изучал</h4>
+                                <div><img width="500" height="80" src="Images/myInstruments.png" /></div>
+                                <h4>Программы с которыми работал</h4>
+                                <div><img width="500" height="100" src="Images/myPrograms.png" /></div>
+                            </div>
+                            <div class="col">
+                                <div style="text-align: right"><img width="500" height="400" src="Images/mft.JPG" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="muv" class="container tab-pane fade">
+                    <br />
+                    <h2 style="text-align: center">Мои увлечения</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h5>Я увлекаюсь катанием на велосипеде и прогулками</h5>
+                                <h5>Мне нравиться проходить старые или ретро игры, смотреть аниме</h5>
+                                <p></p>
+                                <h5 style="color: lawngreen">Но главным увлечением я бы поставил - спать</h5>
+                            </div>
+                            <div class="col">
+                                <div id="demo2" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="Images/21.jpg" width="500" height="300" />
+                                            <div class="carousel-caption">
+                                                <h3>В городе</h3>
+                                                <p>Huntdown</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Images/22.jpg" width="500" height="300" />
+                                            <div class="carousel-caption">
+                                                <h3>На балконе</h3>
+                                                <p>Castlevania: Dawn of Sorrow</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="Images/24.jpg" width="500" height="300" />
+                                            <div class="carousel-caption">
+                                                <h3>Мой рекорд в динозаврике</h3>
+                                                <p>chrome://dino</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#demo2" data-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </a>
+                                </div>
+                                <p></p>
+                                <h4>Игры в которые я играю:</h4>
+                                <div><img width="500" height="100" src="Images/myGames.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mh" class="container tab-pane fade">
+                    <br />
+                    <h2 style="text-align: center">Мой дом</h2>
+                    <div style="text-align: center"><img width="500" height="400" src="Images/mh.jpg" /></div>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <p style="text-align: right">ФИО &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Учебная практика по Веб-программированию</p>
+        </div>
+    </body>
+</html>

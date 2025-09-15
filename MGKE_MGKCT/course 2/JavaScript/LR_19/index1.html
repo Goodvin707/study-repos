@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 19</title>
+    </head>
+    <body>
+        <!-- Задание 8: Даны кнопки. Привяжите к каждой кнопке событие по клику, которое будет считать количество нажатий по кнопке и выводить его в текст кнопки. Количество нажатий для каждой кнопки должно хранится в замыкании. -->
+        <button>0</button>
+        <button>0</button>
+        <button>0</button>
+        <script>
+            var f1 = function () {
+                var k = 1;
+                return function () {
+                    this.innerHTML = k;
+                    return k++;
+                };
+            };
+
+            var all_buttons = document.getElementsByTagName("button");
+            for (var i = 0; i < all_buttons.length; i++) {
+                all_buttons[i].addEventListener("click", f1(this));
+            }
+        </script>
+    </body>
+</html>

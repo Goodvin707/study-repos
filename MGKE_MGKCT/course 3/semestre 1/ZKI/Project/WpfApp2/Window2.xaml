@@ -1,0 +1,39 @@
+﻿<Window x:Class="WpfApp2.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+
+    <Grid HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="790">
+
+
+        <Grid Background="#FFA577" HorizontalAlignment="Left" Height="315" Margin="122,50,0,0" VerticalAlignment="Top" Width="535">
+            <Grid HorizontalAlignment="Left" Background="#D55448" Height="63" VerticalAlignment="Top" Width="237">
+                <Label Content="Введите фразу без пробелов" Foreground="White" FontSize="15" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="210"/>
+                <Button Content="ОК" HorizontalAlignment="Left" Margin="190,37,0,0" VerticalAlignment="Top" Width="47" Height="21"/>
+                <TextBox HorizontalAlignment="Left" Height="21" Margin="16,37,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="169"/>
+
+            </Grid>
+            <Grid HorizontalAlignment="Left" Background="#D55448" Height="132" Margin="237,0,0,0" VerticalAlignment="Top" Width="270">
+                <Label Content="Введите две фразы без пробелов" Foreground="White" FontSize="15" HorizontalAlignment="Left" Margin="14,0,0,0" VerticalAlignment="Top" Width="246"/>
+                <TextBlock Background="#896E69" HorizontalAlignment="Left" Margin="21,80,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="32" Width="230"/>
+                <Button Content="ОК" HorizontalAlignment="Left" Margin="195,38,0,0" VerticalAlignment="Top" Width="47" Height="21"/>
+                <TextBox HorizontalAlignment="Left" Height="21" Margin="21,38,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="169"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Background="#D55448" Height="63" Margin="507,0,0,0" VerticalAlignment="Top" Width="28"/>
+
+            <TextBlock Background="#896E69" HorizontalAlignment="Left" Margin="16,80,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="185" Width="168"/>
+        </Grid>
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>

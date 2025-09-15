@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.cl1 {
+    color: blue;
+    font-family: 'Courier New';
+    font: size 12px;
+}
+
+.cl2 {
+    color: red;
+    font-style: bold;
+}
+
+.cl3 {
+    color: green;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+
+.cl4 {
+    color: black;
+    border: 1px solid red;
+}
+
+.cl5 {
+    color: blue;
+    font-style: bold italic;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LR 10</title>
+    </head>
+    <style>
+        input {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+    </style>
+    <script>
+        function block() {
+            var block = document.getElementById("block");
+            var unblock = document.getElementById("unblock");
+            block.value = "О, теперь на меня больше не нажать!";
+            block.disabled = true;
+            unblock.style.display = "block";
+        }
+        function unblock() {
+            var block = document.getElementById("block");
+            var unblock = document.getElementById("unblock");
+            block.value = "О, на меня снова можно нажимать!";
+            block.disabled = false;
+            unblock.style.display = "none";
+        }
+    </script>
+    <body>
+        <p>Это input type="submit".</p>
+        <input type="submit" onclick="block(this)" value="Нажми на меня!" id="block" />
+        <input type="submit" onclick="unblock('button')" value="Нажми чтобы отблокировать элемент" style="display: none" id="unblock" />
+    </body>
+</html>

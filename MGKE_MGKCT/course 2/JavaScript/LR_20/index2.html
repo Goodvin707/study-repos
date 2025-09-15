@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 20</title>
+    </head>
+    <body>
+        <!-- Задание 3: Даны ссылки. Сделайте так, чтобы по клику на ссылку ей в конец записывался ее href, а перехода по ссылке не происходило. -->
+        <a href="http://google.com" id="elem">Cсылка (не в Сибирь)</a>
+        <script>
+            let elem = document.querySelector("#elem");
+            elem.addEventListener("click", function (event) {
+                event.preventDefault();
+                this.innerHTML = this.innerHTML + " (" + this.href + ")";
+            });
+        </script>
+    </body>
+</html>

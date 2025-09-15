@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 15</title>
+    </head>
+    <body>
+        <!-- Задание 5: Дана форма с инпутами, текстареа, чекбоксами, радио кнопочками, селектами и тп. Пользователь вводит какие-то данные и закрывает страницу (не факт, что он заполнил всю форму). Сделайте так, чтобы при следующем заходе на страницу введенные им ранее данные стояли на своих местах. Сделайте ваш скрипт как можно более универсальным. -->
+        <div class="container">
+            <h1 class="D">1000-7</h1>
+            <form id="form">
+                <div class="form-group">
+                    <label>
+                        Логин
+                        <input type="text" class="form-control" name="login" />
+                    </label>
+                    <label>
+                        Почта
+                        <input type="email" class="form-control" name="email" />
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        Телефон
+                        <input type="tel" class="form-control" name="phone" />
+                    </label>
+                    <label>
+                        ID
+                        <input type="number" class="form-control" name="zip" />
+                    </label>
+                </div>
+                <input type="submit" value="Очистить хранилище" class="btn btn-primary" />
+            </form>
+        </div>
+        <script>
+            const form = document.getElementById("form");
+            const formFields = form.elements;
+            const submitBtn = form.querySelector('[type = "submit"]');
+            submitBtn.addEventListener("click", clearStorage);
+
+            function clearStorage() {
+                localStorage.clear();
+            }
+
+            function changeHandler() {
+                console.log(this.name, this.value);
+                localStorage.setItem(this.name, this.value);
+            }
+
+            function checkStorage() {
+                for (let i = 0; i < formFields.length; i++) {
+                    if (formFields[i].type !== "submit") {
+                        formFields[i].value = localStorage.getItem(formFields[i].name);
+                    }
+                }
+                attachEvents();
+            }
+
+            function attachEvents() {
+                for (let i = 0; i < formFields.length; i++) {
+                    formFields[i].addEventListener("change", changeHandler);
+                }
+            }
+            checkStorage();
+        </script>
+    </body>
+</html>

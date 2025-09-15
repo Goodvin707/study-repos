@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+</head>
+<style>
+    body {
+        margin: 500px;
+        margin-top: 0px;
+        }
+    fieldset {
+        border-color: rgb(77, 7, 143);
+        border-style: solid;
+        border-radius: 10px;
+        box-shadow: 0 0 15px 4px rgba(19, 1, 1, 0.06);
+        transition: 5.3s border-color;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    input {
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid rgb(155, 130, 212);
+        border-radius: 10px;
+        box-shadow: 0 0 15px 4px rgba(19, 1, 1, 0.06);
+        transition: 5.3s border-color;
+        }
+    input:hover {
+        border: 1px solid #aaa;
+    }
+    input,
+    textarea {
+        font-family: inherit;
+        font-size: inherit;
+        border: 2px solid rgb(155, 130, 212);
+        border-radius: 10px;
+        box-shadow: 0 0 15px 4px rgba(19, 1, 1, 0.06);
+        transition: 5.3s border-color;
+    }
+    input.submitbtn {
+        appearance: none;
+        -webkit-appearance: none;
+        padding: 10px;
+        border: none;
+        background-color: #3f51b5;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 5px;
+        -webkit-transition: All 0.5s ease;
+        -moz-transition: All 0.5s ease;
+        -o-transition: All 0.5s ease;
+        -ms-transition: All 0.5s ease;
+        transition: All 0.5s ease;
+    }
+    input.submitbtn:hover {
+        background-color: #68ee0e;
+    }
+    input.resetbtn {
+        appearance: none;
+        -webkit-appearance: none;
+        padding: 10px;
+        border: none;
+        background-color: #3f51b5;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 5px;
+        -webkit-transition: All 0.5s ease;
+        -moz-transition: All 0.5s ease;
+        -o-transition: All 0.5s ease;
+        -ms-transition: All 0.5s ease;
+        transition: All 0.5s ease;
+    }
+    input.resetbtn:hover {
+        background-color: #e94117;
+    }
+</style>
+<body>
+    <form>
+        <fieldset>
+            <fieldset>
+                <legend>Общая информация</legend>
+                    <p>
+                        <label for="Фамилия">Фамилия: <input id="Фамилия" type="text" required maxlength="20"></label>
+                    </p>
+                    <p>
+                        <label for="Имя">Имя: <input id="Имя" type="text" required maxlength="20"></label>
+                    </p>
+                    <p>
+                        <label for="Отчество">Отчество: <input type="text" id="Имя" maxlength="20"></label>
+                    </p>
+                    <p>
+                        <label for="Дата рождения">Дата рождения: <input type="date" id = "Дата рождения"required></label>
+                    </p>
+                    <p>
+                        <label>Пол:<select>
+                            <option></option>
+                            <option>Мужской</option>
+                            <option>Женский</option>
+                        </select></label>
+                    </p>
+                    <p>
+                        <label>Фото: <input type="file"></label>
+                    </p>
+                    <p>
+                        <label>Телефон: <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12"></label>
+                        <small>Format: 123-456-7890</small>
+                    </p>
+                    <p>
+                        <label>Электронная почта: <input type="email"></label>
+                    </p>
+                    <p>
+                        <label>Адрес проживания: <input type="text"></label>
+                    </p>
+                    <p>
+                        <label>Город проживания: 
+                            <select>
+                                <option>
+                                    Минск
+                                </option>
+                                <option>
+                                    Гродно
+                                </option>
+                            </select>
+                        </label>
+                    </p>
+            </fieldset>
+            <fieldset>
+                <legend>Образование</legend>
+                <p><label>Высшее: <textarea maxlength="5000"></textarea></label></p>
+                <p><label>Среднее: <textarea maxlength="5000"></textarea></label></p>
+                <p><label>Курсы: <textarea maxlength="5000"></textarea></label></p>
+            </fieldset>
+            <fieldset>
+                <legend>Карьера</legend>
+                <p><label>Место первой работы: <input maxlength="30"></label>       <label>Дата начала и дата окончания 1-й работы: <input type="date"></label></p>
+                <p><label>Место второй работы: <input maxlength="30"></label>       <label>Дата начала и дата окончания 2-й работы: <input type="date"></label></p>
+                <p><label>Место третьей работы: <input maxlength="30"></label>       <label>Дата начала и дата окончания 3-й работы: <input type="date"></label></p>
+            </fieldset>
+        </fieldset>
+        <input class="submitbtn" type="submit"></input>
+        <input class="resetbtn" type="reset"></input>
+    </form>
+</body>
+</html>

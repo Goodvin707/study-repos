@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ЛР 11</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.24.0/babel.js"></script>
+    </head>
+    <body>
+        <header id="HeaderElem"></header>
+        <main id="MainElem"></main>
+        <div id="ContainerElem"></div>
+        <footer id="FooterElem"></footer>
+
+        <script type="text/babel">
+            function PageHeader() {
+                return (
+                    <header>
+                        <div>
+                            <p class="rainbow">Ну какой логотип?</p>
+                            <img src="logo.jpg" alt="" />
+                            <div>
+                                <div>
+                                    <input type="button" value="Навигация1" />
+                                </div>
+                                <div>
+                                    <input type="button" value="Навигация2" />
+                                </div>
+                                <div>
+                                    <input type="button" value="Навигация3" />
+                                </div>
+                                <div>
+                                    <input type="button" value="Навигация4" />
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                );
+            }
+
+            const pageHeaderElem = document.getElementById("HeaderElem");
+            ReactDOM.render(<PageHeader />, pageHeaderElem);
+
+            function PageMain(props) {
+                return (
+                    <main>
+                        <div>
+                            <p>Фамилия: {props.surname}</p>
+                            <p>Имя: {props.name}</p>
+                            <p>Отчество: {props.patronymic}</p>
+                        </div>
+                    </main>
+                );
+            }
+
+            const pageMainElem = document.getElementById("MainElem");
+            ReactDOM.render(<PageMain surname="Сушко" name="Алексей" patronymic="Юльевич" />, pageMainElem);
+
+            function PageContainer(props) {
+                return (
+                    <div>
+                        <ul>
+                            <li>{props.surname}</li>
+                            <li>{props.name}</li>
+                            <li>{props.patronymic}</li>
+                        </ul>
+                    </div>
+                );
+            }
+
+            const pageConteinerElem = document.getElementById("ContainerElem");
+            ReactDOM.render(<PageContainer surname="Сушко" name="Алексей" patronymic="Юльевич" />, pageConteinerElem);
+
+            function PageFooter() {
+                return (
+                    <footer>
+                        <div>
+                            <p>Лабораторная работа № 11</p>
+                        </div>
+                    </footer>
+                );
+            }
+
+            const pageFooterElem = document.getElementById("FooterElem");
+            ReactDOM.render(<PageFooter />, pageFooterElem);
+        </script>
+    </body>
+</html>

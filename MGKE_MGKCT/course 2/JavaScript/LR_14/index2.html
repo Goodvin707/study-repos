@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 14</title>
+        <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- Задание 2: Модифицируйте класс Elem из предыдущей задачи так, чтобы он мог работать не только с одним элементом, но и одновременно с группой, как это сделано в jQuery. Кроме того: реализуйте еще и метод each, который будет работать также, как и each из jQuery. -->
+
+        <div id="test">текст</div>
+        <p class="dwww">Абзац</p>
+        <p class="dwww">Абзац</p>
+        <p class="dwww">Абзац</p>
+
+        <script>
+            class Elem {
+                constructor(selector) {
+                    this.elem = document.querySelector(selector);
+                }
+                html(text) {
+                    this.elem.innerHTML = text;
+                    return this;
+                }
+                append(text) {
+                    var el = document.getElementById("test");
+                    this.elem.innerHTML = text + el.innerText;
+                    return this;
+                }
+                prepend(text) {
+                    var el = document.getElementById("test");
+                    this.elem.innerHTML = el.innerText + text;
+                    return this;
+                }
+                attr(name, value) {
+                    this.elem.setAttribute(name, value);
+                    return this;
+                }
+            }
+            var elem2 = new Elem("#test");
+            $(".dwww").each(function () {
+                $(this).html("ss");
+            });
+            $(".dwww").each(function () {
+                $(this).prepend("!");
+            });
+        </script>
+    </body>
+</html>

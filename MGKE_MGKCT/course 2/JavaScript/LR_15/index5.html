@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 15</title>
+    </head>
+    <body>
+        <!-- Задание 6: Реализуйте записную книгу, хранящую данные в локальном хранилище. -->
+        <textarea id="text" cols="30" rows="10"></textarea>
+        <button id="save">Save</button>
+        <script>
+            var text = document.getElementById("text");
+            var save = document.getElementById("save");
+            save.addEventListener("click", function () {
+                localStorage.setItem("text", text.value);
+            });
+            function load() {
+                text.value = localStorage.getItem("text");
+            }
+            load();
+        </script>
+    </body>
+</html>

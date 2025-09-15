@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Задание 1</title>
+          <script src="..\..\jquery-3.6.0.js"></script>
+          <script src="..\jquery-3.6.0.js"></script>
+          <script src="jquery-3.6.0.js"></script>
+          <style type="text/css">
+               .button button {
+                    padding-left: 0.5%;
+                    border-style: none;
+                    color: blue;
+               }
+
+               #elem {
+                    border-color: black;
+                    border-style: solid;
+                    width: fit-content;
+                    padding-right: 12px;
+                    margin-top: 2%;
+               }
+          </style>
+     </head>
+
+     <body>
+          <div class="button">
+               <button id="hide">исчезнуть</button>
+               <button id="show">появиться</button>
+               <button id="fade-to-zero">затемнить</button>
+               <button id="fade-to-one">оттемнить</button>
+          </div>
+          <div id="elem">
+               <ol>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+                    <li>Пункт списка</li>
+               </ol>
+          </div>
+     </body>
+     <script type="text/javascript">
+          $("#hide").click(function () {
+               $("#elem").hide();
+          });
+          $("#show").click(function () {
+               $("#elem").show();
+          });
+          $("#fade-to-zero").click(function () {
+               $("#elem").fadeTo(200, 0.2, "linear");
+          });
+          $("#fade-to-one").click(function () {
+               $("#elem").fadeTo(200, 1, "linear");
+          });
+     </script>
+</html>

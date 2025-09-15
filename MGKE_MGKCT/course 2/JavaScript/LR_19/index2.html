@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>LR 19</title>
+    </head>
+    <body>
+        <!-- Задание 9 Дан массив цветов. Даны абзацы. По первому нажатию на абзац он должен покраситься в первый цвет из массива, по второму нажатию - во второй и так далее. Все абзацы работают независимо. -->
+        <p>Текст1</p>
+        <p>Текст2</p>
+        <p>Текст3</p>
+        <script>
+            var colors = ["magenta", "cyan", "firebrick", "springgreen", "skyblue"];
+            var p_collect = document.getElementsByTagName("p");
+
+            var f1 = function () {
+                var k = 0;
+                return function () {
+                    this.style.color = colors[k];
+                    k++;
+                    if (k == colors.length) {
+                        k = 0;
+                    }
+                };
+            };
+
+            for (var i = 0; i < p_collect.length; i++) {
+                p_collect[i].addEventListener("click", f1());
+            }
+        </script>
+    </body>
+</html>

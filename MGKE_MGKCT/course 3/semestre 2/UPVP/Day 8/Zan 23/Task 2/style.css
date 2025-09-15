@@ -1,0 +1,241 @@
+.logo {
+     font-size: 82.63px;
+     font-family: "MrsEavesItalic";
+     font-style: italic;
+     color: rgba(255, 255, 255, 0.678);
+     line-height: 0.278;
+     text-align: justifyLeft;
+     position: absolute;
+     left: 388px;
+     top: 104.153px;
+     z-index: 163;
+}
+
+.melopikcha {
+     background-image: url("images\\bg.png");
+     position: absolute;
+     background-repeat: no-repeat;
+     /* background-position: center; */
+     left: 150px;
+     top: 0px;
+     width: 1280px;
+     height: 867px;
+     z-index: 3;
+}
+
+.Solutions_Products_Portfolio {
+     font-size: 22.63px;
+     font-family: "SegoeWPN";
+     color: rgb(255, 255, 255);
+     line-height: 1.2;
+     text-align: justifyLeft;
+     position: absolute;
+     left: 780px;
+     top: 52.145px;
+     width: 476px;
+     height: 19px;
+     z-index: 109;
+}
+
+/* Баннер */
+.icon {
+     background-image: url("images\\icon.png");
+     position: absolute;
+     left: 401px;
+     top: 198px;
+     width: 344px;
+     height: 345px;
+     z-index: 92;
+}
+
+.Introducing {
+     font-size: 64.63px;
+     font-family: "SegoeWPN";
+     color: rgb(255, 255, 255);
+     line-height: 1.2;
+     text-align: left;
+     position: absolute;
+     left: 800px;
+     top: 244.842px;
+     width: 337px;
+     height: 112px;
+     z-index: 54;
+}
+
+.Something_hot {
+     font-size: 44.63px;
+     font-family: "SegoeWPN";
+     font-style: italic;
+     color: rgb(179, 166, 166);
+     line-height: 1.2;
+     text-align: left;
+     position: absolute;
+     left: 800px;
+     top: 310.842px;
+     width: 447px;
+     height: 112px;
+     z-index: 54;
+}
+
+.Try_Demo {
+     font-size: 22.63px;
+     font-family: "SegoeWPN";
+     color: rgb(255, 255, 255);
+     line-height: 1.2;
+     text-align: justifyLeft;
+     position: absolute;
+     left: 826px;
+     top: 400.145px;
+     width: 93px;
+     height: 23px;
+     z-index: 56;
+}
+
+.Shape_10 {
+     border-style: solid;
+     border-width: 4px;
+     border-color: rgb(0, 0, 0);
+     background-color: rgb(56, 155, 97);
+     opacity: 0.155;
+     position: absolute;
+     left: 802px;
+     top: 387px;
+     width: 142px;
+     height: 42px;
+     z-index: 55;
+}
+
+/* Вкладки */
+.tabs {
+     background-image: url("images\\tabs.png");
+     position: absolute;
+     left: 278px;
+     top: 551px;
+     width: 1030px;
+     height: 1092px;
+     z-index: 161;
+}
+
+/* Почему? */
+.screen_shot {
+     background-image: url("images\\screen shot.png");
+     position: absolute;
+     left: 264px;
+     top: 1661px;
+     width: 486px;
+     height: 338px;
+     z-index: 107;
+}
+
+.Why_choose_us {
+     font-size: 32.63px;
+     font-family: "SegoeWPN";
+     color: rgb(79, 79, 79);
+     line-height: 1.2;
+     text-align: left;
+     position: absolute;
+     left: 785px;
+     top: 1688.364px;
+     z-index: 95;
+}
+
+.Lorem_Ipsum_is_simply_dummy_text_of_the_printin {
+     font-size: 16px;
+     font-family: "UniversCE";
+     color: rgb(138, 136, 136);
+     line-height: 2.375;
+     text-align: left;
+     position: absolute;
+     left: 839px;
+     top: 1744px;
+     width: 498.058px;
+     height: 205.285px;
+     z-index: 96;
+}
+
+.Shape_15 {
+     background-image: url("images\\gal.png");
+     border-radius: 50%;
+     background-color: rgb(230, 118, 36);
+     position: absolute;
+     width: 18px;
+     height: 18px;
+     z-index: 97;
+}
+
+/* footer */
+.foot1 {
+     background-image: url("images\\footer1.png");
+     position: absolute;
+     left: 150px;
+     top: 3280px;
+     width: 1200px;
+     height: 133px;
+     z-index: 25;
+}
+.foot2 {
+     background-image: url("images\\footer2.png");
+     position: absolute;
+     left: 150px;
+     top: 3280px;
+     width: 1280px;
+     height: 243px;
+     z-index: 25;
+}
+
+/* Всякое другое */
+.extendTask1 {
+     position: absolute;
+     left: 150px;
+     top: 2080px;
+     z-index: 25;
+}
+.extendTask2 {
+     position: absolute;
+     left: 850px;
+     top: 2100px;
+     z-index: 25;
+}
+.extendTask3 {
+     position: absolute;
+     left: 850px;
+     top: 2200px;
+     z-index: 25;
+}
+.extendTask4 {
+     position: absolute;
+     left: 150px;
+     top: 2300px;
+     z-index: 25;
+}
+.extendTask5 {
+     position: absolute;
+     left: 850px;
+     top: 2350px;
+     width: 500px;
+     z-index: 25;
+}
+.extendTask6 {
+     position: absolute;
+     left: 150px;
+     top: 2450px;
+     z-index: 25;
+}
+#basic-form {
+     position: absolute;
+     left: 850px;
+     top: 2500px;
+}
+#accordion1 {
+     position: absolute;
+     left: 150px;
+     top: 2700px;
+     margin: 8px;
+     width: 30%;
+     font-size: 0.9em;
+}
+#tabs {
+     position: absolute;
+     left: 850px;
+     top: 2700px;
+}

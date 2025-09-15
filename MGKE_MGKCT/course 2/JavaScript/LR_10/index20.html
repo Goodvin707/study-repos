@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LR 10</title>
+    </head>
+    <style>
+        input {
+            width: 200px;
+        }
+    </style>
+    <script>
+        function go() {
+            var test = document.getElementById("test");
+            var value = test.value;
+            var result = document.getElementById("result");
+            result.value = value * value;
+        }
+    </script>
+    <body>
+        <p>По нажатию на кнопку в нижнем инпуте появится квадрат числа из верхнего инпута.</p>
+        <input type="text" value="" placeholder="Введите число!" id="test" />
+        <input id="result" value="Здесь появится результат." disabled="" />
+        <button onclick="go()">Нажми на меня!</button>
+    </body>
+</html>

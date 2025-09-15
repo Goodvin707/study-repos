@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LR 10</title>
+    </head>
+    <style>
+        input {
+            width: 200px;
+        }
+    </style>
+    <script>
+        function add(text) {
+            var input = document.getElementById("input");
+            input.value = input.value + text;
+        }
+    </script>
+    <body>
+        <input type="text" value="" id="input" />
+        <br /><br />
+        <input type="submit" onclick="add('+')" value="Я добавлю +" /><br />
+        <input type="submit" onclick="add('-')" value="Я добавлю -" /><br />
+        <input type="submit" onclick="add('/')" value="Я добавлю /" /><br />
+        <input type="submit" onclick="add('*')" value="Я добавлю *" /><br />
+        <br /><br />
+        <input type="submit" onclick="add('1')" value="1" /><br />
+        <input type="submit" onclick="add('2')" value="2" /><br />
+        <input type="submit" onclick="add('3')" value="3" /><br />
+        <input type="submit" onclick="add('4')" value="4" /><br />
+        <input type="submit" onclick="add('5')" value="5" /><br />
+        <input type="submit" onclick="add('6')" value="6" /><br />
+        <input type="submit" onclick="add('7')" value="7" /><br />
+        <input type="submit" onclick="add('8')" value="8" /><br />
+        <input type="submit" onclick="add('9')" value="9" /><br />
+        <input type="submit" onclick="add('0')" value="0" /><br />
+    </body>
+</html>

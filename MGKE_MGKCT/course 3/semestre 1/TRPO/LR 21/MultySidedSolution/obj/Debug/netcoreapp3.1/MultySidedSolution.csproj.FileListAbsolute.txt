@@ -1,0 +1,26 @@
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.exe
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.deps.json
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.runtimeconfig.json
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.runtimeconfig.dev.json
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.dll
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.pdb
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.csprojAssemblyReference.cache
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.csproj.CoreCompileInputs.cache
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.AssemblyInfoInputs.cache
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.AssemblyInfo.cs
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.dll
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.pdb
+D:\PROFILES\Sush_45\source\repos\MultySidedSolution\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.genruntimeconfig.cache
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.exe
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.deps.json
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.runtimeconfig.json
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.runtimeconfig.dev.json
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.dll
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\bin\Debug\netcoreapp3.1\MultySidedSolution.pdb
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.csproj.AssemblyReference.cache
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.AssemblyInfoInputs.cache
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.AssemblyInfo.cs
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.csproj.CoreCompileInputs.cache
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.dll
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.pdb
+\\srv-kz-252\Profiles\students\GR_45\Алексей Сушко\3-й курс\ТРПО\Сушко ЛР 21\MultySidedSolution\obj\Debug\netcoreapp3.1\MultySidedSolution.genruntimeconfig.cache
