@@ -12,7 +12,7 @@
 ### 7
 ### 8
 
-## MGCoDT courses
+## MGKE/MGKCT courses
 Course short name --- Course full name in Russian
 ### 2
 + JavaScript --- JavaScript
