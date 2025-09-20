@@ -1,0 +1,4 @@
+﻿  Exam_Bilet_23.cpp
+C:\Users\minsk\source\repos\OAiP\Exam_Bilet_23\Exam_Bilet_23.cpp(56,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\minsk\source\repos\OAiP\Exam_Bilet_23\Exam_Bilet_23.cpp(59,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Exam_Bilet_23.vcxproj -> C:\Users\minsk\source\repos\OAiP\x64\Debug\Exam_Bilet_23.exe

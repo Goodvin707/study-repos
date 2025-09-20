@@ -1,0 +1,210 @@
+24.07.2019-16:12:07: url: /api/dishes/100 returns 404
+01.08.2019-17:38:32: url: /js/site.js?v=Nafx1TAf4AmWpzQSPTmG9y48-zDWIqcxdPiEmo9i_lo returns 304
+01.08.2019-17:45:24: url: /api/Dishes/100 returns 404
+03.08.2019-10:56:21: url: /Images/6.png returns 304
+03.08.2019-10:56:21: url: /js/site.js?v=qK5cS-7xsT2RQD96IEIsD-RX4c3kwXQ5Wq2kKzYckhM returns 304
+03.08.2019-10:56:23: url: /js/bs-custom-file-input.js returns 304
+03.08.2019-10:56:32: url: /js/site.js?v=qK5cS-7xsT2RQD96IEIsD-RX4c3kwXQ5Wq2kKzYckhM returns 304
+03.08.2019-15:29:05: url: /js/site.js?v=qK5cS-7xsT2RQD96IEIsD-RX4c3kwXQ5Wq2kKzYckhM returns 304
+info: group=all groups,  page=1
+info: group=all groups,  page=1
+03.08.2019-15:29:38: url: /Cart/Add/1?returnUrl=%2FCatalog%2FPage_1 returns 302
+User logged in.
+03.08.2019-15:29:47: url: /Identity/Account/Login?ReturnUrl=%2FCart%2FAdd%2F1%3FreturnUrl%3D%252FCatalog%252FPage_1 returns 302
+03.08.2019-15:29:48: url: /Cart/Add/1?returnUrl=%2FCatalog%2FPage_1 returns 302
+info: group=all groups,  page=1
+info: group=all groups,  page=1
+info: group=all groups,  page=1
+User logged out.
+03.08.2019-15:30:27: url: /Identity/Account/Logout?returnurl=%2FCatalog%2FPage_1 returns 302
+info: group=all groups,  page=1
+03.08.2019-15:56:50: url: /js/site.js?v=qK5cS-7xsT2RQD96IEIsD-RX4c3kwXQ5Wq2kKzYckhM returns 304
+User logged in.
+03.08.2019-15:57:50: url: /Identity/Account/Login returns 302
+User logged out.
+03.08.2019-15:58:12: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+12.09.2019-13:27:18: url: /Identity/Account/Login returns 302
+User logged out.
+12.09.2019-13:27:28: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+12.09.2019-13:27:32: url: /Identity/Account/Login returns 302
+12.09.2019-13:27:46: url: /Cart/Add/1?returnUrl=%2FCatalog%2FPage_1 returns 302
+12.09.2019-13:27:48: url: /Cart/Add/2?returnUrl=%2FCatalog%2FPage_1 returns 302
+12.09.2019-13:27:52: url: /Cart/Delete/1 returns 302
+User logged out.
+12.09.2019-13:28:56: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+12.09.2019-13:29:07: url: /Identity/Account/Login returns 302
+User logged out.
+12.09.2019-13:29:16: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+12.09.2019-13:29:24: url: /Identity/Account/Login returns 302
+User logged out.
+12.09.2019-13:29:27: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+12.09.2019-13:29:34: url: /Identity/Account/Login returns 302
+User logged out.
+12.09.2019-13:29:46: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+12.09.2019-13:29:55: url: /Identity/Account/Login returns 302
+User logged in.
+03.10.2019-14:10:24: url: /Identity/Account/Login returns 302
+24.10.2019-14:01:16: url: /js/site.js?v=qK5cS-7xsT2RQD96IEIsD-RX4c3kwXQ5Wq2kKzYckhM returns 304
+11.11.2019-20:59:24: url: /Admin/Create returns 302
+11.11.2019-20:59:24: url: /Images/ returns 404
+11.11.2019-21:00:37: url: /Admin/Create returns 302
+11.11.2019-21:00:38: url: /Images/ returns 404
+11.11.2019-21:11:17: url: /Admin/Create returns 302
+11.11.2019-21:11:18: url: /Images/ returns 404
+11.11.2019-21:11:25: url: /Admin/Delete/8 returns 302
+11.11.2019-21:11:26: url: /Images/ returns 404
+11.11.2019-21:11:26: url: /Images/10.png returns 304
+11.11.2019-21:11:30: url: /Admin/Delete/9 returns 302
+11.11.2019-21:11:30: url: /Images/10.png returns 304
+11.11.2019-21:11:35: url: /Admin/Delete/10 returns 302
+User logged in.
+12.11.2019-11:03:52: url: /Identity/Account/Login returns 302
+12.11.2019-11:04:10: url: /Cart/Add/1?returnUrl=%2FCatalog%2FPage_1 returns 302
+12.11.2019-11:04:14: url: /Cart/Add/1?returnUrl=%2FCatalog%2FPage_1 returns 302
+12.11.2019-11:04:16: url: /Cart/Add/3?returnUrl=%2FCatalog%2FPage_1 returns 302
+13.11.2019-8:16:57: url: /js/bs-custom-file-input.js.map returns 404
+13.11.2019-8:17:05: url: /js/bs-custom-file-input.js.map returns 404
+13.11.2019-8:29:27: url: /Admin/Edit/6 returns 302
+13.11.2019-8:33:32: url: /Admin/Edit/6 returns 302
+13.11.2019-8:37:45: url: /Admin/Edit/6 returns 302
+13.11.2019-8:44:51: url: /Admin/Edit/6 returns 302
+13.11.2019-8:53:53: url: /js/bs-custom-file-input.js.map returns 404
+User logged in.
+17.11.2019-12:10:37: url: /Identity/Account/Login returns 302
+User logged out.
+17.11.2019-12:10:48: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User created a new account with password.
+02.05.2025-19:14:43: url: /Identity/Account/Register returns 302
+02.05.2025-20:17:28: url: /images/avatar.jpg returns 404
+02.05.2025-20:17:28: url: /images/avatar.jpg returns 404
+02.05.2025-20:20:41: url: /images/avatar.jpg returns 404
+02.05.2025-20:20:41: url: /images/avatar.jpg returns 404
+02.05.2025-20:21:17: url: /images/avatar.jpg returns 404
+02.05.2025-20:21:17: url: /htmlpage.html returns 304
+02.05.2025-20:21:18: url: /images/avatar.jpg returns 404
+User logged out.
+02.05.2025-21:41:24: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+02.05.2025-21:43:35: url: /Identity/Account/Login returns 302
+User logged out.
+02.05.2025-21:44:53: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+02.05.2025-21:45:24: url: /Identity/Account/Login returns 302
+User logged out.
+02.05.2025-21:51:47: url: /Identity/Account/Logout?returnurl=%2FHome%2FIndex returns 302
+User created a new account with password.
+02.05.2025-21:54:36: url: /Identity/Account/Register returns 302
+02.05.2025-22:03:06: url: /Cart/Add/3?returnUrl=%2FCatalog%2FPage_1 returns 302
+02.05.2025-22:03:09: url: /Cart/Delete/3 returns 302
+02.05.2025-22:07:09: url: /Cart/Add/3?returnUrl=%2FCatalog%2FPage_1 returns 302
+02.05.2025-22:07:11: url: /Cart/Add/2?returnUrl=%2FCatalog%2FPage_1 returns 302
+02.05.2025-22:07:12: url: /Cart/Add/1?returnUrl=%2FCatalog%2FPage_1 returns 302
+02.05.2025-22:11:57: url: /images/avatar.jpg returns 404
+User logged out.
+02.05.2025-22:16:58: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+02.05.2025-22:17:04: url: /Identity/Account/Login returns 302
+User logged in.
+04.05.2025-17:35:11: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-17:46:04: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-17:46:11: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-17:46:25: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-17:55:50: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-17:57:35: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-17:57:49: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-17:58:01: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-18:02:02: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:02:12: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-18:02:47: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:11:37: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-18:11:58: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:15:33: url: /Identity/Account/Logout?returnurl=%2F returns 302
+04.05.2025-18:19:23: url: /Identity/Account/ForgotPassword returns 302
+User logged in.
+04.05.2025-18:24:21: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:25:28: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-18:25:38: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:25:49: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User created a new account with password.
+04.05.2025-18:26:58: url: /Identity/Account/Register returns 302
+User logged out.
+04.05.2025-18:29:35: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-18:29:56: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:33:41: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-18:37:37: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:37:55: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User created a new account with password.
+04.05.2025-18:38:50: url: /Identity/Account/Register returns 302
+User logged out.
+04.05.2025-18:39:22: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-18:41:58: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:42:06: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-18:47:57: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:47:59: url: /Identity/Account/Logout?returnurl=%2F returns 302
+04.05.2025-18:48:27: url: /Identity/Account/ForgotPassword returns 302
+User logged in.
+04.05.2025-18:52:05: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:52:12: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-18:52:25: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:52:33: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-18:52:56: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-18:53:03: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-19:27:18: url: /Identity/Account/Login returns 302
+04.05.2025-19:27:35: url: /create returns 404
+04.05.2025-19:27:42: url: /Create returns 404
+User logged out.
+04.05.2025-19:30:39: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-19:44:36: url: /Identity/Account/Login returns 302
+User logged out.
+04.05.2025-19:44:55: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+04.05.2025-19:45:20: url: /Identity/Account/Login returns 302
+User logged in.
+05.05.2025-5:39:32: url: /Identity/Account/Login returns 302
+User logged out.
+05.05.2025-5:39:47: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+05.05.2025-5:42:40: url: /Identity/Account/Login returns 302
+User logged out.
+05.05.2025-5:46:20: url: /Identity/Account/Logout?returnurl=%2F returns 302
+User logged in.
+05.05.2025-5:53:39: url: /Identity/Account/Login returns 302
+User logged out.
+05.05.2025-6:00:27: url: /Identity/Account/Logout?returnurl=%2F returns 302

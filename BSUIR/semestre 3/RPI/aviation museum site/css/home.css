@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 40px;
+    box-shadow: 0 1px 8px #ddd;
+    height: 60x;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+.bot2 {
+    margin-bottom: 100px;
+    color: #ffffff;
+    display: block;
+    font: bold 16px arial;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    background: linear-gradient(to bottom, rgb(32, 157, 202), rgb(15, 132, 175)) repeat scroll 0 0 / 100% 200% rgba(0, 0, 0, 0);
+    transition: all 0.2s linear 0s;
+    border-bottom: 4px solid #ccc;
+}
+.bot2:hover,
+.bot2:focus {
+    background-position: 0 -102%;
+}
+
+.container {
+    background: rgb(5, 93, 176);
+    background: linear-gradient(0deg, rgba(5, 93, 176, 1) 0%, rgba(42, 153, 203, 1) 37%, rgba(10, 136, 255, 1) 100%);
+}
+
+.intro {
+    display: flex;
+    margin-left: 150px;
+}
+
+.intro1 {
+    width: 60%;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.image {
+    padding-bottom: 50px;
+}
+
+.album {
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+}
+
+.img {
+    border-radius: 20px;
+    height: 320px;
+    width: 400px;
+    margin: 30px;
+}
+
+.course {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.courses {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    height: 200px;
+    width: 600px;
+    border-radius: 9px;
+    background-color: white;
+}
+
+.tablecourse_t {
+    border-radius: 5px;
+    border: 1px solid #399;
+}
+
+.footer {
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(14, 89, 160);
+}

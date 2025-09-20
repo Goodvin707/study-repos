@@ -1,0 +1,5 @@
+﻿  KPO_KR_3.cpp
+C:\Users\minsk\source\repos\KPO_KR\KPO_KR_3\KPO_KR_3.cpp(102,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\minsk\source\repos\KPO_KR\KPO_KR_3\KPO_KR_3.cpp(102,39): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\minsk\source\repos\KPO_KR\KPO_KR_3\KPO_KR_3.cpp(125,9): warning C4101: kk: неиспользованная локальная переменная
+  KPO_KR_3.vcxproj -> C:\Users\minsk\source\repos\KPO_KR\x64\Debug\KPO_KR_3.exe

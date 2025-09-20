@@ -1,0 +1,7 @@
+sqrt(1 + 2 * x^2 - x^3)
+1 / sqrt(3 + x^3)
+1 / ln(x)
+cos(x) / (x + 2)
+sin(x) - abs(x - 4)
+cos(x) + ln(x)
+sqrt(abs(x))

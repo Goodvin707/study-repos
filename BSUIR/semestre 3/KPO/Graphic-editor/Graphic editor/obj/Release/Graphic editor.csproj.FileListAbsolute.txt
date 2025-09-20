@@ -1,0 +1,41 @@
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\Graphic editor.exe.config
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\Graphic editor.exe
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\Graphic editor.pdb
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Graphic editor.csproj.AssemblyReference.cache
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\MyShapes\AbstractShape.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Styles\CustomizedWindow\VS2012WindowStyle.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\InputBox.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\ImageProperty.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\MainWindow.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\MyShapes\AbstractShape.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Styles\CustomizedWindow\VS2012WindowStyle.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\App.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Graphic editor_MarkupCompile.cache
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Graphic editor_MarkupCompile.lref
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\App.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\InputBox.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\ImageProperty.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\MainWindow.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Graphic editor.g.resources
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Graphic_editor.Properties.Resources.resources
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Graphic editor.csproj.GenerateResource.cache
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Graphic editor.csproj.CoreCompileInputs.cache
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Graphic editor.csproj.CopyComplete
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Graphic editor.exe
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Release\Graphic editor.pdb

@@ -1,0 +1,32 @@
+﻿@model Dish
+
+<div class="card m-2 p-1 col-4">
+    <img src="~/Images/@Model.Image"
+         alt='NoImage'
+         class="card-img" />
+    <div class="card-body">
+        <h5 class="card-title">
+            @Model.DishName
+        </h5>
+        <p class="card-text">
+            @Model.Description
+        </p>
+        <div class="card-subtitle badge">
+            <h4> @Model.Calories калорий</h4>
+        </div>
+
+        @{ // Получение текущего адреса
+            var request = ViewContext.HttpContext.Request;
+            var returnUrl = request.Path + request.QueryString.ToUriComponent();
+        }
+        
+        <!--Разметка кнопки добавления в корзину-->
+        <a asp-action="Add"
+           asp-controller="Cart"
+           asp-route-id="@Model.DishId"
+           asp-route-returnUrl="@returnUrl"
+           class="btn btn-primary">
+            <i class="fa fa-shopping-cart"></i> В корзину
+        </a>
+    </div>
+</div>

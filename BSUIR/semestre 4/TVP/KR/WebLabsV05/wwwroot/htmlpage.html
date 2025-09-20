@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">38157226</a>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Лб 1</a>
+                    <a class="nav-item nav-link" href="#">Каталог</a>
+                    <a class="nav-item nav-link" href="#">Администрирование</a>
+                </div>
+                <a href="#" class="navbar-text ml-auto">
+                    00,0 руб.(0)
+                    <i class="fa fa-shopping-cart nav-color"></i>
+                </a>
+
+                <div class="dropdown ml-4 nav-color">
+                    <div class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="images/avatar.jpg" width="30" alt="User" class="rounded" />
+                    </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-item-text">
+                            <img src="images/photo_2021-11-22_23-52-48.jpg" width="50" alt="User" class="rounded" />
+                            user@mail.ru
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Log off</a>
+                    </div>
+                </div>
+                <!-- Информация пользователя - конец -->
+            </nav> <!-- Панель навигации - конец -->
+        </div><!-- container - конец -->
+    </header><!-- header - конец -->
+    <main class="container">
+        <h1>Лабораторная работа 1</h1>
+        <h2>Список</h2>
+        <ol type="A">
+            <li>элемент 1 списка</li>
+            <li>элемент 2 списка</li>
+        </ol>
+        <hr />
+        <h2>Форма</h2>
+        <form role="form" method="post">
+            <fieldset class="form-group">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="chk1" id="check1" />
+                            <label for="check1" class="form-check-label"> Чек-бокс 1</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="chk2" id="check2" />
+                            <label for="check2" class="form-check-label"> Чек-бокс 2</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="form-group row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" checked="checked" name="radio" value="1" id="radio1" />
+                        <label class="form-check-label" for="radio1">Радио-1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="radio" value="2" id="radio1" />
+                        <label class="form-check-label" for="radio2">Радио-2</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="radio" value="3" id="radio3" />
+                        <label class="form-check-label" for="radio3">Радио-3</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="login" class="col-sm-2 col-form-label">Логин:</label>
+                <div class="col-md-10">
+                    <input type="text" id="login" name="pass" class="form-control" placeholder="Введите имя" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="pass" class="col-sm-2 col-form-label">Пароль:</label>
+                <div class="col-md-10">
+                    <input type="password" id="pass" name="pass" class="form-control" placeholder="Введите пароль" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-8">
+                    <button type="submit" class="btn btn-info">Отправить</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="navbar navbar-dark navbar-expand-md bg-dark">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="facebook.com"><i class="fa fa-facebook fa-2x"></i></a>
+                    <a class="nav-item nav-link" href="vk.com"><i class="fa fa-vk fa-2x"></i></a>
+                    <a class="nav-item nav-link" href="twitter.com"><i class="fa fa-twitter fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

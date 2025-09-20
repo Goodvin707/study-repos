@@ -1,0 +1,150 @@
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Graphic editor.exe.config
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Graphic editor.exe
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Graphic editor.pdb
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.csprojAssemblyReference.cache
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\MainWindow.g.cs
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\App.g.cs
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor_MarkupCompile.cache
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor_MarkupCompile.lref
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\MainWindow.baml
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.g.resources
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic_editor.Properties.Resources.resources
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.csproj.GenerateResource.cache
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.csproj.CoreCompileInputs.cache
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.exe
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.pdb
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.csproj.CopyComplete
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\ImageProperty.g.cs
+C:\учеба\ЯП\Graphic editor\Graphic editor\Graphic editor\obj\Debug\ImageProperty.baml
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Graphic editor.exe.config
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Graphic editor.exe
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Graphic editor.pdb
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.csprojAssemblyReference.cache
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\ImageProperty.g.cs
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\MainWindow.g.cs
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\App.g.cs
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor_MarkupCompile.cache
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor_MarkupCompile.lref
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\ImageProperty.baml
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\MainWindow.baml
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.g.resources
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic_editor.Properties.Resources.resources
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.csproj.GenerateResource.cache
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.csproj.CoreCompileInputs.cache
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.csproj.CopyComplete
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.exe
+C:\учеба\ЯП\курсовая работа\Graphic editor\Graphic editor\Graphic editor\obj\Debug\Graphic editor.pdb
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\Graphic editor.exe.config
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\Graphic editor.exe
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\Graphic editor.pdb
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.csproj.AssemblyReference.cache
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\ImageProperty.g.cs
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\MainWindow.g.cs
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\App.g.cs
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Graphic editor_MarkupCompile.cache
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Graphic editor_MarkupCompile.lref
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\ImageProperty.baml
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\MainWindow.baml
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.g.resources
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Graphic_editor.Properties.Resources.resources
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.csproj.GenerateResource.cache
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.csproj.CoreCompileInputs.cache
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.csproj.CopyComplete
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.exe
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.pdb
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\MyShapes\AbstractShape.baml
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\MyShapes\AbstractShape.g.cs
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\InputBox.g.cs
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\InputBox.baml
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.baml
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.g.cs
+C:\Users\minsk\source\repos\Graphic-editor\Graphic editor\obj\Debug\App.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\Graphic editor.exe.config
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\Graphic editor.exe
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\Graphic editor.pdb
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.csproj.AssemblyReference.cache
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\MyShapes\AbstractShape.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\InputBox.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\ImageProperty.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\MainWindow.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\MyShapes\AbstractShape.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\App.g.cs
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Graphic editor_MarkupCompile.cache
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Graphic editor_MarkupCompile.lref
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\App.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\InputBox.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\ImageProperty.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\MainWindow.baml
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.g.resources
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Graphic_editor.Properties.Resources.resources
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.csproj.GenerateResource.cache
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.csproj.CoreCompileInputs.cache
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.csproj.CopyComplete
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.exe
+C:\Users\minsk\source\repos\WPF\Graphic-editor\Graphic editor\obj\Debug\Graphic editor.pdb

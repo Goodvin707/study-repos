@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 40px;
+    box-shadow: 0 1px 8px #ddd;
+    height: 60x;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+.img {
+    border-radius: 20px;
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+}
+
+.container {
+    padding: 50px 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+
+    background: rgb(5, 93, 176);
+    background: linear-gradient(0deg, rgba(5, 93, 176, 1) 10%, rgba(42, 153, 203, 1) 77%, rgba(10, 136, 255, 1) 100%);
+}
+
+h1 {
+    color: white;
+}
+
+.bot2 {
+    margin-bottom: 100px;
+    color: #ffffff;
+    display: block;
+    font: bold 16px arial;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    background: linear-gradient(to bottom, rgb(32, 157, 202), rgb(15, 132, 175)) repeat scroll 0 0 / 100% 200% rgba(0, 0, 0, 0);
+    transition: all 0.2s linear 0s;
+    border-bottom: 4px solid #ccc;
+}
+.bot2:hover,
+.bot2:focus {
+    background-position: 0 -102%;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.course {
+    background-color: white;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.2rem;
+    padding: 10px;
+}
+
+.footer {
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(14, 89, 160);
+}

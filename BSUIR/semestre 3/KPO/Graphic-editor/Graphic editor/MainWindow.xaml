@@ -1,0 +1,165 @@
+﻿<Window x:Class="Graphic_editor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:colorPalette="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:Graphic_editor"
+        mc:Ignorable="d"
+        
+        Title="Графический редактор"
+        Height="600"
+        Width="1015"
+        Background="AliceBlue"
+        Icon="Icons/icon.ico"
+        WindowStartupLocation="CenterScreen"
+        Closing="Window_Closing"
+        Style="{StaticResource VS2012WindowStyle}">
+    <Window.CommandBindings>
+        <CommandBinding x:Name="NewBinding" Command="New" Executed="NewBinding_OnExecuted" />
+        <CommandBinding x:Name="OpenBinding" Command="Open" Executed="OpenBinding_OnExecuted"/>
+        <CommandBinding x:Name="SaveBinding" Command="Save" Executed="SaveBinding_OnExecuted" />
+        <CommandBinding x:Name="CloseBinding" Command="Close" Executed="CloseBinding_OnExecuted"/>
+    </Window.CommandBindings>
+
+    <DockPanel LastChildFill="True" Background="AliceBlue">
+        <StatusBar DockPanel.Dock="Bottom" Height="24">
+            <TextBlock Margin="3,0,0,0" x:Name="statBarTextBlock">Готово</TextBlock>
+            <StatusBarItem HorizontalAlignment="Right">
+                <ResizeGrip Opacity="0.75"/>
+            </StatusBarItem>
+        </StatusBar>
+
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Новый" Command="New">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/new.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Открыть..." Command="Open">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/open.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Сохранить..." Command="Save">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/save.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Выход" Command="Close" InputGestureText="Alt+F4">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/exit.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Изменить">
+                <MenuItem Header="Отменить" Click="BtnUndo_Click">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/undo.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Вернуть" Click="BtnRedo_Click">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/redo.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator/>
+                <MenuItem x:Name="mProperties" Header="Свойства" Click="MProperties_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Icons/properties.ico"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="mAbout" Header="О программе" Click="MAbout_Click"/>
+        </Menu>
+
+        <ToolBarTray DockPanel.Dock="Top" Background="LightBlue">
+            <ToolBar Background="LightBlue">
+                <Button Command="New">
+                    <Image Width="26" Source="Icons/new.png"/>
+                </Button>
+                <Button Command="Open">
+                    <Image Width="44" Source="Icons/open.ico"/>
+                </Button>
+                <Button Command="Save">
+                    <Image Width="36" Source="Icons/save.ico"/>
+                </Button>
+            </ToolBar>
+            <ToolBar Background="LightBlue">
+                <Button x:Name="btnUndo" Click="BtnUndo_Click" IsEnabled="False">
+                    <Image Width="30" Source="Icons/undo.ico"/>
+                </Button>
+                <Button x:Name="btnRedo" Click="BtnRedo_Click" IsEnabled="False">
+                    <Image Width="30" Source="Icons/redo.ico" />
+                </Button>
+            </ToolBar>
+            <ToolBar Background="LightBlue">
+                <Button x:Name="btnPencil" Click="BtnPencil_Click">
+                    <Image Width="30" Source="Icons/pencil.ico"/>
+                </Button>
+                <Button x:Name="btnBrush" Click="BtnBrush_Click">
+                    <Image Width="30" Source="Icons/brush.ico"/>
+                </Button>
+                <Button x:Name="btnPipette" Click="BtnPipette_Click">
+                    <Image Width="30" Source="Icons/pipette2.png"/>
+                </Button>
+                <Button x:Name="btnEraser" Click="BtnEraser_Click">
+                    <Image Width="30" Source="Icons/eraser2.png"/>
+                </Button>
+            </ToolBar>
+            <ToolBar Background="LightBlue">
+                <StackPanel x:Name="spThickness" IsEnabled="False">
+                    <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Толщина стержня</Label>
+                    <StackPanel Orientation="Horizontal">
+                        <Slider x:Name="slBrushThickness" Width="100" Minimum="1" Maximum="15" TickPlacement="Both" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="SlBrushThickness_ValueChanged"/>
+                        <TextBox Name="tBrushThickness"  Width="20" Height="20" Text="{Binding ElementName=slBrushThickness,Path=Value}" IsEnabled="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+            </ToolBar>
+            <ToolBar Background="LightBlue">
+                <Button Name="btnLine" Click="BtnLine_Click" >
+                    <Image Source="Icons/line.ico" Width="32"/>
+                </Button>
+                <Button Name="btnRectangle" Click="RectangleClick" >
+                    <Image Source="Icons/rectangle.ico" Width="32"/>
+                </Button>
+                <Button Name="btnElipse" Click="EllipseClick">
+                    <Image Source="Icons/ellipse.ico" Width="32"/>
+                </Button>
+                <Button Name="btnTriangle" Click="TriangleClick">
+                    <Image Source="Icons/triangle.png" Width="32"/>
+                </Button>
+            </ToolBar>
+            <ToolBar Background="LightBlue">
+                <colorPalette:ColorPicker x:Name="colorPicker" Width="80" Height="25" SelectedColor="Black" SelectedColorChanged="ColorPicker_SelectedColorChanged"  />
+            </ToolBar>
+        </ToolBarTray>
+        <ScrollViewer x:Name="scrViewer" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <Border x:Name="cnvBorder" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black" BorderThickness="1">
+                <Canvas x:Name="cnvPaint" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5 0 5 5" MouseLeftButtonDown="CnvPaint_MouseLeftButtonDown" MouseMove="CnvPaint_MouseMove" MouseUp="MainCanvasMouseUp" Width="900" Height="400" SizeChanged="cnvPaint_SizeChanged">
+                    <Canvas.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Прямоугольник" Click="RectangleClick">
+                                <MenuItem.Icon>
+                                    <Rectangle Fill="LightBlue"  Stroke="Black" StrokeThickness="1"/>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                            <MenuItem Header="Треугольник" Click="TriangleClick">
+                                <MenuItem.Icon>
+                                    <Polygon Fill="LightPink" Points="0, 1, 1, 0, 2, 1" Stroke="Black" Stretch="Fill"/>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                            <MenuItem Header="Эллипс" Click="EllipseClick">
+                                <MenuItem.Icon>
+                                    <Ellipse Fill="LightCoral"/>
+                                </MenuItem.Icon>
+                            </MenuItem>
+                        </ContextMenu>
+                    </Canvas.ContextMenu>
+                </Canvas>
+            </Border>
+        </ScrollViewer>
+    </DockPanel>
+</Window>
