@@ -1,0 +1,8 @@
+P5.bat 1
+P5.bat Редактор
+
+P5.bat 2 /debug
+P5.bat Память /p
+
+P5.bat 3 C:\Windows C:\Temp
+P5.bat Директория D:\Projects E:\Backups
