@@ -127,5 +127,6 @@ int main() {
     solver.solve();
     solver.printTables();
 
+    system("pause");
     return 0;
 }

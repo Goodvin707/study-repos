@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\danii\\source\\repos\\KR2_MMP_C\u002B\u002B\\",
+  "WorkspaceRootPath": "C:\\Users\\Goodvin\\Documents\\GitHub\\study-repos\\BSUIR\\semestre 5\\MMP\\KR2_MMP_C\u002B\u002B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B722D00-5551-44F8-96FF-233D14A91ADC}|KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.vcxproj|C:\\Users\\danii\\source\\repos\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5B722D00-5551-44F8-96FF-233D14A91ADC}|KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.vcxproj|C:\\Users\\Goodvin\\Documents\\GitHub\\study-repos\\BSUIR\\semestre 5\\MMP\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5B722D00-5551-44F8-96FF-233D14A91ADC}|KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.vcxproj|solutionrelative:KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "KR2_MMP_C\u002B\u002B.cpp",
-              "DocumentMoniker": "C:\\Users\\danii\\source\\repos\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.cpp",
+              "DocumentMoniker": "C:\\Users\\Goodvin\\Documents\\GitHub\\study-repos\\BSUIR\\semestre 5\\MMP\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.cpp",
               "RelativeDocumentMoniker": "KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.cpp",
-              "ToolTip": "C:\\Users\\danii\\source\\repos\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.cpp",
+              "ToolTip": "C:\\Users\\Goodvin\\Documents\\GitHub\\study-repos\\BSUIR\\semestre 5\\MMP\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.cpp",
               "RelativeToolTip": "KR2_MMP_C\u002B\u002B\\KR2_MMP_C\u002B\u002B.cpp",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGsAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAIMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-21T17:38:32.377Z",
               "EditorCaption": ""
