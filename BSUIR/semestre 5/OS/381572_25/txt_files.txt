@@ -1,0 +1,3 @@
+02.10.2025  13:31               101 file_list.txt
+02.10.2025  13:07               484 Tree_res.txt
+02.10.2025  13:32                 0 txt_files.txt

@@ -1,0 +1,12 @@
+--- System Information --- 
+ 
+--- Path to Temporary Files --- 
+TEMP: C:\Users\minsk\AppData\Local\Temp 
+TMP: C:\Users\minsk\AppData\Local\Temp 
+ 
+--- Current ERRORLEVEL --- 
+ERRORLEVEL:  0 
+ 
+--- User Info --- 
+Username: minsk 
+ 
