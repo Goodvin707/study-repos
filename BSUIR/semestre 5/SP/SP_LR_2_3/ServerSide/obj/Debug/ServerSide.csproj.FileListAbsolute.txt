@@ -1,0 +1,16 @@
+C:\Users\minsk\source\repos\SP_LR_2_3\ServerSide\bin\Debug\ServerSide.exe.config
+C:\Users\minsk\source\repos\SP_LR_2_3\ServerSide\bin\Debug\ServerSide.exe
+C:\Users\minsk\source\repos\SP_LR_2_3\ServerSide\bin\Debug\ServerSide.pdb
+C:\Users\minsk\source\repos\SP_LR_2_3\ServerSide\obj\Debug\ServerSide.csproj.AssemblyReference.cache
+C:\Users\minsk\source\repos\SP_LR_2_3\ServerSide\obj\Debug\ServerSide.csproj.CoreCompileInputs.cache
+C:\Users\minsk\source\repos\SP_LR_2_3\ServerSide\obj\Debug\ServerSide.exe
+C:\Users\minsk\source\repos\SP_LR_2_3\ServerSide\obj\Debug\ServerSide.pdb
+C:\Users\minsk\source\repos\SP_LR_2_3\ServerSide\obj\Debug\ServerSide.exe.config
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ServerSide\bin\Debug\ServerSide.exe.config
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ServerSide\bin\Debug\ServerSide.exe
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ServerSide\bin\Debug\ServerSide.pdb
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ServerSide\obj\Debug\ServerSide.csproj.AssemblyReference.cache
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ServerSide\obj\Debug\ServerSide.exe.config
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ServerSide\obj\Debug\ServerSide.csproj.CoreCompileInputs.cache
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ServerSide\obj\Debug\ServerSide.exe
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ServerSide\obj\Debug\ServerSide.pdb

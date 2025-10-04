@@ -1,0 +1,16 @@
+C:\Users\minsk\source\repos\SP_LR_2_3\ClientSide\bin\Debug\ClientSide.exe.config
+C:\Users\minsk\source\repos\SP_LR_2_3\ClientSide\bin\Debug\ClientSide.exe
+C:\Users\minsk\source\repos\SP_LR_2_3\ClientSide\bin\Debug\ClientSide.pdb
+C:\Users\minsk\source\repos\SP_LR_2_3\ClientSide\obj\Debug\ClientSide.csproj.AssemblyReference.cache
+C:\Users\minsk\source\repos\SP_LR_2_3\ClientSide\obj\Debug\ClientSide.csproj.CoreCompileInputs.cache
+C:\Users\minsk\source\repos\SP_LR_2_3\ClientSide\obj\Debug\ClientSide.exe
+C:\Users\minsk\source\repos\SP_LR_2_3\ClientSide\obj\Debug\ClientSide.pdb
+C:\Users\minsk\source\repos\SP_LR_2_3\ClientSide\obj\Debug\ClientSide.exe.config
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ClientSide\bin\Debug\ClientSide.exe.config
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ClientSide\bin\Debug\ClientSide.exe
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ClientSide\bin\Debug\ClientSide.pdb
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ClientSide\obj\Debug\ClientSide.csproj.AssemblyReference.cache
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ClientSide\obj\Debug\ClientSide.exe.config
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ClientSide\obj\Debug\ClientSide.csproj.CoreCompileInputs.cache
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ClientSide\obj\Debug\ClientSide.exe
+C:\Users\minsk\source\repos\C Sharp cmd\SP_LR_2_3\ClientSide\obj\Debug\ClientSide.pdb

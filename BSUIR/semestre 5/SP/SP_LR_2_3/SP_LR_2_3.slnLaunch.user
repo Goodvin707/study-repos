@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "ClientSide\\ClientSide.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "ServerSide\\ServerSide.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
