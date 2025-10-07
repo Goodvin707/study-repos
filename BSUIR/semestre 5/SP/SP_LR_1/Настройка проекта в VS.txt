@@ -1,0 +1,2 @@
+В свойствах проекта перейдите в Configuration Properties → Linker → System.
+Установите SubSystem: Windows (/SUBSYSTEM:WINDOWS)
