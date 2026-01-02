@@ -4,12 +4,48 @@
 
 ## BSUIR semesters
 ### 1
++ IstBG
++ Logic
++ OAiP
++ OKG
++ OKTeh
++ VOVSNVMV
+
 ### 2
++ AiSD
++ BelarussianLanguage
++ KPO
++ OAiP
+
 ### 3
++ AiSD
++ AKT
++ KPO
++ RPI
+
 ### 4
++ KSiS
++ OOTPiSP
++ TI
++ TVP
+
 ### 5
++ BD
++ IAD
++ MMP
++ OOTPiSP
++ OS
++ SP
++ TVP
+
 ### 6
++ AKSiS
++ BD
++ PP
+
 ### 7
+
+
 ### 8
 
 ## MGKE/MGKCT courses
@@ -33,6 +69,6 @@ Course short name --- Course full name in Russian
 + RPO --- Разработка ПО
 + UPVP --- Учебная практика по веб-программированию
 
-#### 4
+### 4
 + KS --- Копьютерные сети
 + PSS --- Программные средства и интернет
