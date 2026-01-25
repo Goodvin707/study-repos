@@ -72,3 +72,4 @@ Course short name --- Course full name in Russian
 ### 4
 + KS --- Копьютерные сети
 + PSS --- Программные средства и интернет
++ BD --- Базы данных
