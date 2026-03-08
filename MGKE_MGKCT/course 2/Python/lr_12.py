@@ -8,8 +8,7 @@ class Car:
     def __init__(self, speed, lpk, weight, razg, fueltype, color, model, price, privod, gearbox):
         self.speed = speed
         self.lpk = lpk # lpk - litres per kilometer
-        self.weight = weigh
-        t
+        self.weight = weight
         self.razg = razg # razg - разгон до 100 км/ч
         self.fueltype = fueltype
         self.color = color
