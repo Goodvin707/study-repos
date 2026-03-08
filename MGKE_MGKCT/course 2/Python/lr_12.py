@@ -4,41 +4,6 @@
  – не менее 5 методов (из которых хотя бы один описан вне класса), выполняющих обработку атрибутов класса;
 – сеттеры (методы изменения значений) для тех атрибутов класса, для которых теоретически могут быть заданы недопустимые значения.
 '''
-class Car:
-    def __init__(self, speed, lpk, weight, razg, fueltype, color, model, price, privod, gearbox):
-        self.speed = speed
-        self.lpk = lpk # lpk - litres per kilometer
-        self.weight = weight
-        self.razg = razg # razg - разгон до 100 км/ч
-        self.fueltype = fueltype
-        self.color = color
-        self.model = model
-        self.price = price
-        self.privod = privod
-        self.gearbox = gearbox
-    def setModel(self):
-        self.model
-    def setSpeed(self):
-        return self.speed
-    def setGearbox(self):
-        return self.gearbox
-    def setColor(self):
-        return self.color
-    def setPrivod(self):
-        return self.privod
-    
-    def getModel(self):
-        return self.model
-    def getSpeed(self):
-        return self.speed
-    def getGearbox(self):
-        return self.gearbox
-    def getColor(self):
-        return self.color
-def getPrivod(self):
-        return self.privod
-Car.myMethod = getPrivod
-help(Car)
 
 '''Задание 2: В основной программе выполнить следующее: 
 2.1. Вывести на экран документацию класса. 
@@ -53,7 +18,7 @@ class Car:
     """Класс автомобиль"""
     def __init__(self, speed, lpk, weight, razg, fueltype, color, model, price, privod, gearbox):
         self.speed = speed
-        self.lpk = lpk # lpk - litres per kilometer
+        self.lpk = lpk # lpk - litres per kilometer - литры на километр
         self.weight = weight
         self.razg = razg # razg - разгон до 100 км/ч
         self.fueltype = fueltype
