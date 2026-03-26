@@ -1,5 +1,0 @@
-﻿  BMPVIEW.cpp
-C:\Users\minsk\source\repos\OKG P1\OKG P1\BMPVIEW.cpp(106,13): warning C4244: return: преобразование "WPARAM" в "int", возможна потеря данных
-C:\Users\minsk\source\repos\OKG P1\OKG P1\BMPVIEW.cpp(282,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\minsk\source\repos\OKG P1\OKG P1\BMPVIEW.cpp(296,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  OKG P1.vcxproj -> C:\Users\minsk\source\repos\OKG P1\x64\Debug\OKG P1.exe

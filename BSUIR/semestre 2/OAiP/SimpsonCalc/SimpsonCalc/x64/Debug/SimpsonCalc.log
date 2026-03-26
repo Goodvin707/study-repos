@@ -1,4 +1,0 @@
-﻿  Validator.cpp
-C:\Users\minsk\source\repos\SimpsonCalc\SimpsonCalc\Validator.cpp(120,8): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
-C:\Users\minsk\source\repos\SimpsonCalc\SimpsonCalc\Validator.cpp(10): warning C4715: to_lowercase: значение возвращается не при всех путях выполнения
-  SimpsonCalc.vcxproj -> C:\Users\minsk\source\repos\SimpsonCalc\x64\Debug\SimpsonCalc.exe
