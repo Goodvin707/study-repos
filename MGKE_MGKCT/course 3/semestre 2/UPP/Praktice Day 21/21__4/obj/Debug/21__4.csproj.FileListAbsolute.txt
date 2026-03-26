@@ -1,9 +1,0 @@
-C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_21\Praktice Day 21\21__4\bin\Debug\21__4.exe.config
-C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_21\Praktice Day 21\21__4\bin\Debug\21__4.exe
-C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_21\Praktice Day 21\21__4\bin\Debug\21__4.pdb
-C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_21\Praktice Day 21\21__4\obj\Debug\_21__4.Form1.resources
-C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_21\Praktice Day 21\21__4\obj\Debug\_21__4.Properties.Resources.resources
-C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_21\Praktice Day 21\21__4\obj\Debug\21__4.csproj.GenerateResource.cache
-C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_21\Praktice Day 21\21__4\obj\Debug\21__4.csproj.CoreCompileInputs.cache
-C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_21\Praktice Day 21\21__4\obj\Debug\21__4.exe
-C:\Users\Goodvin\Desktop\Work\3-й курс\Subjects\2-й семестр\УПП\day_21\Praktice Day 21\21__4\obj\Debug\21__4.pdb
