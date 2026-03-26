@@ -1,7 +1,0 @@
-﻿  Logic.cpp
-  Order.cpp
-  Supplier.cpp
-  WareHouse.cpp
-c:\users\minsk\source\repos\warehouse\warehouse\warehouse.cpp(19): warning C4838: преобразование из "int" в "SHORT" требует сужающего преобразования
-  Создание кода...
-  WareHouse.vcxproj -> C:\Users\minsk\source\repos\WareHouse\x64\WareHouse\WareHouse.exe
