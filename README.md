@@ -1,6 +1,6 @@
 ### Structuring still in proggres...
 
-# Topological structure of repository.
+# Topological structure of this repository.
 
 ## BSUIR semesters
 ### 1
@@ -72,4 +72,7 @@ Course short name --- Course full name in Russian
 ### 4
 + KS --- Копьютерные сети
 + PSS --- Программные средства и интернет
++ BD --- Базы данных
++ Xamarin --- Xamarin
++ AUO --- Автоматизация управления предприятием (1С)
 + BD --- Базы данных
