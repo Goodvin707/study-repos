@@ -41,6 +41,8 @@
 ### 6
 + AKSiS
 + BD
++ MMO
++ RPOdMP
 + PP
 
 ### 7
