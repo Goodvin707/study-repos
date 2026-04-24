@@ -1,0 +1,6 @@
+flutter clean
+remove-item -recurse -force windows/build/
+remove-item -recurse -force build/
+remove-item pubspec.lock
+flutter pub get
+flutter run -d windows

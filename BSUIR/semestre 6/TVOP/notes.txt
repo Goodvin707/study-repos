@@ -1,0 +1,7 @@
+const host = document.querySelectorAll('iframe')[1];
+const select = host.contentWindow.document.querySelector('select');
+console.log(select);
+select.value = 'AS';
+select.dispatchEvent(new Event('change', { bubbles: true }));
+
+return document.querySelectorAll('iframe')[1].contentWindow.document.querySelector('select').value;
