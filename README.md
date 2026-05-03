@@ -77,4 +77,3 @@ Course short name --- Course full name in Russian
 + BD --- Базы данных
 + Xamarin --- Xamarin
 + AUO --- Автоматизация управления предприятием (1С)
-+ BD --- Базы данных
