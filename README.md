@@ -3,6 +3,7 @@
 # Topological structure of this repository.
 
 ## BSUIR semesters
+Course short name --- Course full name in Russian
 ### 1 semester
 
 + Logic -- Логика
@@ -61,7 +62,7 @@
 ----------------
 
 ## MGKE/MGKCT courses
-Course short name --- Course full name in Russian
+
 ### 2 course
 + JavaScript --- JavaScript
 + Mаth --- Высшая математика
